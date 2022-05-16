@@ -1,0 +1,123 @@
+.mosaic {
+    text-align: center;
+
+    a {
+        color: transparent;
+    }
+
+    figure {
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+        -webkit-transition: $setting-transition;
+        transition: $setting-transition;
+    }
+
+    figure img {
+        text-align: center;
+        -webkit-transition: $setting-transition;
+        transition: $setting-transition;
+        margin-bottom: 0;
+    }
+
+    figure:hover img {
+        filter: $setting-blur;
+        -webkit-filter: $setting-blur;
+    }
+
+    //overaly
+    figure canvas.overlay {
+        -webkit-transition: $setting-transition;
+        transition: $setting-transition;
+    }
+
+    figure:hover canvas.overlay {
+        background-color: $color-primary;
+        opacity: $setting-opacity--strong;
+    }
+
+
+    figure .mosaic-title {
+        position: absolute;
+        top: 10%;
+        padding: $b16;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        -webkit-transition: $setting-transition;
+        transition: $setting-transition;
+
+        h3,
+        h5,
+        button.button-white--ghost {
+            color: rgba(255, 255, 255, 0);
+            margin-bottom: $b8;
+            -webkit-transition: $setting-transition;
+            transition: $setting-transition;
+        }
+
+        button.button-white--ghost {
+            border: 1px solid rgba(255, 255, 255, 0);
+        }
+    }
+
+    figure:hover .mosaic-title {
+
+        h3,
+        h5,
+        button.button-white--ghost {
+            color: rgba(255, 255, 255, 1);
+            -webkit-transition: $setting-transition;
+            transition: $setting-transition;
+        }
+
+        button.button-white--ghost {
+            border: 1px solid #FFFFFF;
+        }
+    }
+}
+
+// /#mosaic
+
+
+/* RESPONSIVE ============================================================ */
+.mosaic {
+
+    //special
+    @media (min-width: 500px) and (max-width: 599px) {
+        figure .mosaic-title {
+            top: 7%;
+        }
+    }
+
+    //special
+    @media (min-width: 850px) and (max-width: 999px) {
+        figure .mosaic-title {
+            top: 13%;
+        }
+    }
+
+    //special
+    @media (min-width: 1000px) and (max-width: 1199px) {
+        figure .mosaic-title {
+            top: 7%;
+        }
+    }
+
+    //special
+    @media (min-width: 1350px) and (max-width: 1499px) {
+        figure .mosaic-title {
+            top: 13%;
+        }
+    }
+
+    //special
+    @media (min-width: 1500px) and (max-width: 1649px) {
+        figure .mosaic-title {
+            top: 7%;
+        }
+    }
+}
+
+// /#mosaic

@@ -1,0 +1,196 @@
+ #home-experience {
+     background-color: $color-base--background;
+
+     .timeline {
+
+         background-position: center top;
+         background-repeat: no-repeat;
+
+         .timeline-photo {
+             text-align: center;
+             margin-right: auto;
+             margin-left: auto;
+
+             img {
+                 border-radius: 50%;
+             }
+         }
+
+         .timeline-card--right,
+         .timeline-card--left {
+             text-align: center;
+             margin-bottom: $b32;
+             padding-top: $b24;
+             padding-bottom: $b32;
+             padding-left: $b32;
+             padding-right: $b32;
+             border-radius: $setting-radius--strong;
+             cursor: default;
+             transition: $setting-transition;
+             background-color: $color-theme;
+
+             h3,
+             button {
+                 margin-bottom: 0;
+                 cursor: default;
+             }
+
+             h5 {
+                 color: $color-base--description;
+             }
+
+             p {
+                 margin-bottom: 0;
+             }
+
+             h3,
+             h5 {
+                 text-align: center;
+             }
+         }
+
+         .timeline-card--right:hover h3,
+         .timeline-card--left:hover h3 {
+             color: $color-primary;
+         }
+     }
+ }
+
+
+
+ /* RESPONSIVE ============================================================ */
+ //laptop
+ @media (min-width: 1000px) {
+
+     #home-experience {
+         .timeline {
+
+             background-position: center top;
+             background-repeat: repeat-y;
+
+             .timeline-card--right,
+             .timeline-card--left {
+                 margin-bottom: 0;
+                 width: 40%;
+                 position: relative;
+             }
+
+             //card right
+             .timeline-card--right {
+                 left: 50%;
+                 margin-left: $b64;
+                 text-align: left;
+
+                 p,
+                 h3,
+                 h5 {
+                     text-align: left;
+                 }
+             }
+
+             .timeline-card--right:hover {
+                 margin-left: 52px;
+             }
+
+             .timeline-card--right::before {
+                 //dot middle
+                 content: '';
+                 width: 12px;
+                 height: 12px;
+                 top: 40px;
+                 left: -70px;
+                 position: absolute;
+                 background-color: $color-base;
+                 border-radius: $setting-radius--round;
+                 transition: $setting-transition;
+             }
+
+             .timeline-card--right:hover::before {
+                 //dot middle
+                 left: -58px;
+                 background-color: $color-primary;
+             }
+
+             .timeline-card--right::after {
+                 //arrow card
+                 content: '';
+                 width: 0;
+                 height: 0;
+                 border-top: 12px solid transparent;
+                 border-bottom: 12px solid transparent;
+                 border-right: 20px solid $color-theme;
+                 position: absolute;
+                 top: 34px;
+                 left: -20px;
+             }
+
+             .timeline-card--right:hover::after {
+                 //arrow card
+                 border-right: 20px solid $color-theme;
+             }
+
+             //card left
+             .timeline-card--left {
+                 left: 10%; //(50% - 40%)
+                 margin-left: -64px;
+                 text-align: right;
+
+                 p,
+                 h3,
+                 h5 {
+                     text-align: right;
+                 }
+             }
+
+             .timeline-card--left:hover {
+                 margin-left: -52px;
+             }
+
+             .timeline-card--left::before {
+                 //dot middle
+                 content: '';
+                 width: 12px;
+                 height: 12px;
+                 top: 40px;
+                 right: -70px;
+                 position: absolute;
+                 background-color: $color-base;
+                 border-radius: $setting-radius--round;
+                 transition: $setting-transition;
+             }
+
+             .timeline-card--left:hover::before {
+                 //dot middle
+                 right: -58px;
+                 background-color: $color-primary;
+             }
+
+             .timeline-card--left::after {
+                 //arrow card
+                 content: '';
+                 width: 0;
+                 height: 0;
+                 border-top: 12px solid transparent;
+                 border-bottom: 12px solid transparent;
+                 border-left: 20px solid $color-theme;
+                 position: absolute;
+                 top: 34px;
+                 right: -20px;
+             }
+
+             .timeline-card--left:hover::after {
+                 //arrow card
+                 border-left: 20px solid $color-theme;
+             }
+
+             //last dot
+             .timeline-last {
+                 width: 6px;
+                 height: 6px;
+                 border-radius: 6px;
+                 background: $color-base;
+                 margin: $b32 auto 0 auto;
+             }
+         }
+     }
+ }

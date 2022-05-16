@@ -1,0 +1,40 @@
+/* BASE ============================================================ */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    transition: $setting-transition;
+    text-align: center;
+    padding: $b8 $b16;
+    border-radius: $setting-radius--soft;
+	color: $color-theme;
+    background-color: $color-base;
+
+    // position
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    // margin-left: -60px;
+}
+
+.tooltip .tooltip-text::after {
+	// arrow
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -7px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: $color-base transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}

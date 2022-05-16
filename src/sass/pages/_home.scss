@@ -1,0 +1,82 @@
+#home {
+    #home-hero {
+        height: 100vh;
+        width: 100%;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 0;
+        padding-bottom: 0;
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-color: #000000;
+
+        #spiders {
+            display: none;
+        }
+
+        canvas.background-black {
+            background-color: rgba(0, 0, 0, 0.50);
+        }
+
+        .hero-title {
+            position: absolute;
+            vertical-align: middle;
+            top: 20%;
+            left: 0;
+            right: 0;
+            margin-top: 0;
+        }
+
+        .hero-arrowdown {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: $b64;
+            width: $b56;
+            margin-bottom: 0;
+        }
+
+        .iphone5-hide {
+            display: none !important;
+        }
+    }
+
+
+
+    /* RESPONSIVE ============================================================ */
+
+    //tablet
+    @media (min-width: 500px) {
+        #home-hero {
+            .hero-title {
+                top: 35%;
+            }
+
+            #spiders {
+                display: inline-block;
+            }
+        }
+    }
+
+    //special
+    @media (min-height: 750px) {
+        #home-hero {
+            .iphone5-hide {
+                display: inline-block !important;
+            }
+        }
+    }
+
+    //laptop
+    @media (min-height: 1000px) {
+        #home-hero {
+            .hero-title {
+                top: 45%;
+            }
+        }
+    }
+}
+
+// /#home

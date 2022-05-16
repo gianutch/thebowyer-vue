@@ -1,0 +1,77 @@
+/* BASE ============================================================ */
+.alert {
+    z-index: 1;
+    position: fixed;
+    text-align: center;
+    border: none;
+    transition: $setting-transition;
+}
+
+
+
+/* TYPE ============================================================ */
+.alert-page {
+    width: 100%;
+	margin: 0;
+    top: 88px;
+    background-color: $color-base;
+	// background-color: $color-base--opaque;   NEEDS TO BE CREATED
+    border-radius: 0;
+
+	padding-top: $b16;
+    padding-bottom: $b16;
+    padding-left: $b32;
+    padding-right: $b32;
+}
+
+.alert-module {
+	left: 5%;
+    right: 5%;
+	margin: auto;
+    bottom: 32px;
+    background-color: $color-theme--opaque;
+    border-radius: $setting-radius--strong;
+    box-shadow: $setting-shadow--soft;
+
+	font-size: 16px;
+    line-height: $b24;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: $b24;
+    padding-right: $b24;
+}
+
+
+/* DISMISSIBLE ============================================================ */
+// .alert-dismissible {
+// }
+
+
+
+/* RESPONSIVE ============================================================ */
+// tablet
+@media (min-width: 500px) and (max-width: 999px) {
+    .alert-module {
+        // left: 7.5%;
+        // right: 7.5%;
+		width: 360px;
+    }
+}
+
+// laptop
+@media (min-width: 1000px) and (max-width: 1499px) {
+    .alert-module {
+        // left: 7.5%;
+        // right: 7.5%;
+		width: 360px;
+    }
+}
+
+// desktop
+@media (min-width: 1500px) {
+    .alert-module {
+        // left: 10%;
+        // right: 10%;
+		width: 360px;
+    }
+}
