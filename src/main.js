@@ -31,7 +31,6 @@ const router = createRouter({
 				default: PageProjects,
 				header: LayoutHeader,
 				contact: LayoutContact,
-
 				footer: LayoutFooter,
 				// alerts: ComponentAlerts,
 			},
@@ -43,7 +42,6 @@ const router = createRouter({
 				default: PageStyleguide,
 				header: LayoutHeader,
 				contact: LayoutContact,
-
 				footer: LayoutFooter,
 				// alerts: ComponentAlerts,
 			},
