@@ -5,9 +5,9 @@ import App from "./App.vue";
 import PageHome from "./views/pages/PageHome.vue";
 import PageProjects from "./views/pages/PageProjects.vue";
 import PageStyleguide from "./views/pages/PageStyleguide.vue";
-import LayoutHeader from "./views/layouts/LayoutHeader.vue";
-import LayoutContact from "./views/layouts/LayoutContact.vue";
-import LayoutFooter from "./views/layouts/LayoutFooter.vue";
+import ModuleHeader from "./views/modules/ModuleHeader.vue";
+import ModuleContact from "./views/modules/ModuleContact.vue";
+import ModuleFooter from "./views/modules/ModuleFooter.vue";
 // import ComponentAlerts from "./views/ComponentAlerts.vue";
 
 const router = createRouter({
@@ -18,9 +18,9 @@ const router = createRouter({
 			name: "home",
 			components: {
 				default: PageHome,
-				header: LayoutHeader,
-				contact: LayoutContact,
-				footer: LayoutFooter,
+				header: ModuleHeader,
+				contact: ModuleContact,
+				footer: ModuleFooter,
 				// alerts: ComponentAlerts,
 			},
 		},
@@ -29,9 +29,9 @@ const router = createRouter({
 			name: "projects",
 			components: {
 				default: PageProjects,
-				header: LayoutHeader,
-				contact: LayoutContact,
-				footer: LayoutFooter,
+				header: ModuleHeader,
+				contact: ModuleContact,
+				footer: ModuleFooter,
 				// alerts: ComponentAlerts,
 			},
 		},
@@ -40,9 +40,9 @@ const router = createRouter({
 			name: "styleguide",
 			components: {
 				default: PageStyleguide,
-				header: LayoutHeader,
-				contact: LayoutContact,
-				footer: LayoutFooter,
+				header: ModuleHeader,
+				contact: ModuleContact,
+				footer: ModuleFooter,
 				// alerts: ComponentAlerts,
 			},
 		},

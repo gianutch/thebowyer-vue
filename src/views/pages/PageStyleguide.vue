@@ -29,28 +29,28 @@
 
 		<div class="container">
 			<div class="five-sixth-laptop five-sixth-desktop column">
-				<layout-styleguide-elements></layout-styleguide-elements>
-				<layout-styleguide-componentsweb></layout-styleguide-componentsweb>
-				<!-- <layout-styleguide-brand></layout-styleguide-brand> -->
+				<module-styleguide-elements></module-styleguide-elements>
+				<module-styleguide-componentsweb></module-styleguide-componentsweb>
+				<!-- <module-styleguide-brand></module-styleguide-brand> -->
 			</div>
 
 			<div
 				class="one-sixth-laptop one-sixth-desktop column display-laptop display-desktop"
 			>
-				<layout-styleguide-nav></layout-styleguide-nav>
+				<module-styleguide-nav></module-styleguide-nav>
 			</div>
 		</div>
 
-		<layout-contact></layout-contact>
+		<module-contact></module-contact>
 	</div>
 </template>
 
 <script>
 	import Json from "../../data/data.json";
-	import LayoutStyleguideElements from "../layouts/LayoutStyleguideElements.vue";
-	import LayoutStyleguideComponentsweb from "../layouts/LayoutStyleguideComponentsweb.vue";
-	// import LayoutStyleguideBrand from "../views/LayoutStyleguideBrand.vue";
-	import LayoutStyleguideNav from "../layouts/LayoutStyleguideNav.vue";
+	import ModuleStyleguideElements from "../modules/ModuleStyleguideElements.vue";
+	import ModuleStyleguideComponentsweb from "../modules/ModuleStyleguideComponentsweb.vue";
+	// import ModuleStyleguideBrand from "../modules/ModuleStyleguideBrand.vue";
+	import ModuleStyleguideNav from "../modules/ModuleStyleguideNav.vue";
 
 	export default {
 		data() {
@@ -59,10 +59,10 @@
 			};
 		},
 		components: {
-			LayoutStyleguideElements,
-			LayoutStyleguideComponentsweb,
-			// LayoutStyleguideBrand,
-			LayoutStyleguideNav,
+			ModuleStyleguideElements,
+			ModuleStyleguideComponentsweb,
+			// ModuleStyleguideBrand,
+			ModuleStyleguideNav,
 		},
 	};
 </script>

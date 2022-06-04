@@ -183,13 +183,13 @@
 		></div>
 		<!-- /special v-if -->
 
-		<layout-portfolio></layout-portfolio>
+		<module-portfolio></module-portfolio>
 	</div>
 </template>
 
 <script>
 	import Json from "../../data/data.json";
-	import LayoutPortfolio from "../layouts/LayoutPortfolio.vue";
+	import ModulePortfolio from "../modules/ModulePortfolio.vue";
 
 	export default {
 		data() {
@@ -200,7 +200,7 @@
 			};
 		},
 		components: {
-			LayoutPortfolio,
+			ModulePortfolio,
 		},
 		methods: {
 			// functions

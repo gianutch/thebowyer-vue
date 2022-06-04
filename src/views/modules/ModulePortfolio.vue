@@ -14,11 +14,11 @@
 			</p>
 			<br />
 			<div class="row">
-				<layout-mosaic
+				<module-mosaic
 					v-for="project in data.projects"
 					v-bind:key="project.id"
 					v-bind:projectProp="project"
-				></layout-mosaic>
+				></module-mosaic>
 			</div>
 			<br />
 			<div class="subsection">
@@ -74,7 +74,7 @@
 
 <script>
 	import Json from "../../data/data.json";
-	import LayoutMosaic from "./LayoutMosaic.vue";
+	import ModuleMosaic from "./ModuleMosaic.vue";
 
 	export default {
 		data() {
@@ -83,7 +83,7 @@
 			};
 		},
 		components: {
-			LayoutMosaic,
+			ModuleMosaic,
 		},
 	};
 </script>

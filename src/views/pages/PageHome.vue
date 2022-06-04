@@ -50,17 +50,17 @@
 		</div>
 		<!-- /hero -->
 
-		<layout-portfolio></layout-portfolio>
-		<layout-preload></layout-preload>
-		<layout-home-experience></layout-home-experience>
+		<module-portfolio></module-portfolio>
+		<module-preload></module-preload>
+		<module-home-experience></module-home-experience>
 	</div>
 </template>
 
 <script>
 	import Json from "../../data/data.json";
-	import LayoutPortfolio from "../layouts/LayoutPortfolio.vue";
-	import LayoutPreload from "../layouts/LayoutPreload.vue";
-	import LayoutHomeExperience from "../layouts/LayoutHomeExperience.vue";
+	import ModulePortfolio from "../modules/ModulePortfolio.vue";
+	import ModulePreload from "../modules/ModulePreload.vue";
+	import ModuleHomeExperience from "../modules/ModuleHomeExperience.vue";
 	import IconArrowdown from "../icons/IconArrowdown.vue";
 
 	export default {
@@ -70,9 +70,9 @@
 			};
 		},
 		components: {
-			LayoutPortfolio,
-			LayoutPreload,
-			LayoutHomeExperience,
+			ModulePortfolio,
+			ModulePreload,
+			ModuleHomeExperience,
 			IconArrowdown,
 		},
 		methods: {
