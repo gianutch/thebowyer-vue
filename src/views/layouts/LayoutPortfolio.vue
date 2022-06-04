@@ -39,8 +39,8 @@
 								<img
 									class="image-responsive"
 									loading="lazy"
-									v-bind:src="data.styleguide.project.mosaic.path1"
-									v-bind:srcset="data.styleguide.project.mosaic.path2"
+									v-bind:src="data.styleguide.project.image.mosaic1"
+									v-bind:srcset="data.styleguide.project.image.mosaic2"
 									width="800"
 									height="533"
 								/>
@@ -56,7 +56,7 @@
 										class="button button-mini button-tag button-white--ghost"
 										v-for="tag in data.styleguide.project.tags.slice(
 											0,
-											3
+											2
 										)"
 										v-bind:key="tag"
 									>

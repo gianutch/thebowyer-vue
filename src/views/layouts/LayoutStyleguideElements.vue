@@ -13,13 +13,13 @@
 					>Atomic Design</a
 				>
 				is the core principle of this website’s architecture. <br />•
-				<b>Atoms</b> are the basic unmodifiable Elements. Ex: spacing, fonts
-				or colors. <br />• <b>Molecules</b> are Components made of Elements.
-				Ex: a button is made of a font, a background color and a border
-				radius. <br />• <b>Organisms</b> are Modules (sections of pages)
-				based on Elements and Components that can be re-used. Ex: Header,
-				Footer. <br />• <b>The Ecosystem</b> (the Website) is composed of
-				multiple Views that are composed of different Modules, Components
+				<b>Elements</b> (atoms) are the basic unmodifiable units. Ex:
+				spacing, fonts or colors. <br />• <b>Components</b> (molecules) are
+				made of Elements. Ex: a button is made of a font, a background color
+				and a border radius. <br />• <b>Modules</b> (organisms) are sections
+				of pages based on Elements and Components that can be re-used. Ex:
+				Header, Footer. <br />• <b>The Website</b> (ecosystem) is composed
+				of multiple Pages that are composed of different Modules, Components
 				and Elements.
 			</p>
 			<!-- <br /> -->

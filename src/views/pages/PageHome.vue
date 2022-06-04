@@ -16,7 +16,11 @@
 			}"
 		>
 			<canvas class="overlay background-black"></canvas>
+
+			<!-- spiders -->
 			<canvas id="spiders" class="overlay"></canvas>
+			<!-- /spiders -->
+
 			<div
 				class="hero-title align-center setting-anim--fadeinup setting-anim--delayed"
 			>
@@ -26,6 +30,10 @@
 					</h1>
 					<p class="align-center color-white" style="max-width: 100%">
 						{{ data.website.about.description1.eng }}
+						<br />
+						<span class="iphone5-hide">{{
+							data.website.about.description2.eng
+						}}</span>
 						<br />
 						<span class="iphone5-hide">{{
 							data.website.about.description3.eng
@@ -68,17 +76,20 @@
 			IconArrowdown,
 		},
 		methods: {
-			// // isMobile function to determine if the device is mobile
-			// isMobile() {
-			// 	return /Android|webOS|iPhone|iPad|iPod|BlackBerry|Windows Phone|IEMobile|Opera Mini/i.test(navigator.userAgent);
-			// },
-			// // if isMobile return false, show #spiders
-			// isnotMobile() {
-			// 	if (this.isMobile = false) {
-			// 		document.querySelector('#spiders').style.display = "inline-block";
-			// 		alert('Alert!');
-			// 	}
-			// },
+			// isPhone function to determine if the device is phone
+			isPhone() {
+				return /Android|webOS|iPhone|iPad|iPod|BlackBerry|Windows Phone|IEMobile|Opera Mini/i.test(
+					navigator.userAgent
+				);
+			},
+			// if isPhone return false, show #spiders
+			isnotPhone() {
+				if (this.isPhone === false) {
+					document.querySelector("#spiders").style.display =
+						"inline-block";
+					alert("Alert!");
+				}
+			},
 			smoothscrollPortfolio() {
 				document.querySelector("#portfolio").scrollIntoView({
 					behavior: "smooth",

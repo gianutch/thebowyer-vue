@@ -22,9 +22,9 @@
 							activeClass="link-active"
 							exact
 						>
-							<!-- menu icon for mobile -->
+							<!-- menu icon for phone -->
 							<icon-home
-								class="icon icon-big display-mobile display-tablet"
+								class="icon icon-big display-phone display-tablet"
 							></icon-home>
 							<!-- menu text for desktop -->
 							<span class="display-laptop display-desktop">Home</span>
@@ -44,12 +44,12 @@
 							v-bind:class="linkStyle"
 							activeClass="link-active"
 						>
-							<!-- menu icon for mobile -->
+							<!-- menu icon for phone -->
 							<icon-projects
-								class="icon icon-big display-mobile display-tablet"
+								class="icon icon-big display-phone display-tablet"
 							></icon-projects>
 							<icon-caret
-								class="icon icon-mini display-mobile display-tablet"
+								class="icon icon-mini display-phone display-tablet"
 							></icon-caret>
 							<!-- menu text for desktop -->
 							<span class="display-laptop display-desktop">
@@ -88,9 +88,9 @@
 							v-bind:class="linkStyle"
 							activeClass="link-active"
 						>
-							<!-- menu icon for mobile -->
+							<!-- menu icon for phone -->
 							<icon-styleguide
-								class="icon icon-big display-mobile display-tablet"
+								class="icon icon-big display-phone display-tablet"
 							></icon-styleguide>
 							<!-- menu text for desktop -->
 							<span class="display-laptop display-desktop"

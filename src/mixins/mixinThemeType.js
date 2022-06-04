@@ -8,10 +8,10 @@ export default {
 	},
 	methods: {
 		themeCurrent() {
-			if (document.querySelector("#themelight").disabled == false) {
-				this.themeLight = true;
+			if (document.querySelector("#themelight").disabled === false) {
+				this.themeLight === true;
 			} else {
-				this.themeLight = false;
+				this.themeLight === false;
 			}
 		},
 	},

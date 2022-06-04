@@ -1,150 +1,141 @@
 #projects {
+	#projects-hero {
+		width: 100%;
+		height: 640px;
+		padding-left: 32px;
+		padding-right: 32px;
+		padding-top: 0;
+		padding-bottom: 0;
+		background-size: auto 100%;
+		background-attachment: scroll;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-color: #000000;
+		// background-image: $color-primary--gradient;
 
-    #projects-hero {
-        width: 100%;
-        height: 640px;
-        padding-left: 32px;
-        padding-right: 32px;
-        padding-top: 0;
-        padding-bottom: 0;
-        background-size: auto 100%;
-        background-attachment: scroll;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-color: #000000;
-        // background-image: $color-primary--gradient;
+		canvas {
+			height: 640px;
+		}
 
-        canvas {
-            height: 640px;
-        }
+		canvas.background-black {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
 
-        canvas.background-black {
-            background-color: rgba(0, 0, 0, 0.50);
-        }
+		.hero-title {
+			position: absolute;
+			vertical-align: middle;
+			left: 0;
+			right: 0;
+			margin-top: 192px;
 
-        .hero-title {
-            position: absolute;
-            vertical-align: middle;
-            left: 0;
-            right: 0;
-            margin-top: 192px;
+			button.button-white--ghost {
+				cursor: default;
+			}
+		}
+	}
 
-            button.button-white--ghost {
-                cursor: default;
-            }
-        }
-    }
+	#projects-mock {
+		padding-top: 0;
+		padding-bottom: 32px;
 
-    #projects-mock {
-        padding-top: 0;
-        padding-bottom: 32px;
+		.mock {
+			max-width: 540px;
+			margin-top: -96px;
+			margin-bottom: 0;
+			text-align: center;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
 
-        .mock {
-            max-width: 540px;
-            margin-top: -96px;
-            margin-bottom: 0;
-            text-align: center;
-            margin-right: auto;
-            margin-left: auto;
-        }
-    }
+	#projects-work {
+		.work-phone,
+		.work-tablet,
+		.work-desktop,
+		.work-full {
+			display: inline-block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: $b32;
+		}
 
-    #projects-work {
+		.work-tablet {
+			max-width: 800px;
+			display: block;
+		}
 
-        .work-tablet,
-        .work-mobile,
-        .work-desktop,
-        .work-full {
-            display: inline-block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: $b32;
-        }
+		.work-desktop {
+			max-width: 1200px;
+			display: block;
+		}
 
-        .work-tablet {
-            max-width: 800px;
-            display: block;
-        }
+		.work-full {
+			max-width: 1800px;
+			display: block;
+		}
+	}
 
-        .work-desktop {
-            max-width: 1200px;
-            display: block;
-        }
+	#projects-special {
+		height: 600px;
+		min-height: 600px;
+		max-height: 600px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-        .work-full {
-            max-width: 1800px;
-            display: block;
-        }
+	#contact {
+		background-color: $color-base--background;
+	}
 
-    }
+	/* RESPONSIVE ============================================================ */
+	//tablet
+	@media (min-width: 500px) {
+		#projects-mock {
+			padding-bottom: 0;
 
-    #projects-special {
-        height: 600px;
-        min-height: 600px;
-        max-height: 600px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+			.mock {
+				margin-top: -128px;
+			}
+		}
 
-    #contact {
-        background-color: $color-base--background;
-    }
+		#projects-work {
+			.work-phone {
+				width: 45%;
+				margin-left: 2.5%;
+				margin-right: 2.5%;
+			}
+		}
+	}
 
+	//laptop
+	@media (min-width: 1000px) {
+		#projects-work {
+			.work-phone,
+			.work-tablet,
+			.work-desktop,
+			.work-full {
+				margin-bottom: $b64;
+			}
 
-    /* RESPONSIVE ============================================================ */
-    //tablet
-    @media (min-width: 500px) {
+			.work-phone {
+				width: 28.33%;
+				margin-left: 2.5%;
+				margin-right: 2.5%;
+			}
+		}
+	}
 
-        #projects-mock {
-            padding-bottom: 0;
-
-            .mock {
-                margin-top: -128px;
-            }
-        }
-
-        #projects-work {
-            .work-mobile {
-                width: 45%;
-                margin-left: 2.5%;
-                margin-right: 2.5%;
-            }
-        }
-    }
-
-    //laptop
-    @media (min-width: 1000px) {
-
-        #projects-work {
-
-            .work-mobile,
-            .work-tablet,
-            .work-desktop,
-            .work-full {
-                margin-bottom: $b64;
-            }
-
-            .work-mobile {
-                width: 28.33%;
-                margin-left: 2.5%;
-                margin-right: 2.5%;
-            }
-        }
-    }
-
-    //desktop
-    @media (min-width: 1500px) {
-
-        #projects-work {
-
-            .work-mobile {
-                width: 20%;
-                margin-left: 2.5%;
-                margin-right: 2.5%;
-            }
-        }
-    }
+	//desktop
+	@media (min-width: 1500px) {
+		#projects-work {
+			.work-phone {
+				width: 20%;
+				margin-left: 2.5%;
+				margin-right: 2.5%;
+			}
+		}
+	}
 }
 
 // /#projects

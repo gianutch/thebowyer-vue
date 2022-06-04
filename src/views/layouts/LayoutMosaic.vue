@@ -6,8 +6,8 @@
 					<img
 						class="image-responsive"
 						loading="eager"
-						v-bind:src="projectProp.mosaic.path1"
-						v-bind:srcset="projectProp.mosaic.path2"
+						v-bind:src="projectProp.image.mosaic1"
+						v-bind:srcset="projectProp.image.mosaic2"
 					/>
 					<canvas class="overlay"></canvas>
 					<div class="mosaic-title">

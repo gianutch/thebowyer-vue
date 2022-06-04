@@ -1,12 +1,18 @@
 <template>
 	<div id="projects">
 		<!-- preload -->
-		<img class="display-none" loading="eager" v-bind:src="projectObj.hero" />
+		<img
+			class="display-none"
+			loading="eager"
+			v-bind:src="projectObj.image.hero"
+		/>
 
 		<!-- project-hero -->
 		<div
 			id="projects-hero"
-			v-bind:style="{ backgroundImage: 'url(' + projectObj.hero + ')' }"
+			v-bind:style="{
+				backgroundImage: 'url(' + projectObj.image.hero + ')',
+			}"
 		>
 			<canvas class="overlay background-black"></canvas>
 			<div
@@ -47,8 +53,8 @@
 					<img
 						class="image-responsive"
 						loading="eager"
-						v-bind:src="projectObj.mock.path1"
-						v-bind:srcset="projectObj.mock.path2"
+						v-bind:src="projectObj.image.mock1"
+						v-bind:srcset="projectObj.image.mock2"
 						width="530"
 						height="360"
 					/>
@@ -76,8 +82,8 @@
 							<img
 								class="image-responsive setting-shadow--motion"
 								loading="lazy"
-								v-bind:src="aWork.path1"
-								v-bind:srcset="aWork.path2"
+								v-bind:src="aWork.img1"
+								v-bind:srcset="aWork.img2"
 								v-bind:width="aWork.width"
 								v-bind:height="aWork.height"
 							/>
@@ -99,8 +105,8 @@
 							<img
 								class="image-responsive setting-shadow--motion"
 								loading="lazy"
-								v-bind:src="bWork.path1"
-								v-bind:srcset="bWork.path2"
+								v-bind:src="bWork.img1"
+								v-bind:srcset="bWork.img2"
 								v-bind:width="bWork.width"
 								v-bind:height="bWork.height"
 							/>
@@ -122,8 +128,8 @@
 							<img
 								class="image-responsive setting-shadow--motion"
 								loading="lazy"
-								v-bind:src="cWork.path1"
-								v-bind:srcset="cWork.path2"
+								v-bind:src="cWork.img1"
+								v-bind:srcset="cWork.img2"
 								v-bind:width="cWork.width"
 								v-bind:height="cWork.height"
 							/>
@@ -145,8 +151,8 @@
 							<img
 								class="image-responsive setting-shadow--motion"
 								loading="lazy"
-								v-bind:src="dWork.path1"
-								v-bind:srcset="dWork.path2"
+								v-bind:src="dWork.img1"
+								v-bind:srcset="dWork.img2"
 								v-bind:width="dWork.width"
 								v-bind:height="dWork.height"
 							/>
@@ -165,14 +171,14 @@
 			width="1"
 			height="1"
 			border="0"
-			v-bind:src="projectObj.special"
+			v-bind:src="projectObj.image.special"
 		/>
 		<div
 			id="projects-special"
 			class="section"
-			v-if="Boolean(projectObj.special)"
+			v-if="Boolean(projectObj.image.special)"
 			v-bind:style="{
-				backgroundImage: 'url(' + projectObj.special + ')',
+				backgroundImage: 'url(' + projectObj.image.special + ')',
 			}"
 		></div>
 		<!-- /special v-if -->
