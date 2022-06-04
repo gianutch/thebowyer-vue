@@ -17,12 +17,12 @@
 @import "components/icons";
 @import "components/navigations";
 @import "components/tooltips";
+@import "components/header";
+@import "components/footer";
 
-//layouts
-@import "layouts/header";
-@import "layouts/footer";
-@import "layouts/mosaic";
-@import "layouts/home-experience";
+//modules
+@import "modules/mosaic";
+@import "modules/home-experience";
 
 //pages
 @import "pages/home";

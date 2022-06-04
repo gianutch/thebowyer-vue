@@ -5,10 +5,10 @@ import App from "./App.vue";
 import PageHome from "./views/pages/PageHome.vue";
 import PageProjects from "./views/pages/PageProjects.vue";
 import PageStyleguide from "./views/pages/PageStyleguide.vue";
-import ModuleHeader from "./views/modules/ModuleHeader.vue";
+import ComponentHeader from "./views/components/ComponentHeader.vue";
+import ComponentFooter from "./views/components/ComponentFooter.vue";
+// import ComponentAlerts from "./views/components/ComponentAlerts.vue";
 import ModuleContact from "./views/modules/ModuleContact.vue";
-import ModuleFooter from "./views/modules/ModuleFooter.vue";
-// import ComponentAlerts from "./views/ComponentAlerts.vue";
 
 const router = createRouter({
 	history: createWebHistory(),
@@ -18,10 +18,10 @@ const router = createRouter({
 			name: "home",
 			components: {
 				default: PageHome,
-				header: ModuleHeader,
-				contact: ModuleContact,
-				footer: ModuleFooter,
+				header: ComponentHeader,
+				footer: ComponentFooter,
 				// alerts: ComponentAlerts,
+				contact: ModuleContact,
 			},
 		},
 		{
@@ -29,10 +29,10 @@ const router = createRouter({
 			name: "projects",
 			components: {
 				default: PageProjects,
-				header: ModuleHeader,
-				contact: ModuleContact,
-				footer: ModuleFooter,
+				header: ComponentHeader,
+				footer: ComponentFooter,
 				// alerts: ComponentAlerts,
+				contact: ModuleContact,
 			},
 		},
 		{
@@ -40,10 +40,10 @@ const router = createRouter({
 			name: "styleguide",
 			components: {
 				default: PageStyleguide,
-				header: ModuleHeader,
-				contact: ModuleContact,
-				footer: ModuleFooter,
+				header: ComponentHeader,
+				footer: ComponentFooter,
 				// alerts: ComponentAlerts,
+				contact: ModuleContact,
 			},
 		},
 		{
