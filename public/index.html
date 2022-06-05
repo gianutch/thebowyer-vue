@@ -64,15 +64,24 @@
 			href="./assets/images/img-index-favicon--dark@6.png"
 			sizes="96x96"
 		/>
+
+		<link rel="preload" href="./css/global--dark.css" />
+		<link rel="preload" href="./css/global--light.css" />
+
 		<link rel="stylesheet" href="./css/global--dark.css" id="themedark" />
-		<link rel="stylesheet" href="./css/global--light.css" id="themelight" />
+		<link
+			rel="stylesheet"
+			href="./css/global--light.css"
+			id="themelight"
+			disabled
+		/>
 		<script>
 			// disable #themelight just after loading it so it doesnt jump when toggle css themes in header
-			window.onload = function () {
-				document
-					.querySelector("#themelight")
-					.setAttribute("disabled", true);
-			};
+			// window.onload = function () {
+			// 	document
+			// 		.querySelector("#themelight")
+			// 		.setAttribute("disabled", true);
+			// };
 		</script>
 		<!-- spiders -->
 		<script src="./js/libraries/jquery-1.11.3.min.js"></script>

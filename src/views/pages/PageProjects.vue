@@ -1,12 +1,5 @@
 <template>
 	<div id="projects">
-		<!-- preload -->
-		<img
-			class="display-none"
-			loading="eager"
-			v-bind:src="projectObj.image.hero"
-		/>
-
 		<!-- project-hero -->
 		<div
 			id="projects-hero"
@@ -165,14 +158,6 @@
 		</div>
 
 		<!-- special v-if -->
-		<!-- delay load -->
-		<img
-			loading="lazy"
-			width="1"
-			height="1"
-			border="0"
-			v-bind:src="projectObj.image.special"
-		/>
 		<div
 			id="projects-special"
 			class="section"

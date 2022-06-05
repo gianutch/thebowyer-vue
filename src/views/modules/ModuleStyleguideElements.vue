@@ -60,9 +60,9 @@
 					v-for="baseline in data.styleguide.baselines"
 					v-bind:key="baseline.id"
 				>
-					<span class="variable">{{ baseline.variable }}</span
+					<span class="variable">$b{{ baseline.id }}</span
 					>;
-					<span class="comment">//{{ baseline.comment }}px</span>
+					<span class="comment">//{{ baseline.id }}px</span>
 				</div>
 			</code>
 		</div>
@@ -87,9 +87,11 @@
 			<!-- color-primary -->
 			<div class="subsection">
 				<h3>Color Primary</h3>
+
+				<!-- theme light -->
 				<ul v-if="themeLight">
 					<li
-						v-for="colorPrimary in data.styleguide.colorPrimaries"
+						v-for="colorPrimary in data.styleguide.colors.colorPrimaries"
 						v-bind:key="colorPrimary.id"
 						class="swatch setting-shadow--motion"
 					>
@@ -97,7 +99,7 @@
 							class="swatch-color"
 							v-bind:style="{ backgroundColor: colorPrimary.hexLight }"
 						>
-							<h5>{{ colorPrimary.variable }}</h5>
+							<h5>${{ colorPrimary.id }}</h5>
 						</div>
 						<div class="swatch-info">
 							<h6>{{ colorPrimary.hexLight }}</h6>
@@ -111,28 +113,37 @@
 							v-bind:style="{
 								backgroundImage:
 									'linear-gradient(' +
-									data.styleguide.colorPrimaryGradients.hexLight +
+									data.styleguide.colors.colorPrimaryGradients
+										.hexLight +
 									')',
 							}"
 						>
 							<h5>
-								{{ data.styleguide.colorPrimaryGradients.variable }}
+								${{ data.styleguide.colors.colorPrimaryGradients.id }}
 							</h5>
 						</div>
 						<div class="swatch-info">
 							<h6>
-								{{ data.styleguide.colorPrimaryGradients.hexLight }}
+								{{
+									data.styleguide.colors.colorPrimaryGradients.hexLight
+								}}
 							</h6>
 							<h6>
-								{{ data.styleguide.colorPrimaryGradients.hsbLight }}
+								{{
+									data.styleguide.colors.colorPrimaryGradients.hsbLight
+								}}
 							</h6>
-							<h6>{{ data.styleguide.colorPrimaryGradients.role }}</h6>
+							<h6>
+								{{ data.styleguide.colors.colorPrimaryGradients.role }}
+							</h6>
 						</div>
 					</li>
 				</ul>
+				<!-- /theme light -->
+				<!-- theme dark -->
 				<ul v-else>
 					<li
-						v-for="colorPrimary in data.styleguide.colorPrimaries"
+						v-for="colorPrimary in data.styleguide.colors.colorPrimaries"
 						v-bind:key="colorPrimary.id"
 						class="swatch setting-shadow--motion"
 					>
@@ -140,7 +151,7 @@
 							class="swatch-color"
 							v-bind:style="{ backgroundColor: colorPrimary.hexDark }"
 						>
-							<h5>{{ colorPrimary.variable }}</h5>
+							<h5>${{ colorPrimary.id }}</h5>
 						</div>
 						<div class="swatch-info">
 							<h6>{{ colorPrimary.hexDark }}</h6>
@@ -154,28 +165,38 @@
 							v-bind:style="{
 								backgroundImage:
 									'linear-gradient(' +
-									data.styleguide.colorPrimaryGradients.hexDark +
+									data.styleguide.colors.colorPrimaryGradients
+										.hexDark +
 									')',
 							}"
 						>
 							<h5>
-								{{ data.styleguide.colorPrimaryGradients.variable }}
+								${{ data.styleguide.colors.colorPrimaryGradients.id }}
 							</h5>
 						</div>
 						<div class="swatch-info">
 							<h6>
-								{{ data.styleguide.colorPrimaryGradients.hexDark }}
+								{{
+									data.styleguide.colors.colorPrimaryGradients.hexDark
+								}}
 							</h6>
 							<h6>
-								{{ data.styleguide.colorPrimaryGradients.hsbDark }}
+								{{
+									data.styleguide.colors.colorPrimaryGradients.hsbDark
+								}}
 							</h6>
-							<h6>{{ data.styleguide.colorPrimaryGradients.role }}</h6>
+							<h6>
+								{{ data.styleguide.colors.colorPrimaryGradients.role }}
+							</h6>
 						</div>
 					</li>
 				</ul>
+				<!-- /theme dark -->
+
+				<!-- theme light -->
 				<ul v-if="themeLight">
 					<li
-						v-for="colorPrimaryShade in data.styleguide
+						v-for="colorPrimaryShade in data.styleguide.colors
 							.colorPrimaryShades"
 						v-bind:key="colorPrimaryShade.id"
 						class="swatch setting-shadow--motion"
@@ -186,7 +207,7 @@
 								backgroundColor: colorPrimaryShade.hexLight,
 							}"
 						>
-							<h5>{{ colorPrimaryShade.variable }}</h5>
+							<h5>{{ colorPrimaryShade.id }}</h5>
 						</div>
 						<div class="swatch-info">
 							<h6>{{ colorPrimaryShade.hexLight }}</h6>
@@ -195,9 +216,11 @@
 						</div>
 					</li>
 				</ul>
+				<!-- /theme light -->
+				<!-- theme dark -->
 				<ul v-else>
 					<li
-						v-for="colorPrimaryShade in data.styleguide
+						v-for="colorPrimaryShade in data.styleguide.colors
 							.colorPrimaryShades"
 						v-bind:key="colorPrimaryShade.id"
 						class="swatch setting-shadow--motion"
@@ -208,7 +231,7 @@
 								backgroundColor: colorPrimaryShade.hexDark,
 							}"
 						>
-							<h5>{{ colorPrimaryShade.variable }}</h5>
+							<h5>${{ colorPrimaryShade.id }}</h5>
 						</div>
 						<div class="swatch-info">
 							<h6>{{ colorPrimaryShade.hexDark }}</h6>
@@ -217,6 +240,7 @@
 						</div>
 					</li>
 				</ul>
+				<!-- /theme dark -->
 			</div>
 
 			<!-- color-messaging -->
@@ -224,7 +248,7 @@
 				<h3>Color Messaging</h3>
 				<ul>
 					<li
-						v-for="colorMessage in data.styleguide.colorMessages"
+						v-for="colorMessage in data.styleguide.colors.colorMessages"
 						v-bind:key="colorMessage.id"
 						class="swatch setting-shadow--motion"
 					>
@@ -232,7 +256,7 @@
 							class="swatch-color"
 							v-bind:style="{ backgroundColor: colorMessage.hex }"
 						>
-							<h5>{{ colorMessage.variable }}</h5>
+							<h5>${{ colorMessage.id }}</h5>
 						</div>
 						<div class="swatch-info">
 							<h6>{{ colorMessage.hex }}</h6>
@@ -246,9 +270,10 @@
 			<!-- color-base -->
 			<div class="subsection">
 				<h3>Color Base</h3>
+				<!-- theme light -->
 				<ul v-if="themeLight">
 					<li
-						v-for="colorBase in data.styleguide.colorBases"
+						v-for="colorBase in data.styleguide.colors.colorBases"
 						v-bind:key="colorBase.id"
 						class="swatch setting-shadow--motion"
 					>
@@ -256,7 +281,7 @@
 							class="swatch-color"
 							v-bind:style="{ backgroundColor: colorBase.rgbaLight }"
 						>
-							<h5>{{ colorBase.variable }}</h5>
+							<h5>${{ colorBase.id }}</h5>
 						</div>
 						<div class="swatch-info">
 							<h6>{{ colorBase.hexLight }}</h6>
@@ -265,9 +290,11 @@
 						</div>
 					</li>
 				</ul>
+				<!-- /theme light -->
+				<!-- theme dark -->
 				<ul v-else>
 					<li
-						v-for="colorBase in data.styleguide.colorBases"
+						v-for="colorBase in data.styleguide.colors.colorBases"
 						v-bind:key="colorBase.id"
 						class="swatch setting-shadow--motion"
 					>
@@ -275,7 +302,7 @@
 							class="swatch-color"
 							v-bind:style="{ backgroundColor: colorBase.rgbaDark }"
 						>
-							<h5>{{ colorBase.variable }}</h5>
+							<h5>${{ colorBase.id }}</h5>
 						</div>
 						<div class="swatch-info">
 							<h6>{{ colorBase.hexDark }}</h6>
@@ -284,6 +311,7 @@
 						</div>
 					</li>
 				</ul>
+				<!-- /theme dark -->
 			</div>
 		</div>
 		<!-- /COLORS -->

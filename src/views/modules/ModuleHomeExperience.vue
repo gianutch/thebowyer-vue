@@ -145,50 +145,50 @@
 			<div class="subsection">
 				<span v-if="language === 'Eng'">
 					<h3 class="align-center">
-						{{ data.website.about.title.eng }}
+						{{ data.website.text.about.eng }}
 					</h3>
 					<p class="align-center">
-						{{ data.website.about.description1.eng }}
+						{{ data.website.text.description1.eng }}
 						<br />
-						{{ data.website.about.description2.eng }}
+						{{ data.website.text.description2.eng }}
 						<br />
-						{{ data.website.about.description3.eng }}
+						{{ data.website.text.description3.eng }}
 					</p>
 				</span>
 				<span v-else-if="language === 'Fra'">
 					<h3 class="align-center">
-						{{ data.website.about.title.fra }}
+						{{ data.website.text.about.fra }}
 					</h3>
 					<p class="align-center">
-						{{ data.website.about.description1.fra }}
+						{{ data.website.text.description1.fra }}
 						<br />
-						{{ data.website.about.description2.fra }}
+						{{ data.website.text.description2.fra }}
 						<br />
-						{{ data.website.about.description3.fra }}
+						{{ data.website.text.description3.fra }}
 					</p>
 				</span>
 				<span v-else-if="language === 'Esp'">
 					<h3 class="align-center">
-						{{ data.website.about.title.esp }}
+						{{ data.website.text.about.esp }}
 					</h3>
 					<p class="align-center">
-						{{ data.website.about.description1.esp }}
+						{{ data.website.text.description1.esp }}
 						<br />
-						{{ data.website.about.description2.esp }}
+						{{ data.website.text.description2.esp }}
 						<br />
-						{{ data.website.about.description3.esp }}
+						{{ data.website.text.description3.esp }}
 					</p>
 				</span>
 				<span v-else-if="language === 'Chi'">
 					<h3 class="align-center">
-						{{ data.website.about.title.chi }}
+						{{ data.website.text.about.chi }}
 					</h3>
 					<p class="align-center">
-						{{ data.website.about.description1.chi }}
+						{{ data.website.text.description1.chi }}
 						<br />
-						{{ data.website.about.description2.chi }}
+						{{ data.website.text.description2.chi }}
 						<br />
-						{{ data.website.about.description3.chi }}
+						{{ data.website.text.description3.chi }}
 					</p>
 				</span>
 			</div>

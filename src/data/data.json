@@ -1,19 +1,19 @@
 {
 	"website": {
-		"title": "Web Design Portfolio",
 		"image": {
+			"heroEarth": "./assets/images/img-website-hero-earth.jpg",
 			"headshot": "./assets/images/img-website-headshot@2.jpg",
 			"headshotThug": "./assets/images/img-website-headshot--thug@2.jpg",
-			"squaregrey": "./assets/images/img-website-squaregrey.png",
-			"heroEarth": "./assets/images/img-website-hero-earth.jpg"
+			"squaregrey": "./assets/images/img-website-squaregrey.png"
 		},
 		"file": {
 			"resumeLight": "./assets/files/thebowyer-resume--light.pdf",
 			"resumeDark": "./assets/files/thebowyer-resume--dark.pdf",
 			"portfolio": "./assets/files/thebowyer-portfolio.pdf"
 		},
-		"about": {
-			"title": {
+		"text": {
+			"title": "Web Design Portfolio",
+			"about": {
 				"eng": "About Me",
 				"fra": "À propos de moi",
 				"esp": "Sobre mí",
@@ -1825,241 +1825,199 @@
 		},
 		"baselines": [
 			{
-				"id": "4",
-				"variable": "$b4",
-				"comment": 4
+				"id": 4
 			},
 			{
-				"id": "8",
-				"variable": "$b8",
-				"comment": 8
+				"id": 8
 			},
 			{
-				"id": "16",
-				"variable": "$b16",
-				"comment": 16
+				"id": 16
 			},
 			{
-				"id": "24",
-				"variable": "$b24",
-				"comment": 24
+				"id": 24
 			},
 			{
-				"id": "32",
-				"variable": "$b32",
-				"comment": 32
+				"id": 32
 			},
 			{
-				"id": "48",
-				"variable": "$b48",
-				"comment": 48
+				"id": "48"
 			},
 			{
-				"id": "56",
-				"variable": "$b56",
-				"comment": 56
+				"id": 56
 			},
 			{
-				"id": "64",
-				"variable": "$b64",
-				"comment": 64
+				"id": 64
 			},
 			{
-				"id": "80",
-				"variable": "$b80",
-				"comment": 80
+				"id": 80
 			},
 			{
-				"id": "96",
-				"variable": "$b96",
-				"comment": 96
+				"id": 96
 			},
 			{
-				"id": "128",
-				"variable": "$b128",
-				"comment": 128
+				"id": 128
 			},
 			{
-				"id": "192",
-				"variable": "$b192",
-				"comment": 192
+				"id": 192
 			}
 		],
-		"colorPrimaries": [
-			{
-				"id": "color-primary",
-				"variable": "$color-primary",
-				"hexLight": "#9966FF",
-				"hexDark": "#FF8066",
-				"hsbLight": "HSB(260,60,100)",
-				"hsbDark": "HSB(10,60,100)",
-				"role": "primary action, link"
+		"colors": {
+			"colorPrimaries": [
+				{
+					"id": "color-primary",
+					"hexLight": "#9966FF",
+					"hexDark": "#FF8066",
+					"hsbLight": "HSB(260,60,100)",
+					"hsbDark": "HSB(10,60,100)",
+					"role": "primary action, link"
+				},
+				{
+					"id": "color-primary--hover",
+					"hexLight": "#8257D9",
+					"hexDark": "#D96C57",
+					"hsbLight": "HSB(260,60,85)",
+					"hsbDark": "HSB(10,60,85)",
+					"role": "primary hover"
+				}
+			],
+			"colorPrimaryGradients": {
+				"id": "color-primary--gradient",
+				"hexLight": "135deg,#6699FF,#B366FF",
+				"hexDark": "135deg,#FFE666,#FF6666",
+				"hsbLight": "HSB(220,60,100) to HSB(270,60,100)",
+				"hsbDark": "HSB(50,60,100) to HSB(360,60,100)",
+				"role": "primary gradient"
 			},
-			{
-				"id": "color-primary--hover",
-				"variable": "$color-primary--hover",
-				"hexLight": "#8257D9",
-				"hexDark": "#D96C57",
-				"hsbLight": "HSB(260,60,85)",
-				"hsbDark": "HSB(10,60,85)",
-				"role": "primary hover"
-			}
-		],
-		"colorPrimaryGradients": {
-			"id": "color-primary--gradient",
-			"variable": "$color-primary--gradient",
-			"hexLight": "135deg,#6699FF,#B366FF",
-			"hexDark": "135deg,#FFE666,#FF6666",
-			"hsbLight": "HSB(220,60,100) to HSB(270,60,100)",
-			"hsbDark": "HSB(50,60,100) to HSB(360,60,100)",
-			"role": "primary gradient"
-		},
-		"colorPrimaryShades": [
-			{
-				"id": "color-primary--shade1",
-				"variable": "$color-primary--shade1",
-				"hexLight": "#6699FF",
-				"hexDark": "#FFE666",
-				"hsbLight": "HSB(220,60,100)",
-				"hsbDark": "HSB(50,60,100)",
-				"role": "primary shade 1"
-			},
-			{
-				"id": "color-primary--shade2",
-				"variable": "$color-primary--shade2",
-				"hexLight": "#6680FF",
-				"hexDark": "#FFCC66",
-				"hsbLight": "HSB(230,60,100)",
-				"hsbDark": "HSB(40,60,100)",
-				"role": "primary shade 2"
-			},
-			{
-				"id": "color-primary--shade3",
-				"variable": "$color-primary--shade3",
-				"hexLight": "#6666FF",
-				"hexDark": "#FFB366",
-				"hsbLight": "HSB(240,60,100)",
-				"hsbDark": "HSB(30,60,100)",
-				"role": "primary shade 3"
-			},
-			{
-				"id": "color-primary--shade4",
-				"variable": "$color-primary--shade4",
-				"hexLight": "#7F66FF",
-				"hexDark": "#FF9966",
-				"hsbLight": "HSB(250,60,100)",
-				"hsbDark": "HSB(20,60,100)",
-				"role": "primary shade 4"
-			},
-			{
-				"id": "color-primary--shade5",
-				"variable": "$color-primary--shade5",
-				"hexLight": "#9966FF",
-				"hexDark": "#FF8066",
-				"hsbLight": "HSB(260,60,100)",
-				"hsbDark": "HSB(10,60,100)",
-				"role": "primary shade 5"
-			},
-			{
-				"id": "color-primary--shade6",
-				"variable": "$color-primary--shade6",
-				"hexLight": "#B366FF",
-				"hexDark": "#FF6666",
-				"hsbLight": "HSB(270,60,100)",
-				"hsbDark": "HSB(360,60,100)",
-				"role": "primary shade 6"
-			}
-		],
-		"colorMessages": [
-			{
-				"id": "color-success",
-				"variable": "$color-success",
-				"hex": "#52CC8F",
-				"hsb": "HSB(150,60,80)",
-				"role": "success"
-			},
-			{
-				"id": "color-success--hover",
-				"variable": "$color-success--hover",
-				"hex": "#42A674",
-				"hsb": "HSB(150,60,65)",
-				"role": "success hover"
-			},
-			{
-				"id": "color-danger",
-				"variable": "$color-danger",
-				"hex": "#E65C5C",
-				"hsb": "HSB(360,60,90)",
-				"role": "danger"
-			},
-			{
-				"id": "color-danger--hover",
-				"variable": "$color-danger--hover",
-				"hex": "#BF4D4D",
-				"hsb": "HSB(360,60,75)",
-				"role": "danger hover"
-			},
-			{
-				"id": "color-info",
-				"variable": "$color-info",
-				"hex": "#5CACE6",
-				"hsb": "HSB(205,60,90)",
-				"role": "info"
-			},
-			{
-				"id": "color-info--hover",
-				"variable": "$color-info--hover",
-				"hex": "#4D8FBF",
-				"hsb": "HSB(205,60,75)",
-				"role": "info hover"
-			}
-		],
-		"colorBases": [
-			{
-				"id": "color-base",
-				"variable": "$color-base",
-				"hexLight": "#555555",
-				"hexDark": "#FFFFFF",
-				"rgbaLight": "rgba(85,85,85,1)",
-				"rgbaDark": "rgba(255,255,255,1)",
-				"role": "primary text, action"
-			},
-			{
-				"id": "color-base--description",
-				"variable": "$color-base--description",
-				"hexLight": "#555555 α(0.64)",
-				"hexDark": "#FFFFFF α(0.64)",
-				"rgbaLight": "rgba(85,85,85,0.64)",
-				"rgbaDark": "rgba(255,255,255,0.64)",
-				"role": "secondary text, no action"
-			},
-			{
-				"id": "color-base--background",
-				"variable": "$color-base--background",
-				"hexLight": "#555555 α(0.12)",
-				"hexDark": "#FFFFFF α(0.12)",
-				"rgbaLight": "rgba(85,85,85,0.12)",
-				"rgbaDark": "rgba(255,255,255,0.12)",
-				"role": "component background, strokes"
-			},
-			{
-				"id": "color-theme",
-				"variable": "$color-theme",
-				"hexLight": "#FFFFFF",
-				"hexDark": "#121212",
-				"rgbaLight": "rgba(255,255,255,1)",
-				"rgbaDark": "rgba(12,12,12,1)",
-				"role": "general background"
-			},
-			{
-				"id": "color-theme--opaque",
-				"variable": "$color-theme--opaque",
-				"hexLight": "#FFFFFF α(0.96)",
-				"hexDark": "#121212 α(0.96)",
-				"rgbaLight": "rgba(255,255,255,0.96)",
-				"rgbaDark": "rgba(12,12,12,0.96)",
-				"role": "header background"
-			}
-		]
+			"colorPrimaryShades": [
+				{
+					"id": "color-primary--shade1",
+					"hexLight": "#6699FF",
+					"hexDark": "#FFE666",
+					"hsbLight": "HSB(220,60,100)",
+					"hsbDark": "HSB(50,60,100)",
+					"role": "primary shade 1"
+				},
+				{
+					"id": "color-primary--shade2",
+					"hexLight": "#6680FF",
+					"hexDark": "#FFCC66",
+					"hsbLight": "HSB(230,60,100)",
+					"hsbDark": "HSB(40,60,100)",
+					"role": "primary shade 2"
+				},
+				{
+					"id": "color-primary--shade3",
+					"hexLight": "#6666FF",
+					"hexDark": "#FFB366",
+					"hsbLight": "HSB(240,60,100)",
+					"hsbDark": "HSB(30,60,100)",
+					"role": "primary shade 3"
+				},
+				{
+					"id": "color-primary--shade4",
+					"hexLight": "#7F66FF",
+					"hexDark": "#FF9966",
+					"hsbLight": "HSB(250,60,100)",
+					"hsbDark": "HSB(20,60,100)",
+					"role": "primary shade 4"
+				},
+				{
+					"id": "color-primary--shade5",
+					"hexLight": "#9966FF",
+					"hexDark": "#FF8066",
+					"hsbLight": "HSB(260,60,100)",
+					"hsbDark": "HSB(10,60,100)",
+					"role": "primary shade 5"
+				},
+				{
+					"id": "color-primary--shade6",
+					"hexLight": "#B366FF",
+					"hexDark": "#FF6666",
+					"hsbLight": "HSB(270,60,100)",
+					"hsbDark": "HSB(360,60,100)",
+					"role": "primary shade 6"
+				}
+			],
+			"colorMessages": [
+				{
+					"id": "color-success",
+					"hex": "#52CC8F",
+					"hsb": "HSB(150,60,80)",
+					"role": "success"
+				},
+				{
+					"id": "color-success--hover",
+					"hex": "#42A674",
+					"hsb": "HSB(150,60,65)",
+					"role": "success hover"
+				},
+				{
+					"id": "color-danger",
+					"hex": "#E65C5C",
+					"hsb": "HSB(360,60,90)",
+					"role": "danger"
+				},
+				{
+					"id": "color-danger--hover",
+					"hex": "#BF4D4D",
+					"hsb": "HSB(360,60,75)",
+					"role": "danger hover"
+				},
+				{
+					"id": "color-info",
+					"hex": "#5CACE6",
+					"hsb": "HSB(205,60,90)",
+					"role": "info"
+				},
+				{
+					"id": "color-info--hover",
+					"hex": "#4D8FBF",
+					"hsb": "HSB(205,60,75)",
+					"role": "info hover"
+				}
+			],
+			"colorBases": [
+				{
+					"id": "color-base",
+					"hexLight": "#555555",
+					"hexDark": "#FFFFFF",
+					"rgbaLight": "rgba(85,85,85,1)",
+					"rgbaDark": "rgba(255,255,255,1)",
+					"role": "primary text, action"
+				},
+				{
+					"id": "color-base--description",
+					"hexLight": "#555555 α(0.64)",
+					"hexDark": "#FFFFFF α(0.64)",
+					"rgbaLight": "rgba(85,85,85,0.64)",
+					"rgbaDark": "rgba(255,255,255,0.64)",
+					"role": "secondary text, no action"
+				},
+				{
+					"id": "color-base--background",
+					"hexLight": "#555555 α(0.12)",
+					"hexDark": "#FFFFFF α(0.12)",
+					"rgbaLight": "rgba(85,85,85,0.12)",
+					"rgbaDark": "rgba(255,255,255,0.12)",
+					"role": "component background, strokes"
+				},
+				{
+					"id": "color-theme",
+					"hexLight": "#FFFFFF",
+					"hexDark": "#121212",
+					"rgbaLight": "rgba(255,255,255,1)",
+					"rgbaDark": "rgba(12,12,12,1)",
+					"role": "general background"
+				},
+				{
+					"id": "color-theme--opaque",
+					"hexLight": "#FFFFFF α(0.96)",
+					"hexDark": "#121212 α(0.96)",
+					"rgbaLight": "rgba(255,255,255,0.96)",
+					"rgbaDark": "rgba(12,12,12,0.96)",
+					"role": "header background"
+				}
+			]
+		}
 	}
 }

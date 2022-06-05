@@ -26,17 +26,17 @@
 			>
 				<div class="container">
 					<h1 class="align-center color-white">
-						{{ data.website.title }}
+						{{ data.website.text.title }}
 					</h1>
 					<p class="align-center color-white" style="max-width: 100%">
-						{{ data.website.about.description1.eng }}
+						{{ data.website.text.description1.eng }}
 						<br />
 						<span class="iphone5-hide">{{
-							data.website.about.description2.eng
+							data.website.text.description2.eng
 						}}</span>
 						<br />
 						<span class="iphone5-hide">{{
-							data.website.about.description3.eng
+							data.website.text.description3.eng
 						}}</span>
 					</p>
 				</div>
