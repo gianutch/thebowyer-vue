@@ -51,7 +51,15 @@
 		<!-- /hero -->
 
 		<module-portfolio></module-portfolio>
-		<module-preload></module-preload>
+		<!-- preload projects-hero -->
+		<link
+			rel="preload"
+			v-for="project in data.projects"
+			v-bind:key="project.id"
+			v-bind:href="project.image.hero"
+			as="image"
+		/>
+		<!-- /preload projects-hero -->
 		<module-home-experience></module-home-experience>
 	</div>
 </template>
@@ -59,7 +67,6 @@
 <script>
 	import Json from "../../data/data.json";
 	import ModulePortfolio from "../modules/ModulePortfolio.vue";
-	import ModulePreload from "../modules/ModulePreload.vue";
 	import ModuleHomeExperience from "../modules/ModuleHomeExperience.vue";
 	import IconArrowdown from "../icons/IconArrowdown.vue";
 
@@ -71,7 +78,6 @@
 		},
 		components: {
 			ModulePortfolio,
-			ModulePreload,
 			ModuleHomeExperience,
 			IconArrowdown,
 		},
