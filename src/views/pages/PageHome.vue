@@ -1,12 +1,12 @@
 <template>
 	<div id="home">
-		<!-- preload hero-home -->
-		<img
-			class="display-none"
-			loading="eager"
-			v-bind:src="data.website.image.heroEarth"
+		<!-- prefetch home-hero -->
+		<link
+			rel="prefetch"
+			v-bind:href="data.website.image.heroEarth"
+			as="image"
 		/>
-		<!-- /preload hero-home -->
+		<!-- /prefetch home-hero -->
 
 		<!-- hero -->
 		<div
@@ -18,7 +18,10 @@
 			<canvas class="overlay background-black"></canvas>
 
 			<!-- spiders -->
-			<canvas id="spiders" class="overlay"></canvas>
+			<canvas
+				id="spiders"
+				class="overlay display-tablet display-laptop display-desktop"
+			></canvas>
 			<!-- /spiders -->
 
 			<div
@@ -51,15 +54,23 @@
 		<!-- /hero -->
 
 		<module-portfolio></module-portfolio>
-		<!-- preload projects-hero -->
+
 		<link
-			rel="preload"
+			rel="prefetch"
+			v-bind:href="data.website.image.headshotThug"
+			as="image"
+		/>
+
+		<!-- prefetch projects-hero -->
+		<link
+			rel="prefetch"
 			v-for="project in data.projects"
 			v-bind:key="project.id"
 			v-bind:href="project.image.hero"
 			as="image"
 		/>
-		<!-- /preload projects-hero -->
+		<!-- /prefetch projects-hero -->
+
 		<module-home-experience></module-home-experience>
 	</div>
 </template>
@@ -82,20 +93,6 @@
 			IconArrowdown,
 		},
 		methods: {
-			// isPhone function to determine if the device is phone
-			isPhone() {
-				return /Android|webOS|iPhone|iPad|iPod|BlackBerry|Windows Phone|IEMobile|Opera Mini/i.test(
-					navigator.userAgent
-				);
-			},
-			// if isPhone return false, show #spiders
-			isnotPhone() {
-				if (this.isPhone === false) {
-					document.querySelector("#spiders").style.display =
-						"inline-block";
-					alert("Alert!");
-				}
-			},
 			smoothscrollPortfolio() {
 				document.querySelector("#portfolio").scrollIntoView({
 					behavior: "smooth",
