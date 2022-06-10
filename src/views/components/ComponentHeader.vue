@@ -71,7 +71,6 @@
 										v-bind:to="'/projects/' + project.id"
 										class="link link-base"
 										activeClass="link-active"
-										v-on:click="navClose"
 										exact
 										>{{ project.title }}</router-link
 									>

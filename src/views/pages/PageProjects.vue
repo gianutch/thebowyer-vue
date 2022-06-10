@@ -180,7 +180,7 @@
 		data() {
 			return {
 				data: Json,
-				id: this.$route.params.id,
+				projectId: this.$route.params.projectId,
 				projectObj: Object(), // ?
 			};
 		},
@@ -194,18 +194,18 @@
 				var self = this;
 				// loop (bubble)
 				this.data.projects.forEach((projectTemp) => {
-					if (projectTemp.name === this.$route.params.id) {
+					if (projectTemp.name === this.$route.params.projectId) {
 						self.projectObj = projectTemp;
 					}
 				});
 			},
 		},
-		watch: {
-			// do this if something changes
-			// $route(to, from) {
-			// 	this.refreshProject();
-			// },
-		},
+		// watch: {
+		// 	// do this if something changes
+		// 	$route(to, from) {
+		// 		this.refreshProject();
+		// 	},
+		// },
 		created() {
 			// do this at launch
 			this.refreshProject();
