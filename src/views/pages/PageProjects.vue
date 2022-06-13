@@ -127,7 +127,7 @@
 				const self = this;
 				// loop (bubble)
 				this.data.projects.forEach((projectTemp) => {
-					if (projectTemp.id === this.$route.params.projectId) {
+					if (projectTemp.id === this.$route.params.pathId) {
 						self.projectObj = projectTemp;
 					}
 				});
