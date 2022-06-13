@@ -9,6 +9,7 @@ import ComponentHeader from "./views/components/ComponentHeader.vue";
 import ComponentFooter from "./views/components/ComponentFooter.vue";
 // import ComponentAlerts from "./views/components/ComponentAlerts.vue";
 import ModuleContact from "./views/modules/ModuleContact.vue";
+import mixinData from "./mixins/mixinData.js";
 
 const router = createRouter({
 	history: createWebHistory(),
@@ -66,6 +67,7 @@ const router = createRouter({
 
 const app = createApp(App);
 
+app.mixin(mixinData);
 app.use(router);
 
 router.isReady().then(() => {

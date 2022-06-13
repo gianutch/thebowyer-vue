@@ -46,18 +46,12 @@
 </template>
 
 <script>
-	import Json from "../../data/data.json";
 	import ModuleStyleguideElements from "../modules/ModuleStyleguideElements.vue";
 	import ModuleStyleguideComponentsweb from "../modules/ModuleStyleguideComponentsweb.vue";
 	// import ModuleStyleguideBrand from "../modules/ModuleStyleguideBrand.vue";
 	import ModuleStyleguideNav from "../modules/ModuleStyleguideNav.vue";
 
 	export default {
-		data() {
-			return {
-				data: Json,
-			};
-		},
 		components: {
 			ModuleStyleguideElements,
 			ModuleStyleguideComponentsweb,

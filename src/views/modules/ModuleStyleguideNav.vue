@@ -181,11 +181,6 @@
 						.classList.remove("nav-sticky");
 				}
 			},
-			// smoothscrollPortfolio() {
-			// 	document.querySelector('#portfolio').scrollIntoView({
-			// 		behavior: 'smooth'
-			// 	});
-			// },
 		},
 		created() {
 			window.addEventListener("scroll", this.handlebScroll);

@@ -75,17 +75,11 @@
 </template>
 
 <script>
-	import Json from "../../data/data.json";
 	import ModulePortfolio from "../modules/ModulePortfolio.vue";
 	import ModuleHomeExperience from "../modules/ModuleHomeExperience.vue";
 	import IconArrowdown from "../icons/IconArrowdown.vue";
 
 	export default {
-		data() {
-			return {
-				data: Json,
-			};
-		},
 		components: {
 			ModulePortfolio,
 			ModuleHomeExperience,

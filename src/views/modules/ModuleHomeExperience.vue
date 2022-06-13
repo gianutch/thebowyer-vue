@@ -197,7 +197,7 @@
 </template>
 
 <script>
-	import Json from "../../data/data.json";
+	import Json from "/src/data/data.json";
 	import mixinThemeType from "../../mixins/mixinThemeType.js";
 
 	export default {

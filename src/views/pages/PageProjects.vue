@@ -107,13 +107,11 @@
 </template>
 
 <script>
-	import Json from "../../data/data.json";
 	import ModulePortfolio from "../modules/ModulePortfolio.vue";
 
 	export default {
 		data() {
 			return {
-				data: Json,
 				projectObj: Object(), // ?
 			};
 		},

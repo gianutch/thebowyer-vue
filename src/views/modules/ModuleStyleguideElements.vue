@@ -573,15 +573,9 @@
 </template>
 
 <script>
-	import Json from "../../data/data.json";
 	import mixinThemeType from "../../mixins/mixinThemeType.js";
 
 	export default {
-		data() {
-			return {
-				data: Json,
-			};
-		},
 		mixins: [mixinThemeType],
 	};
 </script>
