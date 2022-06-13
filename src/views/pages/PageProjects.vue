@@ -127,7 +127,7 @@
 				const self = this;
 				// loop (bubble)
 				this.data.projects.forEach((projectTemp) => {
-					if (projectTemp.id === this.$route.params.pathId) {
+					if (projectTemp.id === this.$route.params.projectId) {
 						self.projectObj = projectTemp;
 					}
 				});
@@ -137,11 +137,12 @@
 			// do this at launch
 			this.refreshProject();
 		},
-		// watch: {
-		// 	// do this if something changes
-		// 	$route(to, from) {
-		// 		this.refreshProject();
-		// 	},
-		// },
+		watch: {
+			// do this if something changes
+			// $route: "refreshProject",
+			$route() {
+				this.refreshProject();
+			},
+		},
 	};
 </script>
