@@ -1,4 +1,4 @@
-#projects {
+.projects {
 	#projects-hero {
 		width: 100%;
 		height: 640px;
@@ -48,7 +48,7 @@
 		}
 	}
 
-	#projects-work {
+	.projects-work {
 		.work-phone,
 		.work-tablet,
 		.work-desktop,
@@ -99,7 +99,7 @@
 			}
 		}
 
-		#projects-work {
+		.projects-work {
 			.work-phone {
 				width: 45%;
 				margin-left: 2.5%;
@@ -110,7 +110,7 @@
 
 	//laptop
 	@media (min-width: 1000px) {
-		#projects-work {
+		.projects-work {
 			.work-phone,
 			.work-tablet,
 			.work-desktop,
@@ -128,7 +128,7 @@
 
 	//desktop
 	@media (min-width: 1500px) {
-		#projects-work {
+		.projects-work {
 			.work-phone {
 				width: 20%;
 				margin-left: 2.5%;

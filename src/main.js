@@ -25,7 +25,8 @@ const router = createRouter({
 			},
 		},
 		{
-			path: "/projects/:projectId",
+			path: "/:projectId",
+			// path: "/projects/:projectId",
 			name: "projects",
 			components: {
 				default: PageProjects,

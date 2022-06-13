@@ -55,13 +55,12 @@
 
 		<module-portfolio></module-portfolio>
 
+		<!-- prefetch headshotThug.jpg, projects-hero.jpg -->
 		<link
 			rel="prefetch"
 			v-bind:href="data.website.image.headshotThug"
 			as="image"
 		/>
-
-		<!-- prefetch projects-hero -->
 		<link
 			rel="prefetch"
 			v-for="project in data.projects"
@@ -69,7 +68,7 @@
 			v-bind:href="project.image.hero"
 			as="image"
 		/>
-		<!-- /prefetch projects-hero -->
+		<!-- /prefetch headshotThug.jpg, projects-hero.jpg -->
 
 		<module-home-experience></module-home-experience>
 	</div>

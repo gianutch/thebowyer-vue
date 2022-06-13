@@ -68,12 +68,19 @@
 									v-on:click="dropdownClose()"
 								>
 									<router-link
-										v-bind:to="'/projects/' + project.id"
+										v-bind:to="'/' + project.id"
 										class="link link-base"
 										activeClass="link-active"
 										exact
 										>{{ project.title }}</router-link
 									>
+									<!-- <router-link
+										v-bind:to="'/projects/' + project.id"
+										class="link link-base"
+										activeClass="link-active"
+										exact
+										>{{ project.title }}</router-link
+									> -->
 								</li>
 							</ul>
 						</router-link>

@@ -1,0 +1,5 @@
+#Does
+		v-for="work in projectObj.parts.works"
+#works, or should if be
+		v-for="work in works"
+#?
