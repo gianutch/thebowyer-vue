@@ -77,7 +77,7 @@
 						>
 							<img
 								class="image-responsive setting-shadow--motion"
-								loading="auto"
+								loading="lazy"
 								v-bind:src="work.img1"
 								v-bind:srcset="work.img2"
 								v-bind:width="work.width"

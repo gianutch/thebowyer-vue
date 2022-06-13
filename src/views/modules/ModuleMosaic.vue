@@ -2,7 +2,6 @@
 	<ul class="mosaic">
 		<li>
 			<router-link v-bind:to="'/' + projectProp.id">
-				<!-- <router-link v-bind:to="'/projects/' + projectProp.id"> -->
 				<figure class="fluid column setting-shadow--motion">
 					<img
 						class="image-responsive"
