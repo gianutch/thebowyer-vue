@@ -35,8 +35,8 @@
 					<li
 						class="nav-dropdown"
 						aria-haspopup="true"
-						v-on:mouseover="dropdownOpen()"
-						v-on:mouseleave="dropdownClose()"
+						v-on:mouseover="headerDropdownOpen()"
+						v-on:mouseleave="headerDropdownClose()"
 					>
 						<router-link
 							to="/projects"
@@ -105,7 +105,7 @@
 							class="float-right button button-base button-small button-special button-special button-special--header button-active"
 							title="Toggle theme"
 							type="button"
-							v-on:click="themeToggle"
+							v-on:click="headerThemeToggle"
 						>
 							<icon-moon class="icon"></icon-moon>
 						</button>
@@ -121,22 +121,15 @@
 </template>
 
 <script>
-	import Json from "../../data/data.json";
-	import mixinHeaderScroll from "../../mixins/mixinHeaderScroll.js";
-	import mixinHeaderDropdown from "../../mixins/mixinHeaderDropdown.js";
-	import IconCaret from "../icons/IconCaret.vue";
-	import IconHome from "../icons/IconHome.vue";
-	import IconMoon from "../icons/IconMoon.vue";
-	import IconProjects from "../icons/IconProjects.vue";
-	import IconStyleguide from "../icons/IconStyleguide.vue";
+	import mixinHeaderScroll from "/src/mixins/mixinHeaderScroll.js";
+	import IconCaret from "/src/views/icons/IconCaret.vue";
+	import IconHome from "/src/views/icons/IconHome.vue";
+	import IconMoon from "/src/views/icons/IconMoon.vue";
+	import IconProjects from "/src/views/icons/IconProjects.vue";
+	import IconStyleguide from "/src/views/icons/IconStyleguide.vue";
 
 	export default {
-		data() {
-			return {
-				data: Json,
-			};
-		},
-		mixins: [mixinHeaderScroll, mixinHeaderDropdown],
+		mixins: [mixinHeaderScroll],
 		components: {
 			IconCaret,
 			IconHome,
@@ -145,11 +138,20 @@
 			IconStyleguide,
 		},
 		methods: {
-			themeToggle() {
+			//on:mouseover
+			headerDropdownOpen() {
+				document.querySelector("#dropdown").style.display = "block";
+			},
+			//on:mouseleave
+			headerDropdownClose() {
+				document.querySelector("#dropdown").style.display = "none";
+			},
+			//on:click
+			headerThemeToggle() {
 				// toggle disabled attribute on #themelight stylesheet
 				document.querySelector("#themelight").toggleAttribute("disabled");
 				// add/remove .button-active for icon-moon button
-				if (document.querySelector("#themelight").disabled == true) {
+				if (document.querySelector("#themelight").disabled === true) {
 					document
 						.querySelector("#header-theme")
 						.classList.add("button-active");

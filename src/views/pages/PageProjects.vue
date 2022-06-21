@@ -107,7 +107,7 @@
 </template>
 
 <script>
-	import ModulePortfolio from "../modules/ModulePortfolio.vue";
+	import ModulePortfolio from "/src/views/modules/ModulePortfolio.vue";
 
 	export default {
 		data() {
@@ -119,7 +119,7 @@
 			ModulePortfolio,
 		},
 		methods: {
-			// functions
+			// triggered by created()
 			refreshProject() {
 				// to be able to use "this" page within the loop (bubble)
 				const self = this;

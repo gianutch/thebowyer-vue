@@ -30,9 +30,9 @@
 </template>
 
 <script>
-	import IconLinkedin from "../icons/IconLinkedin.vue";
-	import IconDribbble from "../icons/IconDribbble.vue";
-	import IconGithub from "../icons/IconGithub.vue";
+	import IconLinkedin from "/src/views/icons/IconLinkedin.vue";
+	import IconDribbble from "/src/views/icons/IconDribbble.vue";
+	import IconGithub from "/src/views/icons/IconGithub.vue";
 
 	export default {
 		components: {

@@ -1,18 +1,14 @@
 <template>
 	<div id="home">
 		<!-- preload home-hero -->
-		<link
-			rel="preload"
-			v-bind:href="data.website.image.heroEarth"
-			as="image"
-		/>
+		<link rel="preload" v-bind:href="heroPath" as="image" />
 		<!-- /preload home-hero -->
 
 		<!-- hero -->
 		<div
 			id="home-hero"
 			v-bind:style="{
-				backgroundImage: 'url(' + data.website.image.heroEarth + ')',
+				backgroundImage: 'url(' + heroPath + ')',
 			}"
 		>
 			<canvas class="overlay background-black"></canvas>
@@ -46,7 +42,7 @@
 			</div>
 			<button
 				class="button button-white--ghost button-special setting-anim--fadeinup setting-anim--delayed align-center hero-arrowdown"
-				v-on:click="smoothscrollPortfolio"
+				v-on:click="smoothscrollToPortfolio"
 			>
 				<icon-arrowdown class="icon"></icon-arrowdown>
 			</button>
@@ -86,18 +82,27 @@
 </template>
 
 <script>
-	import ModulePortfolio from "../modules/ModulePortfolio.vue";
-	import ModuleHomeExperience from "../modules/ModuleHomeExperience.vue";
-	import IconArrowdown from "../icons/IconArrowdown.vue";
+	import Json from "/src/data/data.json";
+	import mixinThemeType from "/src/mixins/mixinThemeType.js";
+	import ModulePortfolio from "/src/views/modules/ModulePortfolio.vue";
+	import ModuleHomeExperience from "/src/views/modules/ModuleHomeExperience.vue";
+	import IconArrowdown from "/src/views/icons/IconArrowdown.vue";
 
 	export default {
+		data() {
+			return {
+				heroPath: Json.website.image.heroEarth,
+			};
+		},
+		mixins: [mixinThemeType],
 		components: {
 			ModulePortfolio,
 			ModuleHomeExperience,
 			IconArrowdown,
 		},
 		methods: {
-			smoothscrollPortfolio() {
+			// on:click
+			smoothscrollToPortfolio() {
 				document.querySelector("#portfolio").scrollIntoView({
 					behavior: "smooth",
 				});

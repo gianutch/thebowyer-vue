@@ -7,7 +7,8 @@ export default {
 		};
 	},
 	methods: {
-		themeCurrent() {
+		//triggered by created()
+		themeUpdate() {
 			if (document.querySelector("#themelight").disabled === false) {
 				this.themeLight === true;
 			} else {
@@ -17,11 +18,12 @@ export default {
 	},
 	created() {
 		// do this at launch
-		// check when loading
-		this.themeCurrent();
-		// check when clicking
-		document
-			.querySelector("#header-theme")
-			.addEventListener("click", this.themeCurrent);
+		this.themeUpdate();
+	},
+	watch: {
+		// do this if something changes
+		// $route() {
+		// 	this.themeUpdate();
+		// },
 	},
 };

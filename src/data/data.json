@@ -2,9 +2,11 @@
 	"website": {
 		"image": {
 			"heroEarth": "/assets/images/img-website-hero-earth.jpg",
-			"headshot": "/assets/images/img-website-headshot@2.jpg",
+			"heroEarthDark": "/assets/images/img-website-hero-earth--dark.jpg",
+			"heroEarthLight": "/assets/images/img-website-hero-earth--light.jpg",
+			"headshotNormal": "/assets/images/img-website-headshot--normal@2.jpg",
 			"headshotThug": "/assets/images/img-website-headshot--thug@2.jpg",
-			"squaregrey": "/assets/images/img-website-squaregrey.png"
+			"squareGrey": "/assets/images/img-website-squaregrey.png"
 		},
 		"file": {
 			"resumeLight": "/assets/files/thebowyer-resume--light.pdf",
@@ -1935,7 +1937,7 @@
 				"id": 32
 			},
 			{
-				"id": "48"
+				"id": 48
 			},
 			{
 				"id": 56
@@ -1957,162 +1959,333 @@
 			}
 		],
 		"colors": {
-			"colorPrimaries": [
-				{
-					"id": "color-primary",
-					"hexLight": "#9966FF",
-					"hexDark": "#FF8066",
-					"hsbLight": "HSB(260,60,100)",
-					"hsbDark": "HSB(10,60,100)",
-					"role": "primary action, link"
+			"dark": {
+				"colorPrimaries": [
+					{
+						"id": "color-primary",
+						"hex": "#FF8066",
+						"hsb": "HSB(10,60,100)",
+						"role": "primary action, link"
+					},
+					{
+						"id": "color-primary--hover",
+						"hex": "#D96C57",
+						"hsb": "HSB(10,60,85)",
+						"role": "primary hover"
+					}
+				],
+				"colorPrimaryGradients": {
+					"id": "color-primary--gradient",
+					"hex": "135deg,#FFE666,#FF6666",
+					"hsb": "HSB(50,60,100) to HSB(360,60,100)",
+					"role": "primary gradient"
 				},
-				{
-					"id": "color-primary--hover",
-					"hexLight": "#8257D9",
-					"hexDark": "#D96C57",
-					"hsbLight": "HSB(260,60,85)",
-					"hsbDark": "HSB(10,60,85)",
-					"role": "primary hover"
-				}
-			],
-			"colorPrimaryGradients": {
-				"id": "color-primary--gradient",
-				"hexLight": "135deg,#6699FF,#B366FF",
-				"hexDark": "135deg,#FFE666,#FF6666",
-				"hsbLight": "HSB(220,60,100) to HSB(270,60,100)",
-				"hsbDark": "HSB(50,60,100) to HSB(360,60,100)",
-				"role": "primary gradient"
+				"colorPrimaryShades": [
+					{
+						"id": "color-primary--shade1",
+						"hex": "#FFE666",
+						"hsb": "HSB(50,60,100)",
+						"role": "primary shade 1"
+					},
+					{
+						"id": "color-primary--shade2",
+						"hex": "#FFCC66",
+						"hsb": "HSB(40,60,100)",
+						"role": "primary shade 2"
+					},
+					{
+						"id": "color-primary--shade3",
+						"hex": "#FFB366",
+						"hsb": "HSB(30,60,100)",
+						"role": "primary shade 3"
+					},
+					{
+						"id": "color-primary--shade4",
+						"hex": "#FF9966",
+						"hsb": "HSB(20,60,100)",
+						"role": "primary shade 4"
+					},
+					{
+						"id": "color-primary--shade5",
+						"hex": "#FF8066",
+						"hsb": "HSB(10,60,100)",
+						"role": "primary shade 5"
+					},
+					{
+						"id": "color-primary--shade6",
+						"hex": "#FF6666",
+						"hsb": "HSB(360,60,100)",
+						"role": "primary shade 6"
+					}
+				],
+				"colorBases": [
+					{
+						"id": "color-base",
+						"hex": "#FFFFFF",
+						"rgba": "rgba(255,255,255,1)",
+						"role": "primary text, action"
+					},
+					{
+						"id": "color-base--description",
+						"hex": "#FFFFFF α(0.64)",
+						"rgba": "rgba(255,255,255,0.64)",
+						"role": "secondary text, no action"
+					},
+					{
+						"id": "color-base--background",
+						"hex": "#FFFFFF α(0.12)",
+						"rgba": "rgba(255,255,255,0.12)",
+						"role": "component background, strokes"
+					},
+					{
+						"id": "color-theme",
+						"hex": "#121212",
+						"rgba": "rgba(12,12,12,1)",
+						"role": "general background"
+					},
+					{
+						"id": "color-theme--opaque",
+						"hex": "#121212 α(0.96)",
+						"rgba": "rgba(12,12,12,0.96)",
+						"role": "header background"
+					}
+				],
+				"colorMessages": [
+					{
+						"id": "color-success",
+						"hex": "#52CC8F",
+						"hsb": "HSB(150,60,80)",
+						"role": "success"
+					},
+					{
+						"id": "color-success--hover",
+						"hex": "#42A674",
+						"hsb": "HSB(150,60,65)",
+						"role": "success hover"
+					},
+					{
+						"id": "color-danger",
+						"hex": "#E65C5C",
+						"hsb": "HSB(360,60,90)",
+						"role": "danger"
+					},
+					{
+						"id": "color-danger--hover",
+						"hex": "#BF4D4D",
+						"hsb": "HSB(360,60,75)",
+						"role": "danger hover"
+					},
+					{
+						"id": "color-info",
+						"hex": "#5CACE6",
+						"hsb": "HSB(205,60,90)",
+						"role": "info"
+					},
+					{
+						"id": "color-info--hover",
+						"hex": "#4D8FBF",
+						"hsb": "HSB(205,60,75)",
+						"role": "info hover"
+					}
+				]
 			},
-			"colorPrimaryShades": [
-				{
-					"id": "color-primary--shade1",
-					"hexLight": "#6699FF",
-					"hexDark": "#FFE666",
-					"hsbLight": "HSB(220,60,100)",
-					"hsbDark": "HSB(50,60,100)",
-					"role": "primary shade 1"
+			"light": {
+				"colorPrimaries": [
+					{
+						"id": "color-primary",
+						"hex": "#9966FF",
+						"hsb": "HSB(260,60,100)",
+						"role": "primary action, link"
+					},
+					{
+						"id": "color-primary--hover",
+						"hex": "#8257D9",
+						"hsb": "HSB(260,60,85)",
+						"role": "primary hover"
+					}
+				],
+				"colorPrimaryGradients": {
+					"id": "color-primary--gradient",
+					"hex": "135deg,#6699FF,#B366FF",
+					"hsb": "HSB(220,60,100) to HSB(270,60,100)",
+					"role": "primary gradient"
 				},
-				{
-					"id": "color-primary--shade2",
-					"hexLight": "#6680FF",
-					"hexDark": "#FFCC66",
-					"hsbLight": "HSB(230,60,100)",
-					"hsbDark": "HSB(40,60,100)",
-					"role": "primary shade 2"
-				},
-				{
-					"id": "color-primary--shade3",
-					"hexLight": "#6666FF",
-					"hexDark": "#FFB366",
-					"hsbLight": "HSB(240,60,100)",
-					"hsbDark": "HSB(30,60,100)",
-					"role": "primary shade 3"
-				},
-				{
-					"id": "color-primary--shade4",
-					"hexLight": "#7F66FF",
-					"hexDark": "#FF9966",
-					"hsbLight": "HSB(250,60,100)",
-					"hsbDark": "HSB(20,60,100)",
-					"role": "primary shade 4"
-				},
-				{
-					"id": "color-primary--shade5",
-					"hexLight": "#9966FF",
-					"hexDark": "#FF8066",
-					"hsbLight": "HSB(260,60,100)",
-					"hsbDark": "HSB(10,60,100)",
-					"role": "primary shade 5"
-				},
-				{
-					"id": "color-primary--shade6",
-					"hexLight": "#B366FF",
-					"hexDark": "#FF6666",
-					"hsbLight": "HSB(270,60,100)",
-					"hsbDark": "HSB(360,60,100)",
-					"role": "primary shade 6"
-				}
-			],
-			"colorMessages": [
-				{
-					"id": "color-success",
-					"hex": "#52CC8F",
-					"hsb": "HSB(150,60,80)",
-					"role": "success"
-				},
-				{
-					"id": "color-success--hover",
-					"hex": "#42A674",
-					"hsb": "HSB(150,60,65)",
-					"role": "success hover"
-				},
-				{
-					"id": "color-danger",
-					"hex": "#E65C5C",
-					"hsb": "HSB(360,60,90)",
-					"role": "danger"
-				},
-				{
-					"id": "color-danger--hover",
-					"hex": "#BF4D4D",
-					"hsb": "HSB(360,60,75)",
-					"role": "danger hover"
-				},
-				{
-					"id": "color-info",
-					"hex": "#5CACE6",
-					"hsb": "HSB(205,60,90)",
-					"role": "info"
-				},
-				{
-					"id": "color-info--hover",
-					"hex": "#4D8FBF",
-					"hsb": "HSB(205,60,75)",
-					"role": "info hover"
-				}
-			],
-			"colorBases": [
-				{
-					"id": "color-base",
-					"hexLight": "#555555",
-					"hexDark": "#FFFFFF",
-					"rgbaLight": "rgba(85,85,85,1)",
-					"rgbaDark": "rgba(255,255,255,1)",
-					"role": "primary text, action"
-				},
-				{
-					"id": "color-base--description",
-					"hexLight": "#555555 α(0.64)",
-					"hexDark": "#FFFFFF α(0.64)",
-					"rgbaLight": "rgba(85,85,85,0.64)",
-					"rgbaDark": "rgba(255,255,255,0.64)",
-					"role": "secondary text, no action"
-				},
-				{
-					"id": "color-base--background",
-					"hexLight": "#555555 α(0.12)",
-					"hexDark": "#FFFFFF α(0.12)",
-					"rgbaLight": "rgba(85,85,85,0.12)",
-					"rgbaDark": "rgba(255,255,255,0.12)",
-					"role": "component background, strokes"
-				},
-				{
-					"id": "color-theme",
-					"hexLight": "#FFFFFF",
-					"hexDark": "#121212",
-					"rgbaLight": "rgba(255,255,255,1)",
-					"rgbaDark": "rgba(12,12,12,1)",
-					"role": "general background"
-				},
-				{
-					"id": "color-theme--opaque",
-					"hexLight": "#FFFFFF α(0.96)",
-					"hexDark": "#121212 α(0.96)",
-					"rgbaLight": "rgba(255,255,255,0.96)",
-					"rgbaDark": "rgba(12,12,12,0.96)",
-					"role": "header background"
-				}
-			]
-		}
+
+				"colorPrimaryShades": [
+					{
+						"id": "color-primary--shade1",
+						"hex": "#6699FF",
+						"hsb": "HSB(220,60,100)",
+						"role": "primary shade 1"
+					},
+					{
+						"id": "color-primary--shade2",
+						"hex": "#6680FF",
+						"hsb": "HSB(230,60,100)",
+						"role": "primary shade 2"
+					},
+					{
+						"id": "color-primary--shade3",
+						"hex": "#6666FF",
+						"hsb": "HSB(240,60,100)",
+						"role": "primary shade 3"
+					},
+					{
+						"id": "color-primary--shade4",
+						"hex": "#7F66FF",
+						"hsb": "HSB(250,60,100)",
+						"role": "primary shade 4"
+					},
+					{
+						"id": "color-primary--shade5",
+						"hex": "#9966FF",
+						"hsb": "HSB(260,60,100)",
+						"role": "primary shade 5"
+					},
+					{
+						"id": "color-primary--shade6",
+						"hex": "#B366FF",
+						"hsb": "HSB(270,60,100)",
+						"role": "primary shade 6"
+					}
+				],
+
+				"colorBases": [
+					{
+						"id": "color-base",
+						"hex": "#555555",
+						"rgba": "rgba(85,85,85,1)",
+						"role": "primary text, action"
+					},
+					{
+						"id": "color-base--description",
+						"hex": "#555555 α(0.64)",
+						"rgba": "rgba(85,85,85,0.64)",
+						"role": "secondary text, no action"
+					},
+					{
+						"id": "color-base--background",
+						"hex": "#555555 α(0.12)",
+						"rgba": "rgba(85,85,85,0.12)",
+						"role": "component background, strokes"
+					},
+					{
+						"id": "color-theme",
+						"hex": "#FFFFFF",
+						"rgba": "rgba(255,255,255,1)",
+						"role": "general background"
+					},
+					{
+						"id": "color-theme--opaque",
+						"hex": "#FFFFFF α(0.96)",
+						"rgba": "rgba(255,255,255,0.96)",
+						"role": "header background"
+					}
+				],
+				"colorMessages": [
+					{
+						"id": "color-success",
+						"hex": "#52CC8F",
+						"hsb": "HSB(150,60,80)",
+						"role": "success"
+					},
+					{
+						"id": "color-success--hover",
+						"hex": "#42A674",
+						"hsb": "HSB(150,60,65)",
+						"role": "success hover"
+					},
+					{
+						"id": "color-danger",
+						"hex": "#E65C5C",
+						"hsb": "HSB(360,60,90)",
+						"role": "danger"
+					},
+					{
+						"id": "color-danger--hover",
+						"hex": "#BF4D4D",
+						"hsb": "HSB(360,60,75)",
+						"role": "danger hover"
+					},
+					{
+						"id": "color-info",
+						"hex": "#5CACE6",
+						"hsb": "HSB(205,60,90)",
+						"role": "info"
+					},
+					{
+						"id": "color-info--hover",
+						"hex": "#4D8FBF",
+						"hsb": "HSB(205,60,75)",
+						"role": "info hover"
+					}
+				]
+			}
+		},
+		"texts": [
+			{
+				"id": "h1",
+				"title": "Page Title",
+				"family": "Source Sans Pro",
+				"weight": "Regular",
+				"color": "color-base",
+				"size": 60,
+				"height": 80
+			},
+			{
+				"id": "h2",
+				"title": "Section Title",
+				"family": "Source Sans Pro",
+				"weight": "Regular",
+				"color": "color-base",
+				"size": 50,
+				"height": 64
+			},
+			{
+				"id": "h3",
+				"title": "Subsection Title",
+				"family": "Source Sans Pro",
+				"weight": "Regular",
+				"color": "color-base",
+				"size": 40,
+				"height": 48
+			},
+			{
+				"id": "p",
+				"title": "Text",
+				"family": "Source Sans Pro",
+				"weight": "Regular, Bold",
+				"color": "color-base, color-base--description",
+				"size": 20,
+				"height": 32
+			},
+			{
+				"id": "h5",
+				"title": "Description",
+				"family": "Source Sans Pro",
+				"weight": "Regular, Bold",
+				"color": "color-base, color-base--description",
+				"size": 16,
+				"height": 24
+			},
+			{
+				"id": "h6",
+				"title": "Legal",
+				"family": "Source Sans Pro",
+				"weight": "Regular, Bold",
+				"color": "color-base, color-base--description",
+				"size": 12,
+				"height": 16
+			},
+			{
+				"id": "code",
+				"title": "Code",
+				"family": "Courrier",
+				"weight": "Regular",
+				"color": "color-base, color-base--description",
+				"size": 16,
+				"height": 24
+			}
+		]
 	}
 }

@@ -73,7 +73,7 @@
 </template>
 
 <script>
-	import ModuleMosaic from "./ModuleMosaic.vue";
+	import ModuleMosaic from "/src/views/modules/ModuleMosaic.vue";
 
 	export default {
 		components: {

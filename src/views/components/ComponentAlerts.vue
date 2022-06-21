@@ -9,11 +9,3 @@
 		>
 	</div>
 </template>
-
-<script>
-	import mixinHeaderScroll from "../mixins/mixinHeaderScroll.js";
-
-	export default {
-		mixins: [mixinHeaderScroll],
-	};
-</script>

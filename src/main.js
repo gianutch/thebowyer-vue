@@ -1,15 +1,15 @@
 import { createApp } from "vue";
 import { createRouter, createWebHistory } from "vue-router";
 
-import App from "./App.vue";
-import PageHome from "./views/pages/PageHome.vue";
-import PageProjects from "./views/pages/PageProjects.vue";
-import PageStyleguide from "./views/pages/PageStyleguide.vue";
-import ComponentHeader from "./views/components/ComponentHeader.vue";
-import ComponentFooter from "./views/components/ComponentFooter.vue";
-// import ComponentAlerts from "./views/components/ComponentAlerts.vue";
-import ModuleContact from "./views/modules/ModuleContact.vue";
-import mixinData from "./mixins/mixinData.js";
+import App from "/src/App.vue";
+import PageHome from "/src/views/pages/PageHome.vue";
+import PageProjects from "/src/views/pages/PageProjects.vue";
+import PageStyleguide from "/src/views/pages/PageStyleguide.vue";
+import ComponentHeader from "/src/views/components/ComponentHeader.vue";
+import ComponentFooter from "/src/views/components/ComponentFooter.vue";
+// import ComponentAlerts from "/src/views/components/ComponentAlerts.vue";
+import ModuleContact from "/src/views/modules/ModuleContact.vue";
+import mixinData from "/src/mixins/mixinData.js";
 
 const router = createRouter({
 	history: createWebHistory(),

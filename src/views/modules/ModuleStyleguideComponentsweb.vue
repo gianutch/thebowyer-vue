@@ -558,8 +558,8 @@
 </template>
 
 <script>
-	import IconGael from "../icons/IconGael.vue";
-	import IconGlass from "../icons/IconGlass.vue";
+	import IconGael from "/src/views/icons/IconGael.vue";
+	import IconGlass from "/src/views/icons/IconGlass.vue";
 
 	export default {
 		data() {
@@ -574,10 +574,12 @@
 			IconGlass,
 		},
 		methods: {
+			// on:click
 			// toggle .button-active
 			buttonActiveToggle(e) {
 				e.target.classList.toggle("button-active");
 			},
+			// on:click
 			// toggle .link-active
 			linkActiveToggle(e) {
 				e.target.classList.toggle("link-active");

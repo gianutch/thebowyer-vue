@@ -44,13 +44,13 @@
 			<div
 				class="timeline"
 				v-bind:style="{
-					backgroundImage: 'url(' + data.website.image.squaregrey + ')',
+					backgroundImage: 'url(' + data.website.image.squareGrey + ')',
 				}"
 			>
 				<div class="timeline-photo">
 					<img
 						loading="eager"
-						v-bind:src="headshotpath"
+						v-bind:src="headshotPath"
 						v-on:mouseover="headshotOver"
 						v-on:mouseleave="headshotLeave"
 						width="128"
@@ -198,23 +198,25 @@
 
 <script>
 	import Json from "/src/data/data.json";
-	import mixinThemeType from "../../mixins/mixinThemeType.js";
+	import mixinThemeType from "/src/mixins/mixinThemeType.js";
 
 	export default {
 		data() {
 			return {
 				data: Json,
-				headshotpath: Json.website.image.headshot,
+				headshotPath: Json.website.image.headshotNormal,
 				language: "Eng",
 			};
 		},
 		mixins: [mixinThemeType],
 		methods: {
+			// on:mouseover
 			headshotOver() {
-				this.headshotpath = Json.website.image.headshotThug;
+				this.headshotPath = Json.website.image.headshotThug;
 			},
+			// on:mouseleave
 			headshotLeave() {
-				this.headshotpath = Json.website.image.headshot;
+				this.headshotPath = Json.website.image.headshotNormal;
 			},
 		},
 	};

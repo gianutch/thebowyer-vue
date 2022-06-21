@@ -31,7 +31,7 @@
 			<div class="five-sixth-laptop five-sixth-desktop column">
 				<module-styleguide-elements></module-styleguide-elements>
 				<module-styleguide-componentsweb></module-styleguide-componentsweb>
-				<!-- <module-styleguide-brand></module-styleguide-brand> -->
+				<module-styleguide-brand></module-styleguide-brand>
 			</div>
 
 			<div
@@ -40,22 +40,20 @@
 				<module-styleguide-nav></module-styleguide-nav>
 			</div>
 		</div>
-
-		<module-contact></module-contact>
 	</div>
 </template>
 
 <script>
-	import ModuleStyleguideElements from "../modules/ModuleStyleguideElements.vue";
-	import ModuleStyleguideComponentsweb from "../modules/ModuleStyleguideComponentsweb.vue";
-	// import ModuleStyleguideBrand from "../modules/ModuleStyleguideBrand.vue";
-	import ModuleStyleguideNav from "../modules/ModuleStyleguideNav.vue";
+	import ModuleStyleguideElements from "/src/views/modules/ModuleStyleguideElements.vue";
+	import ModuleStyleguideComponentsweb from "/src/views/modules/ModuleStyleguideComponentsweb.vue";
+	import ModuleStyleguideBrand from "/src/views/modules/ModuleStyleguideBrand.vue";
+	import ModuleStyleguideNav from "/src/views/modules/ModuleStyleguideNav.vue";
 
 	export default {
 		components: {
 			ModuleStyleguideElements,
 			ModuleStyleguideComponentsweb,
-			// ModuleStyleguideBrand,
+			ModuleStyleguideBrand,
 			ModuleStyleguideNav,
 		},
 	};
