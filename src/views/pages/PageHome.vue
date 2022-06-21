@@ -1,12 +1,12 @@
 <template>
 	<div id="home">
-		<!-- prefetch home-hero -->
+		<!-- preload home-hero -->
 		<link
-			rel="prefetch"
+			rel="preload"
 			v-bind:href="data.website.image.heroEarth"
 			as="image"
 		/>
-		<!-- /prefetch home-hero -->
+		<!-- /preload home-hero -->
 
 		<!-- hero -->
 		<div
@@ -55,12 +55,14 @@
 
 		<module-portfolio></module-portfolio>
 
-		<!-- prefetch headshotThug.jpg, projects-hero.jpg -->
+		<!-- prefetch headshotThug.jpg -->
 		<link
 			rel="prefetch"
 			v-bind:href="data.website.image.headshotThug"
 			as="image"
 		/>
+		<!-- /prefetch -->
+		<!-- prefetch projects-hero.jpg -->
 		<link
 			rel="prefetch"
 			v-for="project in data.projects"
@@ -68,7 +70,16 @@
 			v-bind:href="project.image.hero"
 			as="image"
 		/>
-		<!-- /prefetch headshotThug.jpg, projects-hero.jpg -->
+		<!-- /prefetch -->
+		<!-- prefetch projects-hero.jpg -->
+		<link
+			rel="prefetch"
+			v-for="project in data.projects"
+			v-bind:key="project.id"
+			v-bind:href="project.image.hero"
+			as="image"
+		/>
+		<!-- /prefetch -->
 
 		<module-home-experience></module-home-experience>
 	</div>
