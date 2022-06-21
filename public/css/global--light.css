@@ -4,7 +4,6 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -436,6 +435,22 @@ th {
 }
 
 /* VARIABLES ============================================================ */
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/SourceSansPro-Regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+/* source-sans-pro-700 - latin */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/SourceSansPro-Bold.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
 /* BASE ============================================================ */
 html,
 body {
@@ -525,12 +540,12 @@ a.link.link-mini {
 
 /* CLASSES ============================================================ */
 ::selection {
-  color: #FFFFFF;
+  color: #ffffff;
   background: #8257D9;
 }
 
 ::-moz-selection {
-  color: #FFFFFF;
+  color: #ffffff;
   background: #8257D9;
 }
 
@@ -548,7 +563,7 @@ a.link.link-mini {
 
 .text-bold,
 a.link.link-bold {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .text-italic,
