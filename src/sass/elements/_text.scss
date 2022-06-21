@@ -4,7 +4,7 @@
 	font-family: "Source Sans Pro";
 	font-style: normal;
 	font-weight: 400;
-	src:
+	src: local(""),
 		//  url('/assets/fonts/SourceSansPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
 		url("/assets/fonts/SourceSansPro-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
 }
@@ -13,7 +13,7 @@
 	font-family: "Source Sans Pro";
 	font-style: normal;
 	font-weight: 700;
-	src:
+	src: local(""),
 		//  url('/assets/fonts/SourceSansPro-Bold.woff2') format('woff2'), /* Super Modern Browsers */
 		url("/assets/fonts/SourceSansPro-Bold.ttf") format("truetype"); /* Safari, Android, iOS */
 }
