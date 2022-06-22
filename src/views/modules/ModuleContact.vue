@@ -6,7 +6,7 @@
 				You can contact me on
 				<a
 					class="link link-external"
-					href="https://www.linkedin.com/in/gaelbvr/en"
+					href="https://www.linkedin.com/in/gaelbvr"
 					target="_blank"
 					>LinkedIn</a
 				>, or send me an

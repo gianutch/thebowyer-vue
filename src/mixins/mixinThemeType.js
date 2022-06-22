@@ -3,16 +3,24 @@
 export default {
 	data() {
 		return {
-			themeLight: false,
+			// themeLight: false,
+			themeCurrent: "themeDark",
 		};
 	},
 	methods: {
 		//triggered by created()
+		// themeUpdate() {
+		// 	if (document.querySelector("#themelight").disabled === false) {
+		// 		this.themeLight === true;
+		// 	} else {
+		// 		this.themeLight === false;
+		// 	}
+		// },
 		themeUpdate() {
-			if (document.querySelector("#themelight").disabled === false) {
-				this.themeLight === true;
+			if (document.querySelector("#themelight").disabled === true) {
+				this.themeCurrent === "themeDark";
 			} else {
-				this.themeLight === false;
+				this.themeCurrent === "themeLight";
 			}
 		},
 	},

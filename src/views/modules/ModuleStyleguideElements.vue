@@ -79,13 +79,13 @@
 					>Color Theory</a
 				>
 				is based on a
-				<span v-if="themeLight">HSB(260, 60, 100)</span>
+				<span v-if="(themeCurrent = themeLight)">HSB(260, 60, 100)</span>
 				<span v-else>HSB(10,60,100)</span> primary color, genesis of all
 				theme and messaging colors.
 			</p>
 
 			<!-- theme light -->
-			<div v-if="themeLight">
+			<div v-if="(themeCurrent = themeLight)">
 				<!-- color-primary -->
 				<div class="subsection">
 					<h3>Color Primary</h3>

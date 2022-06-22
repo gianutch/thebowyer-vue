@@ -1,13 +1,13 @@
 <template>
 	<footer>
-		<div class="container-fluid align-center">
+		<div class="container-full align-center">
 			<h5 class="display-inline-block">
 				2022 The Bowyer&nbsp;&nbsp;&nbsp;-
 			</h5>
 			&nbsp;
 			<a
 				class="link link-theme"
-				href="https://www.linkedin.com/in/gaelbvr/en"
+				href="https://www.linkedin.com/in/gaelbvr"
 				target="_blank"
 			>
 				<icon-linkedin class="icon icon-theme"></icon-linkedin>

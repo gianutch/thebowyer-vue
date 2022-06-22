@@ -7,7 +7,7 @@
 				<br />You can also consult my
 				<a
 					class="link link-external"
-					href="https://www.linkedin.com/in/gaelbvr/en"
+					href="https://www.linkedin.com/in/gaelbvr/"
 					target="_blank"
 					>LinkedIn profile</a
 				>
