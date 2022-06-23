@@ -91,16 +91,16 @@
 			<br /><br /><br />
 		</div>
 
-		<!-- special v-if -->
+		<!-- banner v-if -->
 		<div
-			id="projects-special"
+			id="projects-banner"
 			class="section"
-			v-if="Boolean(projectObj.image.special)"
+			v-if="Boolean(projectObj.image.banner)"
 			v-bind:style="{
-				backgroundImage: 'url(' + projectObj.image.special + ')',
+				backgroundImage: 'url(' + projectObj.image.banner + ')',
 			}"
 		></div>
-		<!-- /special v-if -->
+		<!-- /banner v-if -->
 
 		<module-portfolio></module-portfolio>
 	</div>

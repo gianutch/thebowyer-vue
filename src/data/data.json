@@ -270,12 +270,12 @@
 			"description": "Decentralized exchange for cryptocurrencies.",
 			"tags": ["Web App Design", "iOS Design"],
 			"image": {
-				"mosaic1": "/assets/images/img-project-mosaic-sove.jpg",
-				"mosaic2": "/assets/images/img-project-mosaic-sove@2.jpg 2x",
+				"banner": "",
+				"hero": "/assets/images/img-project-hero-sove@2.jpg",
 				"mock1": "/assets/images/img-project-mock-sove.png",
 				"mock2": "/assets/images/img-project-mock-sove@2.png 2x",
-				"hero": "/assets/images/img-project-hero-sove@2.jpg",
-				"special": ""
+				"mosaic1": "/assets/images/img-project-mosaic-sove.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-sove@2.jpg 2x"
 			},
 			"parts": [
 				{
@@ -357,12 +357,12 @@
 			"description": "Virtual coach for crossfit workouts.",
 			"tags": ["iOS Design", "Style Guide", "Website Design"],
 			"image": {
-				"mosaic1": "/assets/images/img-project-mosaic-coac.jpg",
-				"mosaic2": "/assets/images/img-project-mosaic-coac@2.jpg 2x",
+				"banner": "/assets/images/img-project-banner-coac@2.jpg",
+				"hero": "/assets/images/img-project-hero-coac@2.jpg",
 				"mock1": "/assets/images/img-project-mock-coac.png",
 				"mock2": "/assets/images/img-project-mock-coac@2.png 2x",
-				"hero": "/assets/images/img-project-hero-coac@2.jpg",
-				"special": "/assets/images/img-project-special-coac@2.jpg"
+				"mosaic1": "/assets/images/img-project-mosaic-coac.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-coac@2.jpg 2x"
 			},
 			"parts": [
 				{
@@ -535,12 +535,12 @@
 			"description": "Web application for collaboration and meeting scheduling.",
 			"tags": ["Web App Design", "Style Guide"],
 			"image": {
-				"mosaic1": "/assets/images/img-project-mosaic-chec.jpg",
-				"mosaic2": "/assets/images/img-project-mosaic-chec@2.jpg 2x",
+				"banner": "/assets/images/img-project-banner-chec@2.jpg",
+				"hero": "/assets/images/img-project-hero-chec@2.jpg",
 				"mock1": "/assets/images/img-project-mock-chec.png",
 				"mock2": "/assets/images/img-project-mock-chec@2.png 2x",
-				"hero": "/assets/images/img-project-hero-chec@2.jpg",
-				"special": "/assets/images/img-project-special-chec@2.jpg"
+				"mosaic1": "/assets/images/img-project-mosaic-chec.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-chec@2.jpg 2x"
 			},
 			"parts": [
 				{
@@ -615,12 +615,12 @@
 			"description": "Crowd-sourced homework help via live chat.",
 			"tags": ["iOS Design", "Landing Page", "User Flow", "Style Guide"],
 			"image": {
-				"mosaic1": "/assets/images/img-project-mosaic-toct.jpg",
-				"mosaic2": "/assets/images/img-project-mosaic-toct@2.jpg 2x",
+				"banner": "/assets/images/img-project-banner-toct@2.jpg",
+				"hero": "/assets/images/img-project-hero-toct@2.jpg",
 				"mock1": "/assets/images/img-project-mock-toct.png",
 				"mock2": "/assets/images/img-project-mock-toct@2.png 2x",
-				"hero": "/assets/images/img-project-hero-toct@2.jpg",
-				"special": "/assets/images/img-project-special-toct@2.jpg"
+				"mosaic1": "/assets/images/img-project-mosaic-toct.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-toct@2.jpg 2x"
 			},
 			"parts": [
 				{
@@ -849,12 +849,12 @@
 			"description": "On-demand ordering from local restaurants & liquor stores.",
 			"tags": ["iOS Design", "Website Design", "Style Guide"],
 			"image": {
-				"mosaic1": "/assets/images/img-project-mosaic-deli.jpg",
-				"mosaic2": "/assets/images/img-project-mosaic-deli@2.jpg 2x",
+				"banner": "/assets/images/img-project-banner-deli@2.jpg",
+				"hero": "/assets/images/img-project-hero-deli@2.jpg",
 				"mock1": "/assets/images/img-project-mock-deli.png",
 				"mock2": "/assets/images/img-project-mock-deli@2.png 2x",
-				"hero": "/assets/images/img-project-hero-deli@2.jpg",
-				"special": "/assets/images/img-project-special-deli@2.jpg"
+				"mosaic1": "/assets/images/img-project-mosaic-deli.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-deli@2.jpg 2x"
 			},
 			"parts": [
 				{
@@ -1181,12 +1181,12 @@
 			"description": "Ordering & pairing suggestions for food and wine delivery.",
 			"tags": ["iOS Design", "Style Guide"],
 			"image": {
-				"mosaic1": "/assets/images/img-project-mosaic-dine.jpg",
-				"mosaic2": "/assets/images/img-project-mosaic-dine@2.jpg 2x",
+				"banner": "/assets/images/img-project-banner-dine@2.jpg",
+				"hero": "/assets/images/img-project-hero-dine@2.jpg",
 				"mock1": "/assets/images/img-project-mock-dine.png",
 				"mock2": "/assets/images/img-project-mock-dine@2.png 2x",
-				"hero": "/assets/images/img-project-hero-dine@2.jpg",
-				"special": "/assets/images/img-project-special-dine@2.jpg"
+				"mosaic1": "/assets/images/img-project-mosaic-dine.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-dine@2.jpg 2x"
 			},
 			"parts": [
 				{
@@ -1310,12 +1310,12 @@
 			"description": "Online art gallery.",
 			"tags": ["Website Design", "Front End"],
 			"image": {
-				"mosaic1": "/assets/images/img-project-mosaic-anne.jpg",
-				"mosaic2": "/assets/images/img-project-mosaic-anne@2.jpg 2x",
+				"banner": "/assets/images/img-project-banner-anne@2.jpg",
+				"hero": "/assets/images/img-project-hero-anne@2.jpg",
 				"mock1": "/assets/images/img-project-mock-anne.png",
 				"mock2": "/assets/images/img-project-mock-anne@2.png 2x",
-				"hero": "/assets/images/img-project-hero-anne@2.jpg",
-				"special": "/assets/images/img-project-special-anne@2.jpg"
+				"mosaic1": "/assets/images/img-project-mosaic-anne.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-anne@2.jpg 2x"
 			},
 			"parts": [
 				{
@@ -1375,12 +1375,12 @@
 				"Billboard Ad"
 			],
 			"image": {
-				"mosaic1": "/assets/images/img-project-mosaic-mark.jpg",
-				"mosaic2": "/assets/images/img-project-mosaic-mark@2.jpg 2x",
+				"banner": "",
+				"hero": "/assets/images/img-project-hero-mark@2.jpg",
 				"mock1": "/assets/images/img-project-mock-mark.png",
 				"mock2": "/assets/images/img-project-mock-mark@2.png 2x",
-				"hero": "/assets/images/img-project-hero-mark@2.jpg",
-				"special": ""
+				"mosaic1": "/assets/images/img-project-mosaic-mark.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-mark@2.jpg 2x"
 			},
 			"parts": [
 				{
@@ -1630,12 +1630,12 @@
 			"description": "Some of my personal photos.",
 			"tags": ["Photography"],
 			"image": {
-				"mosaic1": "/assets/images/img-project-mosaic-phot.jpg",
-				"mosaic2": "/assets/images/img-project-mosaic-phot@2.jpg 2x",
+				"banner": "",
+				"hero": "/assets/images/img-project-hero-phot@2.jpg",
 				"mock1": "/assets/images/img-project-mock-phot.png",
 				"mock2": "/assets/images/img-project-mock-phot@2.png 2x",
-				"hero": "/assets/images/img-project-hero-phot@2.jpg",
-				"special": ""
+				"mosaic1": "/assets/images/img-project-mosaic-phot.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-phot@2.jpg 2x"
 			},
 			"parts": [
 				{
@@ -1729,13 +1729,6 @@
 							"width": "800",
 							"height": "800",
 							"classType": "work-tablet"
-						},
-						{
-							"img1": "/assets/images/img-project-work-phot13.jpg",
-							"img2": "/assets/images/img-project-work-phot13@2.jpg 2x",
-							"width": "800",
-							"height": "800",
-							"classType": "work-tablet"
 						}
 					]
 				},
@@ -1811,8 +1804,8 @@
 				},
 				{
 					"id": "c",
-					"title": "Central America & The Caribeans",
-					"subtitle": "Cuba, Panama, Costa Rica",
+					"title": "Latin America",
+					"subtitle": "Cuba, Panama, Costa Rica, Chile, Brazil",
 					"works": [
 						{
 							"img1": "/assets/images/img-project-work-phot51.jpg",
@@ -1882,7 +1875,7 @@
 				{
 					"id": "d",
 					"title": "Europe",
-					"subtitle": "",
+					"subtitle": "France, Italy, Spain, Portugal",
 					"works": [
 						{
 							"img1": "/assets/images/img-project-work-phot71.jpg",
@@ -1896,7 +1889,7 @@
 				{
 					"id": "e",
 					"title": "Asia",
-					"subtitle": "",
+					"subtitle": "Mainland China, Hong Kong",
 					"works": [
 						{
 							"img1": "/assets/images/img-project-work-phot91.jpg",
@@ -1932,12 +1925,12 @@
 			"description": "Atomic Design, Vertical Rythme and Color Theory.",
 			"tags": ["Style Guide", "Website Design"],
 			"image": {
-				"mosaic1": "/assets/images/img-project-mosaic-styl.jpg",
-				"mosaic2": "/assets/images/img-project-mosaic-styl@2.jpg 2x",
+				"banner": "",
+				"hero": "",
 				"mock1": "",
 				"mock2": "",
-				"hero": "",
-				"special": ""
+				"mosaic1": "/assets/images/img-project-mosaic-styl.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-styl@2.jpg 2x"
 			}
 		},
 		"baselines": [
