@@ -39,7 +39,7 @@
 						v-on:mouseleave="headerDropdownClose()"
 					>
 						<router-link
-							to="/projects/"
+							to="/projects"
 							class="link link-dropdown"
 							v-bind:class="linkStyle"
 							activeClass="link-active"
