@@ -39,7 +39,7 @@
 						v-on:mouseleave="headerDropdownClose()"
 					>
 						<router-link
-							to="/projects"
+							to="/projects/"
 							class="link link-dropdown"
 							v-bind:class="linkStyle"
 							activeClass="link-active"
@@ -65,7 +65,7 @@
 								<li
 									v-for="project in data.projects"
 									v-bind:key="project.id"
-									v-on:click="dropdownClose()"
+									v-on:click="headerDropdownClose()"
 								>
 									<router-link
 										v-bind:to="'/projects/' + project.id"
