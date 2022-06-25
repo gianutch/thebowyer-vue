@@ -168,8 +168,9 @@
 
 <script>
 	export default {
+		// functions
 		methods: {
-			// triggered by created()
+			// @created()
 			// make nave sticky after 835px scroll
 			styleguidenavScrollBehavior() {
 				if (window.scrollY > 835) {
@@ -183,9 +184,11 @@
 				}
 			},
 		},
+		// do this at launch
 		created() {
 			window.addEventListener("scroll", this.styleguidenavScrollBehavior);
 		},
+		// stop this at launch
 		unmount() {
 			window.removeEventListener("scroll", this.styleguidenavScrollBehavior);
 		},

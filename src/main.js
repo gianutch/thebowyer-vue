@@ -52,7 +52,8 @@ const router = createRouter({
 			redirect: { name: "home" },
 		},
 	],
-	linkAciveClass: "active", //set the native vue-router class '.router-link-active' to just '.active'
+	// linkAciveClass: "link-active", //set the native vue-router class '.router-link-active' to just '.link-active'
+	linkExactActiveClass: "link-exact-active", //set the native vue-router class '.router-link-exact-active' to just '.link-exact-active'
 	scrollBehavior(to, from, savedPosition) {
 		console.log(to, from, savedPosition);
 		// if saved position exist, go back where you were

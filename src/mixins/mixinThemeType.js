@@ -1,14 +1,17 @@
-// help track what theme is active
-// useful for swatches in styleguide and home-experience
+// local mixin
+// help track what theme is active (useful for swatches in styleguide and home-experience)
 export default {
 	data() {
 		return {
+			// old method
 			// themeLight: false,
 			themeCurrent: "themeDark",
 		};
 	},
+	// functions
 	methods: {
-		//triggered by created()
+		// @created()
+		// old methode
 		// themeUpdate() {
 		// 	if (document.querySelector("#themelight").disabled === false) {
 		// 		this.themeLight === true;
@@ -16,6 +19,7 @@ export default {
 		// 		this.themeLight === false;
 		// 	}
 		// },
+		// @created()
 		themeUpdate() {
 			if (document.querySelector("#themelight").disabled === true) {
 				this.themeCurrent === "themeDark";
@@ -24,12 +28,12 @@ export default {
 			}
 		},
 	},
+	// do this at launch
 	created() {
-		// do this at launch
 		this.themeUpdate();
 	},
+	// do this if something changes
 	watch: {
-		// do this if something changes
 		// $route() {
 		// 	this.themeUpdate();
 		// },

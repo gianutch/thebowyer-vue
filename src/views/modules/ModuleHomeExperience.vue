@@ -13,16 +13,16 @@
 				>
 				or download my
 				<a
-					v-if="themeLight"
+					v-if="themeDark"
 					class="link link-external"
-					v-bind:href="data.website.file.resumeLight"
+					v-bind:href="data.website.file.resumeDark"
 					target="_blank"
 					>resume in PDF</a
 				>
 				<a
 					v-else
 					class="link link-external"
-					v-bind:href="data.website.file.resumeDark"
+					v-bind:href="data.website.file.resumeLight"
 					target="_blank"
 					>resume in PDF</a
 				>.
@@ -209,6 +209,7 @@
 			};
 		},
 		mixins: [mixinThemeType],
+		// functions
 		methods: {
 			// on:mouseover
 			headshotOver() {

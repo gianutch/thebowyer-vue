@@ -118,8 +118,9 @@
 		components: {
 			ModulePortfolio,
 		},
+		// functions
 		methods: {
-			// triggered by created()
+			// @created()
 			refreshProject() {
 				// to be able to use "this" page within the loop (bubble)
 				const self = this;
@@ -131,16 +132,17 @@
 				});
 			},
 		},
+		// do this at launch
 		created() {
-			// do this at launch
 			this.refreshProject();
 		},
+		// do this if something changes
 		watch: {
-			// do this if something changes
-			// $route: "refreshProject",
 			$route() {
 				this.refreshProject();
 			},
+			// OR alternatively can be written
+			// $route: "refreshProject",
 		},
 	};
 </script>

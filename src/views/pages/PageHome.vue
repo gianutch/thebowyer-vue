@@ -15,6 +15,7 @@
 
 			<!-- spiders -->
 			<canvas
+				v-if="windowWidth > 1000"
 				id="spiders"
 				class="overlay display-tablet display-laptop display-desktop"
 			></canvas>
@@ -92,6 +93,7 @@
 		data() {
 			return {
 				heroPath: Json.website.image.heroEarth,
+				windowWidth: window.innerWidth,
 			};
 		},
 		mixins: [mixinThemeType],
@@ -100,6 +102,7 @@
 			ModuleHomeExperience,
 			IconArrowdown,
 		},
+		// functions
 		methods: {
 			// on:click
 			smoothscrollToPortfolio() {

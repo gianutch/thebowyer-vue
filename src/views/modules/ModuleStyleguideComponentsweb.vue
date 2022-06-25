@@ -573,6 +573,7 @@
 			IconGael,
 			IconGlass,
 		},
+		// functions
 		methods: {
 			// on:click
 			// toggle .button-active

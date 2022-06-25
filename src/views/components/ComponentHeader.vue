@@ -121,7 +121,6 @@
 </template>
 
 <script>
-	import mixinHeaderScroll from "/src/mixins/mixinHeaderScroll.js";
 	import IconCaret from "/src/views/icons/IconCaret.vue";
 	import IconHome from "/src/views/icons/IconHome.vue";
 	import IconMoon from "/src/views/icons/IconMoon.vue";
@@ -129,7 +128,12 @@
 	import IconStyleguide from "/src/views/icons/IconStyleguide.vue";
 
 	export default {
-		mixins: [mixinHeaderScroll],
+		data() {
+			return {
+				// header bind class to li, data changes on scroll
+				linkStyle: "link-white",
+			};
+		},
 		components: {
 			IconCaret,
 			IconHome,
@@ -137,16 +141,49 @@
 			IconProjects,
 			IconStyleguide,
 		},
+		// functions
 		methods: {
-			//on:mouseover
+			// @created()
+			headerScrollBehavior() {
+				if (window.scrollY > 100) {
+					document
+						.querySelector("#header")
+						.classList.add("background-theme--opaque");
+					document
+						.querySelector("#header")
+						.classList.add("setting-shadow--soft");
+					document
+						.querySelector("#header-line")
+						.classList.remove("header-line");
+					document
+						.querySelector("#header-theme")
+						.classList.remove("button-special--header");
+					this.linkStyle = "link-base";
+				} else {
+					document
+						.querySelector("#header")
+						.classList.remove("background-theme--opaque");
+					document
+						.querySelector("#header")
+						.classList.remove("setting-shadow--soft");
+					document
+						.querySelector("#header-line")
+						.classList.add("header-line");
+					document
+						.querySelector("#header-theme")
+						.classList.add("button-special--header");
+					this.linkStyle = "link-white";
+				}
+			},
+			// on:mouseover
 			headerDropdownOpen() {
 				document.querySelector("#dropdown").style.display = "block";
 			},
-			//on:mouseleave
+			// on:mouseleave
 			headerDropdownClose() {
 				document.querySelector("#dropdown").style.display = "none";
 			},
-			//on:click
+			// on:click
 			headerThemeToggle() {
 				// toggle disabled attribute on #themelight stylesheet
 				document.querySelector("#themelight").toggleAttribute("disabled");
@@ -161,6 +198,14 @@
 						.classList.remove("button-active");
 				}
 			},
+		},
+		// do this at launch
+		created() {
+			window.addEventListener("scroll", this.headerScrollBehavior);
+		},
+		// stop this at launch
+		unmount() {
+			window.removeEventListener("scroll", this.headerScrollBehavior);
 		},
 	};
 </script>
