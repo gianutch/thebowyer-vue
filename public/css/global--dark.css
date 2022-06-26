@@ -396,7 +396,7 @@ th {
 /* VARIABLES ============================================================ */
 /* CLASSES GENERAL ============================================================ */
 .color-base {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .color-base--description {
@@ -404,11 +404,11 @@ th {
 }
 
 .color-danger {
-  color: #E65C5C;
+  color: #e65c5c;
 }
 
 .color-white {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .overlay {
@@ -422,12 +422,8 @@ th {
   max-height: 100%;
 }
 
-.background-theme--opaque {
+.background-theme--strong {
   background-color: rgba(12, 12, 12, 0.96);
-}
-
-.background-base--strong {
-  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .background-black {
@@ -454,7 +450,7 @@ th {
 /* BASE ============================================================ */
 html,
 body {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -541,12 +537,12 @@ a.link.link-mini {
 /* CLASSES ============================================================ */
 ::selection {
   color: #ffffff;
-  background: #D96C57;
+  background: #d96c57;
 }
 
 ::-moz-selection {
   color: #ffffff;
-  background: #D96C57;
+  background: #d96c57;
 }
 
 .text-secondary {
@@ -746,16 +742,6 @@ p {
 }
 
 /* LAYOUT ============================================================ */
-.section {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.subsection {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
 .container {
   width: 90%;
   position: relative;
@@ -780,6 +766,16 @@ p {
   content: "";
   display: table;
   clear: both;
+}
+
+.section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.subsection {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .column {
@@ -833,20 +829,20 @@ p {
   .display-phone {
     display: inline-block !important;
   }
+
+  .section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .subsection {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 @media (min-width: 500px) and (max-width: 999px) {
   .display-tablet {
     display: inline-block !important;
-  }
-
-  .section {
-    padding-top: 64px;
-    padding-bottom: 64px;
-  }
-
-  .subsection {
-    padding-top: 32px;
-    padding-bottom: 32px;
   }
 
   .container {
@@ -909,16 +905,6 @@ p {
 @media (min-width: 1000px) and (max-width: 1499px) {
   .display-laptop {
     display: inline-block !important;
-  }
-
-  .section {
-    padding-top: 64px;
-    padding-bottom: 64px;
-  }
-
-  .subsection {
-    padding-top: 32px;
-    padding-bottom: 32px;
   }
 
   .container {
@@ -990,16 +976,6 @@ p {
 @media (min-width: 1500px) {
   .display-desktop {
     display: inline-block !important;
-  }
-
-  .section {
-    padding-top: 64px;
-    padding-bottom: 64px;
-  }
-
-  .subsection {
-    padding-top: 32px;
-    padding-bottom: 32px;
   }
 
   .container {
@@ -1088,7 +1064,7 @@ p {
 html,
 body {
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #121212;
 }
 
@@ -1158,10 +1134,10 @@ code {
 
 /* CLASSES ============================================================ */
 code .variable {
-  color: #E65C5C;
+  color: #e65c5c;
 }
 code .class {
-  color: #5CACE6;
+  color: #5cace6;
 }
 code .comment {
   color: rgba(255, 255, 255, 0.64);
@@ -1211,7 +1187,7 @@ code .comment {
   width: 100%;
   margin: 0;
   top: 88px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 0;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -1293,67 +1269,67 @@ code .comment {
 
 /* STYLES ============================================================ */
 .button.button-primary--gradient {
-  background: #FF8066;
+  background: #ff8066;
   background-size: 200% 100%;
-  background-image: linear-gradient(to right, #FFE666, #FF6666, #FF9966, #FFB366);
+  background-image: linear-gradient(to right, #ffe666, #ff6666, #ff9966, #ffb366);
 }
 .button.button-primary--gradient:hover:enabled {
   background-position: 100% 0;
 }
 
 .button.button-primary {
-  background-color: #FF8066;
+  background-color: #ff8066;
 }
 .button.button-primary:hover:enabled {
-  background-color: #D96C57;
+  background-color: #d96c57;
 }
 
 .button.button-base {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.12);
 }
 .button.button-base:hover:enabled {
-  color: #D96C57;
+  color: #d96c57;
   background-color: rgba(255, 255, 255, 0.12);
 }
 .button.button-base:hover:enabled svg.icon path {
-  fill: #D96C57;
+  fill: #d96c57;
 }
 .button.button-base svg.icon path {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .button.button-primary--ghost {
-  color: #FF8066;
-  border: 1px solid #FF8066;
+  color: #ff8066;
+  border: 1px solid #ff8066;
   background-color: transparent;
 }
 .button.button-primary--ghost:hover:enabled {
-  color: #D96C57;
-  border: 1px solid #D96C57;
+  color: #d96c57;
+  border: 1px solid #d96c57;
 }
 .button.button-primary--ghost:hover:enabled svg.icon path {
-  fill: #D96C57;
+  fill: #d96c57;
 }
 .button.button-primary--ghost svg.icon path {
-  fill: #FF8066;
+  fill: #ff8066;
 }
 
 .button.button-base--ghost {
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   background-color: transparent;
 }
 .button.button-base--ghost:hover:enabled {
-  color: #D96C57;
-  border: 1px solid #D96C57;
+  color: #d96c57;
+  border: 1px solid #d96c57;
   background-color: rgba(255, 255, 255, 0.12);
 }
 .button.button-base--ghost:hover:enabled svg.icon path {
-  fill: #D96C57;
+  fill: #d96c57;
 }
 .button.button-base--ghost svg.icon path {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .button.button-white--ghost {
@@ -1362,26 +1338,26 @@ code .comment {
   background-color: transparent;
 }
 .button.button-white--ghost:hover:enabled {
-  color: #D96C57;
-  border: 1px solid #D96C57;
+  color: #d96c57;
+  border: 1px solid #d96c57;
   background-color: rgba(255, 255, 255, 0.12);
 }
 .button.button-white--ghost:hover:enabled svg.icon path {
-  fill: #D96C57;
+  fill: #d96c57;
 }
 
 .button.button-success {
-  background-color: #52CC8F;
+  background-color: #52cc8f;
 }
 .button.button-success:hover:enabled {
-  background-color: #42A674;
+  background-color: #42a674;
 }
 
 .button.button-danger {
-  background-color: #E65C5C;
+  background-color: #e65c5c;
 }
 .button.button-danger:hover:enabled {
-  background-color: #BF4D4D;
+  background-color: #bf4d4d;
 }
 
 /* SIZES ============================================================ */
@@ -1443,12 +1419,12 @@ code .comment {
 
 .button.button-active {
   color: white !important;
-  background-color: #FF8066 !important;
+  background-color: #ff8066 !important;
   border: 1px solid transparent;
 }
 .button.button-active:hover:enabled {
   color: white;
-  background-color: #D96C57 !important;
+  background-color: #d96c57 !important;
 }
 .button.button-active:hover:enabled svg.icon path {
   fill: white !important;
@@ -1480,36 +1456,36 @@ code .comment {
 /* link-style */
 .link.link-primary,
 .link.link-primary span {
-  color: #FF8066;
+  color: #ff8066;
 }
 .link.link-primary:hover,
 .link.link-primary span:hover {
-  color: #D96C57;
+  color: #d96c57;
 }
 .link.link-primary:hover svg.icon path,
 .link.link-primary span:hover svg.icon path {
-  fill: #D96C57;
+  fill: #d96c57;
 }
 .link.link-primary svg.icon path,
 .link.link-primary span svg.icon path {
-  fill: #FF8066;
+  fill: #ff8066;
 }
 
 .link.link-base,
 .link.link-base span {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .link.link-base:hover,
 .link.link-base span:hover {
-  color: #D96C57;
+  color: #d96c57;
 }
 .link.link-base:hover svg.icon path,
 .link.link-base span:hover svg.icon path {
-  fill: #D96C57;
+  fill: #d96c57;
 }
 .link.link-base svg.icon path,
 .link.link-base span svg.icon path {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .link.link-theme,
@@ -1518,11 +1494,11 @@ code .comment {
 }
 .link.link-theme:hover,
 .link.link-theme span:hover {
-  color: #D96C57;
+  color: #d96c57;
 }
 .link.link-theme:hover svg.icon path,
 .link.link-theme span:hover svg.icon path {
-  fill: #D96C57;
+  fill: #d96c57;
 }
 .link.link-theme svg.icon path,
 .link.link-theme span svg.icon path {
@@ -1535,11 +1511,11 @@ code .comment {
 }
 .link.link-white:hover,
 .link.link-white span:hover {
-  color: #D96C57;
+  color: #d96c57;
 }
 .link.link-white:hover svg.icon path,
 .link.link-white span:hover svg.icon path {
-  fill: #D96C57;
+  fill: #d96c57;
 }
 .link.link-white svg.icon path,
 .link.link-white span svg.icon path {
@@ -1548,36 +1524,36 @@ code .comment {
 
 .link.link-external,
 .link.link-external span {
-  color: #5CACE6;
+  color: #5cace6;
 }
 .link.link-external:hover,
 .link.link-external span:hover {
-  color: #4D8FBF;
+  color: #4d8fbf;
 }
 .link.link-external:hover svg.icon path,
 .link.link-external span:hover svg.icon path {
-  fill: #4D8FBF;
+  fill: #4d8fbf;
 }
 .link.link-external svg.icon path,
 .link.link-external span svg.icon path {
-  fill: #5CACE6;
+  fill: #5cace6;
 }
 
 .link.link-active,
 .link.link-active span {
-  color: #FF8066 !important;
+  color: #ff8066 !important;
 }
 .link.link-active:hover,
 .link.link-active span:hover {
-  color: #D96C57 !important;
+  color: #d96c57 !important;
 }
 .link.link-active:hover svg.icon path,
 .link.link-active span:hover svg.icon path {
-  fill: #D96C57 !important;
+  fill: #d96c57 !important;
 }
 .link.link-active svg.icon path,
 .link.link-active span svg.icon path {
-  fill: #FF8066 !important;
+  fill: #ff8066 !important;
 }
 
 /* RESET ============================================================ */
@@ -1603,7 +1579,7 @@ select,
 
 /* FIELDS ============================================================ */
 .field {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.12);
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
@@ -1619,10 +1595,10 @@ select,
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 .field:hover {
-  border: 1px solid #D96C57;
+  border: 1px solid #d96c57;
 }
 .field:focus {
-  border: 1px solid #FF8066;
+  border: 1px solid #ff8066;
 }
 .field:disabled {
   cursor: not-allowed;
@@ -1635,15 +1611,15 @@ select,
 }
 
 .field.field-error {
-  border: 1px solid #E65C5C;
+  border: 1px solid #e65c5c;
 }
 
 .field.field-error:hover {
-  border: 1px solid #E65C5C;
+  border: 1px solid #e65c5c;
 }
 
 .field.field-error:focus {
-  border: 1px solid #E65C5C;
+  border: 1px solid #e65c5c;
 }
 
 .field.field-inline {
@@ -1728,16 +1704,16 @@ label.checkbox {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 label.radio:hover,
 label.checkbox:hover {
-  color: #D96C57;
+  color: #d96c57;
   text-decoration: underline;
 }
 label.radio:hover span,
 label.checkbox:hover span {
-  border: 1px solid #D96C57;
+  border: 1px solid #d96c57;
 }
 label.radio input,
 label.checkbox input {
@@ -1790,7 +1766,7 @@ label.radio span:after {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #FF8066;
+  background: #ff8066;
 }
 
 label.checkbox span {
@@ -1804,7 +1780,7 @@ label.checkbox span:after {
   left: 11px;
   width: 7px;
   height: 14px;
-  border: solid #FF8066;
+  border: solid #ff8066;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -1884,11 +1860,11 @@ svg.icon:active {
 
 /* STYLES ============================================================ */
 svg.icon.icon-primary path {
-  fill: #FF8066;
+  fill: #ff8066;
 }
 
 svg.icon.icon-base path {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 svg.icon.icon-theme path {
@@ -1935,7 +1911,7 @@ nav ul.nav-horizontal li button {
 }
 nav ul.nav-horizontal li.nav-dropdown:hover .link-dropdown,
 nav ul.nav-horizontal li.nav-dropdown:hover .link-dropdown span {
-  color: #D96C57;
+  color: #d96c57;
   text-decoration: none;
 }
 nav ul.nav-horizontal ul.nav-dropdown-content {
@@ -2030,7 +2006,7 @@ nav ul.nav-small li svg.icon.icon-mini {
   padding: 8px 16px;
   border-radius: 4px;
   color: #121212;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   position: absolute;
   z-index: 1;
   bottom: 125%;
@@ -2045,7 +2021,7 @@ nav ul.nav-small li svg.icon.icon-mini {
   margin-left: -7px;
   border-width: 7px;
   border-style: solid;
-  border-color: #FFFFFF transparent transparent transparent;
+  border-color: #ffffff transparent transparent transparent;
 }
 
 .tooltip:hover .tooltip-text {
@@ -2080,7 +2056,7 @@ header #header-theme.button-base.button-special--header {
   background-color: rgba(255, 255, 255, 0.12);
 }
 header #header-theme.button-base.button-special--header:hover svg.icon path {
-  fill: #D96C57;
+  fill: #d96c57;
 }
 header #header-theme.button-base.button-special--header svg.icon path {
   fill: white;
@@ -2120,7 +2096,7 @@ header .header-line {
 
 footer {
   color: #121212;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -2156,7 +2132,7 @@ footer h5 {
   transition: all 0.3s ease-in-out;
 }
 .mosaic figure:hover canvas.overlay {
-  background-color: #FF8066;
+  background-color: #ff8066;
   opacity: 0.8;
 }
 .mosaic figure .mosaic-title {
@@ -2270,7 +2246,7 @@ footer h5 {
 }
 #home-experience .timeline .timeline-card--right:hover h3,
 #home-experience .timeline .timeline-card--left:hover h3 {
-  color: #FF8066;
+  color: #ff8066;
 }
 
 /* RESPONSIVE ============================================================ */
@@ -2305,13 +2281,13 @@ footer h5 {
     top: 40px;
     left: -70px;
     position: absolute;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 1000px;
     transition: all 0.3s ease-in-out;
   }
   #home-experience .timeline .timeline-card--right:hover::before {
     left: -58px;
-    background-color: #FF8066;
+    background-color: #ff8066;
   }
   #home-experience .timeline .timeline-card--right::after {
     content: "";
@@ -2347,13 +2323,13 @@ footer h5 {
     top: 40px;
     right: -70px;
     position: absolute;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 1000px;
     transition: all 0.3s ease-in-out;
   }
   #home-experience .timeline .timeline-card--left:hover::before {
     right: -58px;
-    background-color: #FF8066;
+    background-color: #ff8066;
   }
   #home-experience .timeline .timeline-card--left::after {
     content: "";
@@ -2373,7 +2349,7 @@ footer h5 {
     width: 6px;
     height: 6px;
     border-radius: 6px;
-    background: #FFFFFF;
+    background: #ffffff;
     margin: 32px auto 0 auto;
   }
 }
@@ -2580,7 +2556,7 @@ footer h5 {
   border-radius: 4px;
 }
 #styleguide .swatch .swatch-color {
-  background-color: #FF8066;
+  background-color: #ff8066;
   width: 128px;
   height: 128px;
   display: block;

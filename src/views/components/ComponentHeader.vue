@@ -148,7 +148,7 @@
 				if (window.scrollY > 100) {
 					document
 						.querySelector("#header")
-						.classList.add("background-theme--opaque");
+						.classList.add("background-theme--strong");
 					document
 						.querySelector("#header")
 						.classList.add("setting-shadow--soft");
@@ -162,7 +162,7 @@
 				} else {
 					document
 						.querySelector("#header")
-						.classList.remove("background-theme--opaque");
+						.classList.remove("background-theme--strong");
 					document
 						.querySelector("#header")
 						.classList.remove("setting-shadow--soft");

@@ -1,5 +1,5 @@
 <template>
-	<div id="styleguide-elements" class="section section-first">
+	<div id="styleguide-elements" class="section">
 		<h1 class="align-center">Elements</h1>
 
 		<!-- ATOMIC -->
@@ -487,21 +487,12 @@
 						</div>
 					</li>
 					<li class="swatch setting-shadow--motion">
-						<div class="swatch-color" style="opacity: 0.8">
+						<div class="swatch-color" style="opacity: 0.96">
 							<h5>$setting-opacity--strong</h5>
 						</div>
 						<div class="swatch-info">
-							<h6>α(0.80)</h6>
-							<h6>overlay</h6>
-						</div>
-					</li>
-					<li class="swatch setting-shadow--motion">
-						<div class="swatch-color" style="opacity: 0.96">
-							<h5>$setting-opacity--opaque</h5>
-						</div>
-						<div class="swatch-info">
 							<h6>α(0.96)</h6>
-							<h6>notifications</h6>
+							<h6>header & alerts backgound</h6>
 						</div>
 					</li>
 				</ul>

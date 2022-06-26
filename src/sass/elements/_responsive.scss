@@ -3,7 +3,8 @@
 // phone (0 - 499) / tablet (500-999) / laptop (1000-1499) / desktop (1500+)
 // max width img = 2000*0.9 = 1800px
 // display-block, display-inline, display-inline-block, display-none, display-phone (inline-block)
-// .container / .container-full / .section, .subsection
+// .container / .container-full
+// .section (32px), .subsection (16px)
 // .one-fourth-phone .column / .fluid .column (auto 1 phone, 1/2 tablet, 1/3 laptop, 1/4 desktop)
 
 /*  ============================================================ */
@@ -44,15 +45,6 @@ p {
 }
 
 /* LAYOUT ============================================================ */
-.section {
-	padding-top: $b32;
-	padding-bottom: $b32;
-}
-.subsection {
-	padding-top: $b16;
-	padding-bottom: $b16;
-}
-
 .container {
 	width: 90%;
 	position: relative;
@@ -75,6 +67,15 @@ p {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+.section {
+	padding-top: $b64;
+	padding-bottom: $b64;
+}
+.subsection {
+	padding-top: $b32;
+	padding-bottom: $b32;
 }
 
 .column {
@@ -130,6 +131,16 @@ p {
 	.display-phone {
 		display: inline-block !important;
 	}
+
+	// layout
+	.section {
+		padding-top: $b32;
+		padding-bottom: $b32;
+	}
+	.subsection {
+		padding-top: $b16;
+		padding-bottom: $b16;
+	}
 }
 
 // tablet only
@@ -140,15 +151,6 @@ p {
 	}
 
 	// layout
-	.section {
-		padding-top: $b64;
-		padding-bottom: $b64;
-	}
-	.subsection {
-		padding-top: $b32;
-		padding-bottom: $b32;
-	}
-
 	.container {
 		width: 85%;
 	}
@@ -215,15 +217,6 @@ p {
 	}
 
 	// layout
-	.section {
-		padding-top: $b64;
-		padding-bottom: $b64;
-	}
-	.subsection {
-		padding-top: $b32;
-		padding-bottom: $b32;
-	}
-
 	.container {
 		width: 85%;
 	}
@@ -299,15 +292,6 @@ p {
 	}
 
 	// layout
-	.section {
-		padding-top: $b64;
-		padding-bottom: $b64;
-	}
-	.subsection {
-		padding-top: $b32;
-		padding-bottom: $b32;
-	}
-
 	.container {
 		width: 80%;
 	}

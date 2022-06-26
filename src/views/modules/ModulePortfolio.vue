@@ -1,6 +1,6 @@
 <template>
-	<div id="portfolio" class="portfolio section section-first section-last">
-		<div class="container">
+	<div id="portfolio" class="portfolio">
+		<div class="container section">
 			<h2 class="align-center">Portfolio</h2>
 			<p class="align-center">
 				A preview of the different projects I have worked on.

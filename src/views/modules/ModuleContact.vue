@@ -1,6 +1,6 @@
 <template>
-	<div id="contact" class="section section-first section-last">
-		<div class="container">
+	<div id="contact">
+		<div class="container section">
 			<h2 class="align-center">Contact</h2>
 			<p class="align-center">
 				You can contact me on

@@ -1,6 +1,6 @@
 <template>
-	<div id="home-experience" class="section section-first section-last">
-		<div class="container">
+	<div id="home-experience">
+		<div class="container section">
 			<h2 class="align-center">Experience</h2>
 			<p class="align-center">
 				A list of the different companies I have worked at.

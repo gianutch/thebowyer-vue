@@ -262,13 +262,402 @@
 			"tags": []
 		}
 	],
+	"styleguide": {
+		"project": {
+			"id": "styleguide",
+			"title": "Style Guide",
+			"url": "",
+			"description": "Atomic Design, Vertical Rythme and Color Theory.",
+			"tags": ["Style Guide", "Website Design", "iOS Design"],
+			"image": {
+				"banner": "",
+				"hero": "",
+				"mock1": "",
+				"mock2": "",
+				"mosaic1": "/assets/images/img-project-mosaic-styl.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-styl@2.jpg 2x"
+			}
+		},
+		"baselines": [
+			{
+				"id": 4
+			},
+			{
+				"id": 8
+			},
+			{
+				"id": 16
+			},
+			{
+				"id": 24
+			},
+			{
+				"id": 32
+			},
+			{
+				"id": 48
+			},
+			{
+				"id": 56
+			},
+			{
+				"id": 64
+			},
+			{
+				"id": 80
+			},
+			{
+				"id": 96
+			},
+			{
+				"id": 128
+			},
+			{
+				"id": 192
+			}
+		],
+		"colors": {
+			"dark": {
+				"colorPrimaries": [
+					{
+						"id": "color-primary",
+						"hex": "#FF8066",
+						"hsb": "HSB(10,60,100)",
+						"role": "primary action, link"
+					},
+					{
+						"id": "color-primary--hover",
+						"hex": "#D96C57",
+						"hsb": "HSB(10,60,85)",
+						"role": "primary hover"
+					}
+				],
+				"colorPrimaryGradients": {
+					"id": "color-primary--gradient",
+					"hex": "135deg,#FFE666,#FF6666",
+					"hsb": "HSB(50,60,100) to HSB(360,60,100)",
+					"role": "primary gradient"
+				},
+				"colorPrimaryShades": [
+					{
+						"id": "color-primary--shade1",
+						"hex": "#FFE666",
+						"hsb": "HSB(50,60,100)",
+						"role": "primary shade 1"
+					},
+					{
+						"id": "color-primary--shade2",
+						"hex": "#FFCC66",
+						"hsb": "HSB(40,60,100)",
+						"role": "primary shade 2"
+					},
+					{
+						"id": "color-primary--shade3",
+						"hex": "#FFB366",
+						"hsb": "HSB(30,60,100)",
+						"role": "primary shade 3"
+					},
+					{
+						"id": "color-primary--shade4",
+						"hex": "#FF9966",
+						"hsb": "HSB(20,60,100)",
+						"role": "primary shade 4"
+					},
+					{
+						"id": "color-primary--shade5",
+						"hex": "#FF8066",
+						"hsb": "HSB(10,60,100)",
+						"role": "primary shade 5"
+					},
+					{
+						"id": "color-primary--shade6",
+						"hex": "#FF6666",
+						"hsb": "HSB(360,60,100)",
+						"role": "primary shade 6"
+					}
+				],
+				"colorBases": [
+					{
+						"id": "color-base",
+						"hex": "#FFFFFF",
+						"rgba": "rgba(255,255,255,1)",
+						"role": "primary text, action"
+					},
+					{
+						"id": "color-base--description",
+						"hex": "#FFFFFF α(0.64)",
+						"rgba": "rgba(255,255,255,0.64)",
+						"role": "secondary text, no action"
+					},
+					{
+						"id": "color-base--background",
+						"hex": "#FFFFFF α(0.12)",
+						"rgba": "rgba(255,255,255,0.12)",
+						"role": "component background, strokes"
+					},
+					{
+						"id": "color-theme",
+						"hex": "#121212",
+						"rgba": "rgba(12,12,12,1)",
+						"role": "general background"
+					},
+					{
+						"id": "color-theme--opaque",
+						"hex": "#121212 α(0.96)",
+						"rgba": "rgba(12,12,12,0.96)",
+						"role": "header & alerts background"
+					}
+				],
+				"colorMessages": [
+					{
+						"id": "color-success",
+						"hex": "#52CC8F",
+						"hsb": "HSB(150,60,80)",
+						"role": "success"
+					},
+					{
+						"id": "color-success--hover",
+						"hex": "#42A674",
+						"hsb": "HSB(150,60,65)",
+						"role": "success hover"
+					},
+					{
+						"id": "color-danger",
+						"hex": "#E65C5C",
+						"hsb": "HSB(360,60,90)",
+						"role": "danger"
+					},
+					{
+						"id": "color-danger--hover",
+						"hex": "#BF4D4D",
+						"hsb": "HSB(360,60,75)",
+						"role": "danger hover"
+					},
+					{
+						"id": "color-info",
+						"hex": "#5CACE6",
+						"hsb": "HSB(205,60,90)",
+						"role": "info"
+					},
+					{
+						"id": "color-info--hover",
+						"hex": "#4D8FBF",
+						"hsb": "HSB(205,60,75)",
+						"role": "info hover"
+					}
+				]
+			},
+			"light": {
+				"colorPrimaries": [
+					{
+						"id": "color-primary",
+						"hex": "#9966FF",
+						"hsb": "HSB(260,60,100)",
+						"role": "primary action, link"
+					},
+					{
+						"id": "color-primary--hover",
+						"hex": "#8257D9",
+						"hsb": "HSB(260,60,85)",
+						"role": "primary hover"
+					}
+				],
+				"colorPrimaryGradients": {
+					"id": "color-primary--gradient",
+					"hex": "135deg,#6699FF,#B366FF",
+					"hsb": "HSB(220,60,100) to HSB(270,60,100)",
+					"role": "primary gradient"
+				},
+
+				"colorPrimaryShades": [
+					{
+						"id": "color-primary--shade1",
+						"hex": "#6699FF",
+						"hsb": "HSB(220,60,100)",
+						"role": "primary shade 1"
+					},
+					{
+						"id": "color-primary--shade2",
+						"hex": "#6680FF",
+						"hsb": "HSB(230,60,100)",
+						"role": "primary shade 2"
+					},
+					{
+						"id": "color-primary--shade3",
+						"hex": "#6666FF",
+						"hsb": "HSB(240,60,100)",
+						"role": "primary shade 3"
+					},
+					{
+						"id": "color-primary--shade4",
+						"hex": "#7F66FF",
+						"hsb": "HSB(250,60,100)",
+						"role": "primary shade 4"
+					},
+					{
+						"id": "color-primary--shade5",
+						"hex": "#9966FF",
+						"hsb": "HSB(260,60,100)",
+						"role": "primary shade 5"
+					},
+					{
+						"id": "color-primary--shade6",
+						"hex": "#B366FF",
+						"hsb": "HSB(270,60,100)",
+						"role": "primary shade 6"
+					}
+				],
+
+				"colorBases": [
+					{
+						"id": "color-base",
+						"hex": "#555555",
+						"rgba": "rgba(85,85,85,1)",
+						"role": "primary text, action"
+					},
+					{
+						"id": "color-base--description",
+						"hex": "#555555 α(0.64)",
+						"rgba": "rgba(85,85,85,0.64)",
+						"role": "secondary text, no action"
+					},
+					{
+						"id": "color-base--background",
+						"hex": "#555555 α(0.12)",
+						"rgba": "rgba(85,85,85,0.12)",
+						"role": "component background, strokes"
+					},
+					{
+						"id": "color-theme",
+						"hex": "#FFFFFF",
+						"rgba": "rgba(255,255,255,1)",
+						"role": "general background"
+					},
+					{
+						"id": "color-theme--opaque",
+						"hex": "#FFFFFF α(0.96)",
+						"rgba": "rgba(255,255,255,0.96)",
+						"role": "header & alerts background"
+					}
+				],
+				"colorMessages": [
+					{
+						"id": "color-success",
+						"hex": "#52CC8F",
+						"hsb": "HSB(150,60,80)",
+						"role": "success"
+					},
+					{
+						"id": "color-success--hover",
+						"hex": "#42A674",
+						"hsb": "HSB(150,60,65)",
+						"role": "success hover"
+					},
+					{
+						"id": "color-danger",
+						"hex": "#E65C5C",
+						"hsb": "HSB(360,60,90)",
+						"role": "danger"
+					},
+					{
+						"id": "color-danger--hover",
+						"hex": "#BF4D4D",
+						"hsb": "HSB(360,60,75)",
+						"role": "danger hover"
+					},
+					{
+						"id": "color-info",
+						"hex": "#5CACE6",
+						"hsb": "HSB(205,60,90)",
+						"role": "info"
+					},
+					{
+						"id": "color-info--hover",
+						"hex": "#4D8FBF",
+						"hsb": "HSB(205,60,75)",
+						"role": "info hover"
+					}
+				]
+			}
+		},
+		"texts": [
+			{
+				"id": "h1",
+				"title": "Page Title",
+				"family": "Source Sans Pro",
+				"weight": "Regular",
+				"color": "color-base",
+				"size": 60,
+				"height": 80
+			},
+			{
+				"id": "h2",
+				"title": "Section Title",
+				"family": "Source Sans Pro",
+				"weight": "Regular",
+				"color": "color-base",
+				"size": 50,
+				"height": 64
+			},
+			{
+				"id": "h3",
+				"title": "Subsection Title",
+				"family": "Source Sans Pro",
+				"weight": "Regular",
+				"color": "color-base",
+				"size": 40,
+				"height": 48
+			},
+			{
+				"id": "p",
+				"title": "Text",
+				"family": "Source Sans Pro",
+				"weight": "Regular, Bold",
+				"color": "color-base, color-base--description",
+				"size": 20,
+				"height": 32
+			},
+			{
+				"id": "h5",
+				"title": "Description",
+				"family": "Source Sans Pro",
+				"weight": "Regular, Bold",
+				"color": "color-base, color-base--description",
+				"size": 16,
+				"height": 24
+			},
+			{
+				"id": "h6",
+				"title": "Legal",
+				"family": "Source Sans Pro",
+				"weight": "Regular, Bold",
+				"color": "color-base, color-base--description",
+				"size": 12,
+				"height": 16
+			},
+			{
+				"id": "code",
+				"title": "Code",
+				"family": "Courrier",
+				"weight": "Regular",
+				"color": "color-base, color-base--description",
+				"size": 16,
+				"height": 24
+			}
+		],
+		"settings": [
+			{
+				"id": "?"
+			}
+		]
+	},
 	"projects": [
 		{
 			"id": "sovereignify",
 			"title": "Sovereignify",
 			"url": "",
 			"description": "Decentralized exchange for cryptocurrencies.",
-			"tags": ["Web App Design", "iOS Design"],
+			"tags": ["Web App Design", "iOS Design", "Logo Design"],
 			"image": {
 				"banner": "",
 				"hero": "/assets/images/img-project-hero-sove@2.jpg",
@@ -355,7 +744,13 @@
 			"title": "Coaching 360",
 			"url": "",
 			"description": "Virtual coach for crossfit workouts.",
-			"tags": ["iOS Design", "Style Guide", "Website Design"],
+			"tags": [
+				"iOS Design",
+				"Style Guide",
+				"Website Design",
+				"User Flow",
+				"Logo Design"
+			],
 			"image": {
 				"banner": "/assets/images/img-project-banner-coac@2.jpg",
 				"hero": "/assets/images/img-project-hero-coac@2.jpg",
@@ -613,7 +1008,13 @@
 			"title": "Toc Toc Prof",
 			"url": "",
 			"description": "Crowd-sourced homework help via live chat.",
-			"tags": ["iOS Design", "Landing Page", "User Flow", "Style Guide"],
+			"tags": [
+				"iOS Design",
+				"Landing Page",
+				"Style Guide",
+				"User Flow",
+				"Logo Design"
+			],
 			"image": {
 				"banner": "/assets/images/img-project-banner-toct@2.jpg",
 				"hero": "/assets/images/img-project-hero-toct@2.jpg",
@@ -847,7 +1248,7 @@
 			"title": "Delivery.com",
 			"url": "https://www.delivery.com",
 			"description": "On-demand ordering from local restaurants & liquor stores.",
-			"tags": ["iOS Design", "Website Design", "Style Guide"],
+			"tags": ["iOS Design", "Website Design", "Style Guide", "User Flow"],
 			"image": {
 				"banner": "/assets/images/img-project-banner-deli@2.jpg",
 				"hero": "/assets/images/img-project-hero-deli@2.jpg",
@@ -1125,7 +1526,7 @@
 				},
 				{
 					"id": "c",
-					"title": "Web App & Style Guide",
+					"title": "Web App",
 					"subtitle": "",
 					"works": [
 						{
@@ -1162,7 +1563,14 @@
 							"width": "768",
 							"height": "1024",
 							"classType": "work-tablet"
-						},
+						}
+					]
+				},
+				{
+					"id": "d",
+					"title": "Style Guide",
+					"subtitle": "",
+					"works": [
 						{
 							"img1": "/assets/images/img-project-work-deli57.jpg",
 							"img2": "/assets/images/img-project-work-deli57@2.jpg 2x",
@@ -1304,10 +1712,10 @@
 			]
 		},
 		{
-			"id": "lagaleriedanne",
-			"title": "La galerie d'Anne",
+			"id": "annesgallery",
+			"title": "Anne's Gallery",
 			"url": "",
-			"description": "Online art gallery.",
+			"description": "Virtual exhibition.",
 			"tags": ["Website Design", "Front End"],
 			"image": {
 				"banner": "/assets/images/img-project-banner-anne@2.jpg",
@@ -1357,6 +1765,247 @@
 							"width": "750",
 							"height": "1624",
 							"classType": "work-phone"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "olderprojects",
+			"title": "Older Projects",
+			"url": "",
+			"description": "",
+			"tags": ["Web Design", "Front End"],
+			"image": {
+				"banner": "",
+				"hero": "/assets/images/img-project-hero-dayo@2.jpg",
+				"mock1": "/assets/images/img-project-mock-dayo.png",
+				"mock2": "/assets/images/img-project-mock-dayo@2.png 2x",
+				"mosaic1": "/assets/images/img-project-mosaic-dayo.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-dayo@2.jpg 2x"
+			},
+			"parts": [
+				{
+					"id": "dayone",
+					"title": "Day One",
+					"subtitle": "Strategic, digital and organizational challenges for Legal & Compliance.",
+					"works": [
+						{
+							"img1": "/assets/images/img-project-work-dayo01.jpg",
+							"img2": "/assets/images/img-project-work-dayo01@2.jpg 2x",
+							"width": "970",
+							"height": "832",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo02.jpg",
+							"img2": "/assets/images/img-project-work-dayo02@2.jpg 2x",
+							"width": "970",
+							"height": "902",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo03.jpg",
+							"img2": "/assets/images/img-project-work-dayo03@2.jpg 2x",
+							"width": "970",
+							"height": "1160",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo04.jpg",
+							"img2": "/assets/images/img-project-work-dayo04@2.jpg 2x",
+							"width": "970",
+							"height": "856",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo05.jpg",
+							"img2": "/assets/images/img-project-work-dayo05@2.jpg 2x",
+							"width": "970",
+							"height": "832",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo06@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo07@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo08@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						}
+					]
+				},
+				{
+					"id": "sionlaw",
+					"title": "Sion & Associates",
+					"subtitle": "Attorneys at Law. Concentrating on Workers' Compensation Defense.",
+					"works": [
+						{
+							"img1": "/assets/images/img-project-work-sion01.jpg",
+							"img2": "/assets/images/img-project-work-sion01@2.jpg 2x",
+							"width": "1200",
+							"height": "5688",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sion02@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sion03@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sion04@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sion05.jpg",
+							"img2": "/assets/images/img-project-work-sion05@2.jpg 2x",
+							"width": "1200",
+							"height": "7015",
+							"classType": "work-desktop"
+						}
+					]
+				},
+				{
+					"id": "portfolio2016",
+					"title": "My 2016 Portfolio",
+					"subtitle": "",
+					"works": [
+						{
+							"img1": "/assets/images/img-project-work-po1601.jpg",
+							"img2": "/assets/images/img-project-work-po1601@2.jpg 2x",
+							"width": "1200",
+							"height": "7000",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1602.jpg",
+							"img2": "/assets/images/img-project-work-po1602@2.jpg 2x",
+							"width": "1200",
+							"height": "3457",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1603.jpg",
+							"img2": "/assets/images/img-project-work-po1603@2.jpg 2x",
+							"width": "1200",
+							"height": "932",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1604.jpg",
+							"img2": "/assets/images/img-project-work-po1604@2.jpg 2x",
+							"width": "1200",
+							"height": "932",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1605@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1606@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1607@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1608@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1609@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1610.jpg",
+							"img2": "/assets/images/img-project-work-po1610@2.jpg 2x",
+							"width": "1200",
+							"height": "800",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1611@2.jpg",
+							"img2": "",
+							"width": "400",
+							"height": "262",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1612@2.jpg",
+							"img2": "",
+							"width": "400",
+							"height": "262",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1613@2.jpg",
+							"img2": "",
+							"width": "400",
+							"height": "262",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1614.jpg",
+							"img2": "/assets/images/img-project-work-po1614@2.jpg 2x",
+							"width": "1200",
+							"height": "7783",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1615.jpg",
+							"img2": "/assets/images/img-project-work-po1615@2.jpg 2x",
+							"width": "1200",
+							"height": "10520",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1616.jpg",
+							"img2": "/assets/images/img-project-work-po1616@2.jpg 2x",
+							"width": "1200",
+							"height": "6739",
+							"classType": "work-desktop"
 						}
 					]
 				}
@@ -1917,393 +2566,281 @@
 			]
 		}
 	],
-	"styleguide": {
-		"project": {
-			"id": "styleguide",
-			"title": "Style Guide",
+	"projectsnotshown": [
+		{
+			"id": "dayone",
+			"title": "Day One",
 			"url": "",
-			"description": "Atomic Design, Vertical Rythme and Color Theory.",
-			"tags": ["Style Guide", "Website Design"],
+			"description": "Strategic, digital and organizational challenges for Legal & Compliance.",
+			"tags": ["Web Design", "Front End", "Style Guide"],
 			"image": {
 				"banner": "",
-				"hero": "",
-				"mock1": "",
-				"mock2": "",
-				"mosaic1": "/assets/images/img-project-mosaic-styl.jpg",
-				"mosaic2": "/assets/images/img-project-mosaic-styl@2.jpg 2x"
-			}
+				"hero": "/assets/images/img-project-hero-dayo@2.jpg",
+				"mock1": "/assets/images/img-project-mock-dayo.png",
+				"mock2": "/assets/images/img-project-mock-dayo@2.png 2x",
+				"mosaic1": "/assets/images/img-project-mosaic-dayo.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-dayo@2.jpg 2x"
+			},
+			"parts": [
+				{
+					"id": "a",
+					"title": "a",
+					"subtitle": "",
+					"works": [
+						{
+							"img1": "/assets/images/img-project-work-dayo01.jpg",
+							"img2": "/assets/images/img-project-work-dayo01@2.jpg 2x",
+							"width": "970",
+							"height": "832",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo02.jpg",
+							"img2": "/assets/images/img-project-work-dayo02@2.jpg 2x",
+							"width": "970",
+							"height": "902",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo03.jpg",
+							"img2": "/assets/images/img-project-work-dayo03@2.jpg 2x",
+							"width": "970",
+							"height": "1160",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo04.jpg",
+							"img2": "/assets/images/img-project-work-dayo04@2.jpg 2x",
+							"width": "970",
+							"height": "856",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo05.jpg",
+							"img2": "/assets/images/img-project-work-dayo05@2.jpg 2x",
+							"width": "970",
+							"height": "832",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo06@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo07@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-dayo08@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						}
+					]
+				}
+			]
 		},
-		"baselines": [
-			{
-				"id": 4
+		{
+			"id": "sionlaw",
+			"title": "Sion & Associates",
+			"url": "",
+			"description": "Attorneys at Law. Concentrating on Workers' Compensation Defense.",
+			"tags": ["Web Design", "Front End", "Style Guide"],
+			"image": {
+				"banner": "",
+				"hero": "/assets/images/img-project-hero-sion@2.jpg",
+				"mock1": "/assets/images/img-project-mock-sion.png",
+				"mock2": "/assets/images/img-project-mock-sion@2.png 2x",
+				"mosaic1": "/assets/images/img-project-mosaic-sion.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-sion@2.jpg 2x"
 			},
-			{
-				"id": 8
-			},
-			{
-				"id": 16
-			},
-			{
-				"id": 24
-			},
-			{
-				"id": 32
-			},
-			{
-				"id": 48
-			},
-			{
-				"id": 56
-			},
-			{
-				"id": 64
-			},
-			{
-				"id": 80
-			},
-			{
-				"id": 96
-			},
-			{
-				"id": 128
-			},
-			{
-				"id": 192
-			}
-		],
-		"colors": {
-			"dark": {
-				"colorPrimaries": [
-					{
-						"id": "color-primary",
-						"hex": "#FF8066",
-						"hsb": "HSB(10,60,100)",
-						"role": "primary action, link"
-					},
-					{
-						"id": "color-primary--hover",
-						"hex": "#D96C57",
-						"hsb": "HSB(10,60,85)",
-						"role": "primary hover"
-					}
-				],
-				"colorPrimaryGradients": {
-					"id": "color-primary--gradient",
-					"hex": "135deg,#FFE666,#FF6666",
-					"hsb": "HSB(50,60,100) to HSB(360,60,100)",
-					"role": "primary gradient"
-				},
-				"colorPrimaryShades": [
-					{
-						"id": "color-primary--shade1",
-						"hex": "#FFE666",
-						"hsb": "HSB(50,60,100)",
-						"role": "primary shade 1"
-					},
-					{
-						"id": "color-primary--shade2",
-						"hex": "#FFCC66",
-						"hsb": "HSB(40,60,100)",
-						"role": "primary shade 2"
-					},
-					{
-						"id": "color-primary--shade3",
-						"hex": "#FFB366",
-						"hsb": "HSB(30,60,100)",
-						"role": "primary shade 3"
-					},
-					{
-						"id": "color-primary--shade4",
-						"hex": "#FF9966",
-						"hsb": "HSB(20,60,100)",
-						"role": "primary shade 4"
-					},
-					{
-						"id": "color-primary--shade5",
-						"hex": "#FF8066",
-						"hsb": "HSB(10,60,100)",
-						"role": "primary shade 5"
-					},
-					{
-						"id": "color-primary--shade6",
-						"hex": "#FF6666",
-						"hsb": "HSB(360,60,100)",
-						"role": "primary shade 6"
-					}
-				],
-				"colorBases": [
-					{
-						"id": "color-base",
-						"hex": "#FFFFFF",
-						"rgba": "rgba(255,255,255,1)",
-						"role": "primary text, action"
-					},
-					{
-						"id": "color-base--description",
-						"hex": "#FFFFFF α(0.64)",
-						"rgba": "rgba(255,255,255,0.64)",
-						"role": "secondary text, no action"
-					},
-					{
-						"id": "color-base--background",
-						"hex": "#FFFFFF α(0.12)",
-						"rgba": "rgba(255,255,255,0.12)",
-						"role": "component background, strokes"
-					},
-					{
-						"id": "color-theme",
-						"hex": "#121212",
-						"rgba": "rgba(12,12,12,1)",
-						"role": "general background"
-					},
-					{
-						"id": "color-theme--opaque",
-						"hex": "#121212 α(0.96)",
-						"rgba": "rgba(12,12,12,0.96)",
-						"role": "header background"
-					}
-				],
-				"colorMessages": [
-					{
-						"id": "color-success",
-						"hex": "#52CC8F",
-						"hsb": "HSB(150,60,80)",
-						"role": "success"
-					},
-					{
-						"id": "color-success--hover",
-						"hex": "#42A674",
-						"hsb": "HSB(150,60,65)",
-						"role": "success hover"
-					},
-					{
-						"id": "color-danger",
-						"hex": "#E65C5C",
-						"hsb": "HSB(360,60,90)",
-						"role": "danger"
-					},
-					{
-						"id": "color-danger--hover",
-						"hex": "#BF4D4D",
-						"hsb": "HSB(360,60,75)",
-						"role": "danger hover"
-					},
-					{
-						"id": "color-info",
-						"hex": "#5CACE6",
-						"hsb": "HSB(205,60,90)",
-						"role": "info"
-					},
-					{
-						"id": "color-info--hover",
-						"hex": "#4D8FBF",
-						"hsb": "HSB(205,60,75)",
-						"role": "info hover"
-					}
-				]
-			},
-			"light": {
-				"colorPrimaries": [
-					{
-						"id": "color-primary",
-						"hex": "#9966FF",
-						"hsb": "HSB(260,60,100)",
-						"role": "primary action, link"
-					},
-					{
-						"id": "color-primary--hover",
-						"hex": "#8257D9",
-						"hsb": "HSB(260,60,85)",
-						"role": "primary hover"
-					}
-				],
-				"colorPrimaryGradients": {
-					"id": "color-primary--gradient",
-					"hex": "135deg,#6699FF,#B366FF",
-					"hsb": "HSB(220,60,100) to HSB(270,60,100)",
-					"role": "primary gradient"
-				},
-
-				"colorPrimaryShades": [
-					{
-						"id": "color-primary--shade1",
-						"hex": "#6699FF",
-						"hsb": "HSB(220,60,100)",
-						"role": "primary shade 1"
-					},
-					{
-						"id": "color-primary--shade2",
-						"hex": "#6680FF",
-						"hsb": "HSB(230,60,100)",
-						"role": "primary shade 2"
-					},
-					{
-						"id": "color-primary--shade3",
-						"hex": "#6666FF",
-						"hsb": "HSB(240,60,100)",
-						"role": "primary shade 3"
-					},
-					{
-						"id": "color-primary--shade4",
-						"hex": "#7F66FF",
-						"hsb": "HSB(250,60,100)",
-						"role": "primary shade 4"
-					},
-					{
-						"id": "color-primary--shade5",
-						"hex": "#9966FF",
-						"hsb": "HSB(260,60,100)",
-						"role": "primary shade 5"
-					},
-					{
-						"id": "color-primary--shade6",
-						"hex": "#B366FF",
-						"hsb": "HSB(270,60,100)",
-						"role": "primary shade 6"
-					}
-				],
-
-				"colorBases": [
-					{
-						"id": "color-base",
-						"hex": "#555555",
-						"rgba": "rgba(85,85,85,1)",
-						"role": "primary text, action"
-					},
-					{
-						"id": "color-base--description",
-						"hex": "#555555 α(0.64)",
-						"rgba": "rgba(85,85,85,0.64)",
-						"role": "secondary text, no action"
-					},
-					{
-						"id": "color-base--background",
-						"hex": "#555555 α(0.12)",
-						"rgba": "rgba(85,85,85,0.12)",
-						"role": "component background, strokes"
-					},
-					{
-						"id": "color-theme",
-						"hex": "#FFFFFF",
-						"rgba": "rgba(255,255,255,1)",
-						"role": "general background"
-					},
-					{
-						"id": "color-theme--opaque",
-						"hex": "#FFFFFF α(0.96)",
-						"rgba": "rgba(255,255,255,0.96)",
-						"role": "header background"
-					}
-				],
-				"colorMessages": [
-					{
-						"id": "color-success",
-						"hex": "#52CC8F",
-						"hsb": "HSB(150,60,80)",
-						"role": "success"
-					},
-					{
-						"id": "color-success--hover",
-						"hex": "#42A674",
-						"hsb": "HSB(150,60,65)",
-						"role": "success hover"
-					},
-					{
-						"id": "color-danger",
-						"hex": "#E65C5C",
-						"hsb": "HSB(360,60,90)",
-						"role": "danger"
-					},
-					{
-						"id": "color-danger--hover",
-						"hex": "#BF4D4D",
-						"hsb": "HSB(360,60,75)",
-						"role": "danger hover"
-					},
-					{
-						"id": "color-info",
-						"hex": "#5CACE6",
-						"hsb": "HSB(205,60,90)",
-						"role": "info"
-					},
-					{
-						"id": "color-info--hover",
-						"hex": "#4D8FBF",
-						"hsb": "HSB(205,60,75)",
-						"role": "info hover"
-					}
-				]
-			}
+			"parts": [
+				{
+					"id": "a",
+					"title": "a",
+					"subtitle": "",
+					"works": [
+						{
+							"img1": "/assets/images/img-project-work-sion01.jpg",
+							"img2": "/assets/images/img-project-work-sion01@2.jpg 2x",
+							"width": "1200",
+							"height": "5688",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sion02@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sion03@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sion04@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sion05.jpg",
+							"img2": "/assets/images/img-project-work-sion05@2.jpg 2x",
+							"width": "1200",
+							"height": "7015",
+							"classType": "work-desktop"
+						}
+					]
+				}
+			]
 		},
-		"texts": [
-			{
-				"id": "h1",
-				"title": "Page Title",
-				"family": "Source Sans Pro",
-				"weight": "Regular",
-				"color": "color-base",
-				"size": 60,
-				"height": 80
+		{
+			"id": "portfolio2016",
+			"title": "My 2016 Portfolio",
+			"url": "",
+			"description": ".",
+			"tags": ["Web Design", "Front End", "Style Guide"],
+			"image": {
+				"banner": "",
+				"hero": "/assets/images/img-project-hero-po16@2.jpg",
+				"mock1": "/assets/images/img-project-mock-po16.png",
+				"mock2": "/assets/images/img-project-mock-po16@2.png 2x",
+				"mosaic1": "/assets/images/img-project-mosaic-po16.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-po16@2.jpg 2x"
 			},
-			{
-				"id": "h2",
-				"title": "Section Title",
-				"family": "Source Sans Pro",
-				"weight": "Regular",
-				"color": "color-base",
-				"size": 50,
-				"height": 64
-			},
-			{
-				"id": "h3",
-				"title": "Subsection Title",
-				"family": "Source Sans Pro",
-				"weight": "Regular",
-				"color": "color-base",
-				"size": 40,
-				"height": 48
-			},
-			{
-				"id": "p",
-				"title": "Text",
-				"family": "Source Sans Pro",
-				"weight": "Regular, Bold",
-				"color": "color-base, color-base--description",
-				"size": 20,
-				"height": 32
-			},
-			{
-				"id": "h5",
-				"title": "Description",
-				"family": "Source Sans Pro",
-				"weight": "Regular, Bold",
-				"color": "color-base, color-base--description",
-				"size": 16,
-				"height": 24
-			},
-			{
-				"id": "h6",
-				"title": "Legal",
-				"family": "Source Sans Pro",
-				"weight": "Regular, Bold",
-				"color": "color-base, color-base--description",
-				"size": 12,
-				"height": 16
-			},
-			{
-				"id": "code",
-				"title": "Code",
-				"family": "Courrier",
-				"weight": "Regular",
-				"color": "color-base, color-base--description",
-				"size": 16,
-				"height": 24
-			}
-		],
-		"settings": [
-			{
-				"id": "?"
-			}
-		]
-	}
+			"parts": [
+				{
+					"id": "a",
+					"title": "a",
+					"subtitle": "",
+					"works": [
+						{
+							"img1": "/assets/images/img-project-work-po1601.jpg",
+							"img2": "/assets/images/img-project-work-po1601@2.jpg 2x",
+							"width": "1200",
+							"height": "7000",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1602.jpg",
+							"img2": "/assets/images/img-project-work-po1602@2.jpg 2x",
+							"width": "1200",
+							"height": "3457",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1603.jpg",
+							"img2": "/assets/images/img-project-work-po1603@2.jpg 2x",
+							"width": "1200",
+							"height": "932",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1604.jpg",
+							"img2": "/assets/images/img-project-work-po1604@2.jpg 2x",
+							"width": "1200",
+							"height": "932",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1605@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1606@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1607@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1608@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1609@2.jpg",
+							"img2": "",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1610.jpg",
+							"img2": "/assets/images/img-project-work-po1610@2.jpg 2x",
+							"width": "1200",
+							"height": "800",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1611@2.jpg",
+							"img2": "",
+							"width": "400",
+							"height": "262",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1612@2.jpg",
+							"img2": "",
+							"width": "400",
+							"height": "262",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1613@2.jpg",
+							"img2": "",
+							"width": "400",
+							"height": "262",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1614.jpg",
+							"img2": "/assets/images/img-project-work-po1614@2.jpg 2x",
+							"width": "1200",
+							"height": "7783",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1615.jpg",
+							"img2": "/assets/images/img-project-work-po1615@2.jpg 2x",
+							"width": "1200",
+							"height": "10520",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-po1616.jpg",
+							"img2": "/assets/images/img-project-work-po1616@2.jpg 2x",
+							"width": "1200",
+							"height": "6739",
+							"classType": "work-desktop"
+						}
+					]
+				}
+			]
+		}
+	]
 }
