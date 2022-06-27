@@ -1,9 +1,5 @@
 <template>
 	<div id="home">
-		<!-- preload home-hero -->
-		<link rel="preload" v-bind:href="heroPath" as="image" />
-		<!-- /preload home-hero -->
-
 		<!-- hero -->
 		<div
 			id="home-hero"
@@ -24,9 +20,6 @@
 			<div
 				class="hero-title align-center setting-anim--fadeinup setting-anim--delayed"
 			>
-				<!-- console.log -->
-				<button class="button" v-on:click="testConsolelog">Test</button>
-				<!-- /console.log -->
 				<div class="container">
 					<h1 class="align-center color-white">
 						{{ data.website.text.title }}
@@ -93,6 +86,9 @@
 		<!-- /prefetch -->
 
 		<module-home-experience></module-home-experience>
+		<!-- console.log -->
+		<button class="button" v-on:click="testConsolelog">Test</button>
+		<!-- /console.log -->
 	</div>
 </template>
 
@@ -106,7 +102,6 @@
 	export default {
 		data() {
 			return {
-				heroPath: Json.website.image.heroEarth,
 				windowWidth: window.innerWidth,
 				windowPixelRatio: window.devicePixelRatio,
 			};
