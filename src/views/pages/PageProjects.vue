@@ -47,7 +47,7 @@
 						class="image-responsive"
 						loading="eager"
 						v-bind:src="projectObj.image.mock1"
-						v-bind:srcset="projectObj.image.mock2"
+						v-bind:srcset="projectObj.image.mock2 + ' 2x'"
 						width="530"
 						height="360"
 					/>
@@ -79,7 +79,7 @@
 								class="image-responsive setting-shadow--motion"
 								loading="lazy"
 								v-bind:src="work.img1"
-								v-bind:srcset="work.img2"
+								v-bind:srcset="work.img2 + ' 2x'"
 								v-bind:width="work.width"
 								v-bind:height="work.height"
 							/>

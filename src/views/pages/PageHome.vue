@@ -15,7 +15,7 @@
 
 			<!-- spiders -->
 			<canvas
-				v-if="windowWidth > 1000"
+				v-if="windowWidth > 999"
 				id="spiders"
 				class="overlay display-tablet display-laptop display-desktop"
 			></canvas>
@@ -24,6 +24,9 @@
 			<div
 				class="hero-title align-center setting-anim--fadeinup setting-anim--delayed"
 			>
+				<!-- console.log -->
+				<button class="button" v-on:click="testConsolelog">Test</button>
+				<!-- /console.log -->
 				<div class="container">
 					<h1 class="align-center color-white">
 						{{ data.website.text.title }}
@@ -59,7 +62,7 @@
 			as="image"
 		/>
 		<!-- /prefetch -->
-		<!-- prefetch projects-hero.jpg -->
+		<!-- prefetch hero-project -->
 		<link
 			rel="prefetch"
 			v-for="project in data.projects"
@@ -68,14 +71,25 @@
 			as="image"
 		/>
 		<!-- /prefetch -->
-		<!-- prefetch projects-hero.jpg -->
-		<link
-			rel="prefetch"
-			v-for="project in data.projects"
-			v-bind:key="project.id"
-			v-bind:href="project.image.hero"
-			as="image"
-		/>
+		<!-- prefetch mock-project -->
+		<span v-if="windowPixelRatio > 1">
+			<link
+				rel="prefetch"
+				v-for="project in data.projects"
+				v-bind:key="project.id"
+				v-bind:href="project.image.mock2"
+				as="image"
+			/>
+		</span>
+		<span v-else>
+			<link
+				rel="prefetch"
+				v-for="project in data.projects"
+				v-bind:key="project.id"
+				v-bind:href="project.image.mock1"
+				as="image"
+			/>
+		</span>
 		<!-- /prefetch -->
 
 		<module-home-experience></module-home-experience>
@@ -94,6 +108,7 @@
 			return {
 				heroPath: Json.website.image.heroEarth,
 				windowWidth: window.innerWidth,
+				windowPixelRatio: window.devicePixelRatio,
 			};
 		},
 		mixins: [mixinThemeType],
@@ -109,6 +124,11 @@
 				document.querySelector("#portfolio").scrollIntoView({
 					behavior: "smooth",
 				});
+			},
+			// on:click
+			testConsolelog() {
+				console.log(window.innerWidth);
+				console.log(window.devicePixelRatio);
 			},
 		},
 	};

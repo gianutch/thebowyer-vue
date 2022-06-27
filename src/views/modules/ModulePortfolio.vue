@@ -40,7 +40,9 @@
 									class="image-responsive"
 									loading="lazy"
 									v-bind:src="data.styleguide.project.image.mosaic1"
-									v-bind:srcset="data.styleguide.project.image.mosaic2"
+									v-bind:srcset="
+										data.styleguide.project.image.mosaic2 + ' 2x'
+									"
 									width="800"
 									height="533"
 								/>
