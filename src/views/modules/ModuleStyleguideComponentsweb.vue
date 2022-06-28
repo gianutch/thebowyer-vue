@@ -221,7 +221,7 @@
 				<br />
 				<a class="link link-base link-small">Link Small</a>
 				<br />
-				<a class="link link-base link-mini">Link Tag</a>
+				<a class="link link-base link-mini">Link Mini</a>
 				<br />
 				<br />
 				<a

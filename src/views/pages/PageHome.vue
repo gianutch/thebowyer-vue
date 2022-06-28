@@ -84,14 +84,11 @@
 		<!-- /prefetch -->
 
 		<module-home-experience></module-home-experience>
-		<!-- console.log -->
-		<button class="button" v-on:click="testConsolelog">Test</button>
-		<!-- /console.log -->
 	</div>
 </template>
 
 <script>
-	// import Json from "/src/data/data.json";
+	import Json from "/src/data/data.json";
 	import mixinThemeType from "/src/mixins/mixinThemeType.js";
 	import ModulePortfolio from "/src/views/modules/ModulePortfolio.vue";
 	import ModuleHomeExperience from "/src/views/modules/ModuleHomeExperience.vue";
@@ -100,6 +97,8 @@
 	export default {
 		data() {
 			return {
+				data: Json,
+				heroPath: Json.website.image.heroEarth,
 				windowWidth: window.innerWidth,
 				windowPixelRatio: window.devicePixelRatio,
 			};
@@ -117,11 +116,6 @@
 				document.querySelector("#portfolio").scrollIntoView({
 					behavior: "smooth",
 				});
-			},
-			// on:click
-			testConsolelog() {
-				console.log(window.innerWidth);
-				console.log(window.devicePixelRatio);
 			},
 		},
 	};

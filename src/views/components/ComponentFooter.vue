@@ -25,6 +25,10 @@
 			<a class="link link-theme" href="https://github.com/" target="_blank">
 				<icon-github class="icon icon-theme"></icon-github>
 			</a>
+			&nbsp;
+			<!-- console.log -->
+			<a class="link link-base link-mini" v-on:click="testConsolelog">log</a>
+			<!-- /console.log -->
 		</div>
 	</footer>
 </template>
@@ -39,6 +43,14 @@
 			IconLinkedin,
 			IconDribbble,
 			IconGithub,
+		},
+		// functions
+		methods: {
+			// on:click
+			testConsolelog() {
+				console.log(window.innerWidth);
+				console.log(window.devicePixelRatio);
+			},
 		},
 	};
 </script>

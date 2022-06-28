@@ -47,7 +47,14 @@
 						class="image-responsive"
 						loading="eager"
 						v-bind:src="projectObj.image.mock1"
-						v-bind:srcset="projectObj.image.mock2 + ' 2x'"
+						v-bind:srcset="
+							projectObj.image.mock2 +
+							' 2x, ' +
+							projectObj.image.mock3 +
+							' 3x, ' +
+							projectObj.image.mock4 +
+							' 4x'
+						"
 						width="530"
 						height="360"
 					/>
@@ -140,9 +147,7 @@
 		watch: {
 			$route() {
 				this.refreshProject();
-			},
-			// OR alternatively can be written
-			// $route: "refreshProject",
+			}, // OR just: $route: "refreshProject",
 		},
 	};
 </script>

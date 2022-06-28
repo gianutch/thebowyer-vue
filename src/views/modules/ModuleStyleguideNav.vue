@@ -34,21 +34,7 @@
 							>Colors</router-link
 						>
 					</li>
-					<!-- <li>
-						<router-link
-							to="/styleguide#styleguide-elements-responsive"
-							class="link link-base"
-							activeClass="link-active"
-						>Responsive</router-link>
-					</li> -->
-					<li>
-						<router-link
-							to="/styleguide#styleguide-elements-settings"
-							class="link link-base"
-							activeClass="link-active"
-							>Settings</router-link
-						>
-					</li>
+
 					<li>
 						<router-link
 							to="/styleguide#styleguide-elements-texts"
@@ -57,13 +43,31 @@
 							>Texts</router-link
 						>
 					</li>
-					<!-- <li>
+					<li>
+						<router-link
+							to="/styleguide#styleguide-elements-settings"
+							class="link link-base"
+							activeClass="link-active"
+							>Settings</router-link
+						>
+					</li>
+
+					<li>
 						<router-link
 							to="/styleguide#styleguide-elements-"
 							class="link link-base"
 							activeClass="link-active"
-						>Animations</router-link>
-					</li> -->
+							>Animations</router-link
+						>
+					</li>
+					<li>
+						<router-link
+							to="/styleguide#styleguide-elements-responsive"
+							class="link link-base"
+							activeClass="link-active"
+							>Responsive</router-link
+						>
+					</li>
 				</ul>
 			</li>
 			<!-- /elements -->
@@ -77,13 +81,14 @@
 					>Components Web</router-link
 				>
 				<ul class="nav-vertical">
-					<!-- <li>
+					<li>
 						<router-link
 							to="/styleguide#styleguide-componentsweb-alerts"
 							class="link link-base"
 							activeClass="link-active"
-						>Alerts</router-link>
-					</li> -->
+							>Alerts</router-link
+						>
+					</li>
 					<li>
 						<router-link
 							to="/styleguide#styleguide-componentsweb-buttons"
@@ -108,27 +113,30 @@
 							>Icons</router-link
 						>
 					</li>
-					<!-- <li>
+					<li>
 						<router-link
 							to="/styleguide#styleguide-componentsweb-loaders"
 							class="link link-base"
 							activeClass="link-active"
-						>Loaders</router-link>
-					</li> -->
-					<!-- <li>
+							>Loaders</router-link
+						>
+					</li>
+					<li>
 						<router-link
 							to="/styleguide#styleguide-componentsweb-modals"
 							class="link link-base"
 							activeClass="link-active"
-						>Modals</router-link>
-					</li> -->
-					<!-- <li>
+							>Modals</router-link
+						>
+					</li>
+					<li>
 						<router-link
 							to="/styleguide#styleguide-componentsweb-navigations"
 							class="link link-base"
 							activeClass="link-active"
-						>Navigations</router-link>
-					</li> -->
+							>Navigations</router-link
+						>
+					</li>
 					<li>
 						<router-link
 							to="/styleguide#styleguide-componentsweb-tooltips"
@@ -142,25 +150,24 @@
 			<!-- /components web -->
 
 			<!-- brand -->
-			<!-- <li>
+			<li>
 				<router-link
-							to="/styleguide#styleguide-brand"
-							class="link link-base" activeClass="link-active">Brand</router-link>
+					to="/styleguide#styleguide-brand"
+					class="link link-base"
+					activeClass="link-active"
+					>Brand</router-link
+				>
 				<ul class="nav-vertical">
 					<li>
-						<router-link to="/#" class="link link-base" activeClass="link-active">Sub Title</router-link>
-					</li>
-					<li>
-						<router-link to="/#" class="link link-base" activeClass="link-active">Sub Title</router-link>
-					</li>
-					<li>
-						<router-link to="/#" class="link link-base" activeClass="link-active">Sub Title</router-link>
-					</li>
-					<li>
-						<router-link to="/#" class="link link-base" activeClass="link-active">Sub Title</router-link>
+						<router-link
+							to="/styleguide#styleguide-brand-logo"
+							class="link link-base"
+							activeClass="link-active"
+							>Logo</router-link
+						>
 					</li>
 				</ul>
-			</li> -->
+			</li>
 			<!-- /brand -->
 		</ul>
 	</nav>
