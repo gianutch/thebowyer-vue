@@ -54,7 +54,6 @@
 			v-bind:href="data.website.image.headshotThug"
 			as="image"
 		/>
-		<!-- /prefetch -->
 		<!-- prefetch hero-project -->
 		<link
 			rel="prefetch"
@@ -63,7 +62,6 @@
 			v-bind:href="project.image.hero"
 			as="image"
 		/>
-		<!-- /prefetch -->
 		<!-- prefetch mock-project -->
 		<span v-if="windowPixelRatio > 1">
 			<link
@@ -93,7 +91,7 @@
 </template>
 
 <script>
-	import Json from "/src/data/data.json";
+	// import Json from "/src/data/data.json";
 	import mixinThemeType from "/src/mixins/mixinThemeType.js";
 	import ModulePortfolio from "/src/views/modules/ModulePortfolio.vue";
 	import ModuleHomeExperience from "/src/views/modules/ModuleHomeExperience.vue";
