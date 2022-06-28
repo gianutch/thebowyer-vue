@@ -174,30 +174,30 @@
 </template>
 
 <script>
-	export default {
-		// functions
-		methods: {
-			// @created()
-			// make nave sticky after 835px scroll
-			styleguidenavScrollBehavior() {
-				if (window.scrollY > 835) {
-					document
-						.querySelector("#styleguide-nav")
-						.classList.add("nav-sticky");
-				} else {
-					document
-						.querySelector("#styleguide-nav")
-						.classList.remove("nav-sticky");
-				}
-			},
-		},
-		// do this at launch
-		created() {
-			window.addEventListener("scroll", this.styleguidenavScrollBehavior);
-		},
-		// stop this at launch
-		unmount() {
-			window.removeEventListener("scroll", this.styleguidenavScrollBehavior);
-		},
-	};
+	// export default {
+	// 	// functions
+	// 	methods: {
+	// 		// @created()
+	// 		// make nave sticky after 835px scroll
+	// 		styleguidenavScrollBehavior() {
+	// 			if (window.scrollY > 835) {
+	// 				document
+	// 					.querySelector("#styleguide-nav")
+	// 					.classList.add("nav-sticky");
+	// 			} else {
+	// 				document
+	// 					.querySelector("#styleguide-nav")
+	// 					.classList.remove("nav-sticky");
+	// 			}
+	// 		},
+	// 	},
+	// 	// do this at launch
+	// 	created() {
+	// 		window.addEventListener("scroll", this.styleguidenavScrollBehavior);
+	// 	},
+	// 	// stop this at launch
+	// 	unmount() {
+	// 		window.removeEventListener("scroll", this.styleguidenavScrollBehavior);
+	// 	},
+	// };
 </script>

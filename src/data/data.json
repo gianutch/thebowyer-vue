@@ -1948,7 +1948,7 @@
 					"works": [
 						{
 							"img1": "/assets/images/img-project-work-mark-cast01.png",
-							"img2": "/assets/images/img-project-work-mark-cast01@2.png x2",
+							"img2": "/assets/images/img-project-work-mark-cast01@2.png",
 							"width": "800",
 							"height": "812",
 							"classType": "work-tablet"
