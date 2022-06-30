@@ -105,7 +105,7 @@
 							class="float-right button button-base button-small button-special button-special button-special--header button-active"
 							title="Toggle theme"
 							type="button"
-							v-on:click="headerThemeToggle"
+							v-on:click="headerThemeToggle()"
 						>
 							<icon-moon class="icon"></icon-moon>
 						</button>

@@ -39,7 +39,7 @@
 			</div>
 			<button
 				class="button button-white--ghost button-special setting-anim--fadeinup setting-anim--delayed align-center hero-arrowdown"
-				v-on:click="smoothscrollToPortfolio"
+				v-on:click="smoothscrollToPortfolio()"
 			>
 				<icon-arrowdown class="icon"></icon-arrowdown>
 			</button>

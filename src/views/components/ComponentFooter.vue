@@ -27,7 +27,9 @@
 			</a>
 			&nbsp;
 			<!-- console.log -->
-			<a class="link link-base link-mini" v-on:click="testConsolelog">log</a>
+			<a class="link link-base link-mini" v-on:click="testConsolelog()"
+				>log</a
+			>
 			<!-- /console.log -->
 		</div>
 	</footer>

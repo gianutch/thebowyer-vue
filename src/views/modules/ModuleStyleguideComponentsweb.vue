@@ -83,7 +83,7 @@
 				<button
 					id="styleguide-button-tag"
 					class="button button-base--ghost button-tag"
-					v-on:click="buttonActiveToggle"
+					v-on:click="buttonActiveToggle()"
 				>
 					Button Base Ghost Tag
 				</button>
@@ -91,7 +91,7 @@
 				<button
 					id="styleguide-button-tag-small"
 					class="button button-base--ghost button-small button-tag"
-					v-on:click="buttonActiveToggle"
+					v-on:click="buttonActiveToggle()"
 				>
 					Button Base Ghost Small Tag
 				</button>
@@ -99,7 +99,7 @@
 				<button
 					id="styleguide-button-tag-mini"
 					class="button button-base--ghost button-mini button-tag"
-					v-on:click="buttonActiveToggle"
+					v-on:click="buttonActiveToggle()"
 				>
 					Button Base Ghost Mini Tag
 				</button>
@@ -146,7 +146,7 @@
 				<button
 					id="styleguide-button-special-active"
 					class="button button-special button-base button-active"
-					v-on:click="buttonActiveToggle"
+					v-on:click="buttonActiveToggle()"
 				>
 					<icon-gael class="icon"></icon-gael>
 				</button>
@@ -184,7 +184,7 @@
 				<button
 					id="styleguide-button-base-active"
 					class="button button-base button-active"
-					v-on:click="buttonActiveToggle"
+					v-on:click="buttonActiveToggle()"
 				>
 					Button Base Active
 				</button>
@@ -227,7 +227,7 @@
 				<a
 					id="styleguide-link-active"
 					class="link link-base link-active"
-					v-on:click="linkActiveToggle"
+					v-on:click="linkActiveToggle()"
 					>Link Active</a
 				>
 

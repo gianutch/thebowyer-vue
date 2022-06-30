@@ -5,6 +5,7 @@ export default {
 		return {
 			// old method
 			// themeLight: false,
+			// new method
 			themeCurrent: "themeDark",
 		};
 	},
@@ -19,9 +20,11 @@ export default {
 		// 		this.themeLight === false;
 		// 	}
 		// },
+		// new method
 		// @created()
 		themeUpdate() {
 			if (document.querySelector("#themelight").disabled === true) {
+				// #themelight in index.html
 				this.themeCurrent === "themeDark";
 			} else {
 				this.themeCurrent === "themeLight";
