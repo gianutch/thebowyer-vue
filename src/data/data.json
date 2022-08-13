@@ -4,8 +4,8 @@
 			"heroEarth": "/assets/images/img-website-hero-earth.jpg",
 			"heroEarthDark": "/assets/images/img-website-hero-earth--dark.jpg",
 			"heroEarthLight": "/assets/images/img-website-hero-earth--light.jpg",
-			"headshotNormal": "/assets/images/img-website-headshot--normal@2.jpg",
-			"headshotThug": "/assets/images/img-website-headshot--thug@2.jpg",
+			"headshotNormal": "/assets/images/img-website-headshot--normal.jpg",
+			"headshotThug": "/assets/images/img-website-headshot--thug.jpg",
 			"squareGrey": "/assets/images/img-website-squaregrey.png"
 		},
 		"file": {
@@ -660,7 +660,7 @@
 			"tags": ["Web App Design", "iOS Design", "Logo Design"],
 			"image": {
 				"banner": "",
-				"hero": "/assets/images/img-project-hero-sove@2.jpg",
+				"hero": "/assets/images/img-project-hero-sove.jpg",
 				"mock1": "/assets/images/img-project-mock-sove.png",
 				"mock2": "/assets/images/img-project-mock-sove@2.png",
 				"mosaic1": "/assets/images/img-project-mosaic-sove.jpg",
@@ -752,8 +752,8 @@
 				"Logo Design"
 			],
 			"image": {
-				"banner": "/assets/images/img-project-banner-coac@2.jpg",
-				"hero": "/assets/images/img-project-hero-coac@2.jpg",
+				"banner": "/assets/images/img-project-banner-coac.jpg",
+				"hero": "/assets/images/img-project-hero-coac.jpg",
 				"mock1": "/assets/images/img-project-mock-coac.png",
 				"mock2": "/assets/images/img-project-mock-coac@2.png",
 				"mosaic1": "/assets/images/img-project-mosaic-coac.jpg",
@@ -930,8 +930,8 @@
 			"description": "Web application for collaboration and meeting scheduling.",
 			"tags": ["Web App Design", "Style Guide"],
 			"image": {
-				"banner": "/assets/images/img-project-banner-chec@2.jpg",
-				"hero": "/assets/images/img-project-hero-chec@2.jpg",
+				"banner": "/assets/images/img-project-banner-chec.jpg",
+				"hero": "/assets/images/img-project-hero-chec.jpg",
 				"mock1": "/assets/images/img-project-mock-chec.png",
 				"mock2": "/assets/images/img-project-mock-chec@2.png",
 				"mosaic1": "/assets/images/img-project-mosaic-chec.jpg",
@@ -1016,8 +1016,8 @@
 				"Logo Design"
 			],
 			"image": {
-				"banner": "/assets/images/img-project-banner-toct@2.jpg",
-				"hero": "/assets/images/img-project-hero-toct@2.jpg",
+				"banner": "/assets/images/img-project-banner-toct.jpg",
+				"hero": "/assets/images/img-project-hero-toct.jpg",
 				"mock1": "/assets/images/img-project-mock-toct.png",
 				"mock2": "/assets/images/img-project-mock-toct@2.png",
 				"mosaic1": "/assets/images/img-project-mosaic-toct.jpg",
@@ -1250,8 +1250,8 @@
 			"description": "On-demand ordering from local restaurants & liquor stores.",
 			"tags": ["iOS Design", "Website Design", "Style Guide", "User Flow"],
 			"image": {
-				"banner": "/assets/images/img-project-banner-deli@2.jpg",
-				"hero": "/assets/images/img-project-hero-deli@2.jpg",
+				"banner": "/assets/images/img-project-banner-deli.jpg",
+				"hero": "/assets/images/img-project-hero-deli.jpg",
 				"mock1": "/assets/images/img-project-mock-deli.png",
 				"mock2": "/assets/images/img-project-mock-deli@2.png",
 				"mosaic1": "/assets/images/img-project-mosaic-deli.jpg",
@@ -1589,8 +1589,8 @@
 			"description": "Ordering & pairing suggestions for food and wine delivery.",
 			"tags": ["iOS Design", "Style Guide"],
 			"image": {
-				"banner": "/assets/images/img-project-banner-dine@2.jpg",
-				"hero": "/assets/images/img-project-hero-dine@2.jpg",
+				"banner": "/assets/images/img-project-banner-dine.jpg",
+				"hero": "/assets/images/img-project-hero-dine.jpg",
 				"mock1": "/assets/images/img-project-mock-dine.png",
 				"mock2": "/assets/images/img-project-mock-dine@2.png",
 				"mosaic1": "/assets/images/img-project-mosaic-dine.jpg",
@@ -1718,8 +1718,8 @@
 			"description": "Virtual exhibition.",
 			"tags": ["Website Design", "Front End"],
 			"image": {
-				"banner": "/assets/images/img-project-banner-anne@2.jpg",
-				"hero": "/assets/images/img-project-hero-anne@2.jpg",
+				"banner": "/assets/images/img-project-banner-anne.jpg",
+				"hero": "/assets/images/img-project-hero-anne.jpg",
 				"mock1": "/assets/images/img-project-mock-anne.png",
 				"mock2": "/assets/images/img-project-mock-anne@2.png",
 				"mosaic1": "/assets/images/img-project-mosaic-anne.jpg",
@@ -1778,7 +1778,7 @@
 			"tags": ["Web Design", "Front End"],
 			"image": {
 				"banner": "",
-				"hero": "/assets/images/img-project-hero-dayo@2.jpg",
+				"hero": "/assets/images/img-project-hero-dayo.jpg",
 				"mock1": "/assets/images/img-project-mock-dayo--num.png",
 				"mock2": "/assets/images/img-project-mock-dayo--num@2.png",
 				"mock3": "/assets/images/img-project-mock-dayo--num@3.png",
@@ -2027,7 +2027,7 @@
 			],
 			"image": {
 				"banner": "",
-				"hero": "/assets/images/img-project-hero-mark@2.jpg",
+				"hero": "/assets/images/img-project-hero-mark.jpg",
 				"mock1": "/assets/images/img-project-mock-mark.png",
 				"mock2": "/assets/images/img-project-mock-mark@2.png",
 				"mosaic1": "/assets/images/img-project-mosaic-mark.jpg",
@@ -2282,7 +2282,7 @@
 			"tags": ["Photography"],
 			"image": {
 				"banner": "",
-				"hero": "/assets/images/img-project-hero-phot@2.jpg",
+				"hero": "/assets/images/img-project-hero-phot.jpg",
 				"mock1": "/assets/images/img-project-mock-phot.png",
 				"mock2": "/assets/images/img-project-mock-phot@2.png",
 				"mosaic1": "/assets/images/img-project-mosaic-phot.jpg",
@@ -2577,7 +2577,7 @@
 			"tags": ["Web Design", "Front End", "Style Guide"],
 			"image": {
 				"banner": "",
-				"hero": "/assets/images/img-project-hero-dayo@2.jpg",
+				"hero": "/assets/images/img-project-hero-dayo.jpg",
 				"mock1": "/assets/images/img-project-mock-dayo.png",
 				"mock2": "/assets/images/img-project-mock-dayo@2.png",
 				"mosaic1": "/assets/images/img-project-mosaic-dayo.jpg",
@@ -2674,19 +2674,19 @@
 							"classType": "work-desktop"
 						},
 						{
-							"img1": "/assets/images/img-project-work-sion02@2.jpg",
+							"img1": "/assets/images/img-project-work-sion02.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-sion03@2.jpg",
+							"img1": "/assets/images/img-project-work-sion03.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-sion04@2.jpg",
+							"img1": "/assets/images/img-project-work-sion04.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
@@ -2710,7 +2710,7 @@
 			"tags": ["Web Design", "Front End", "Style Guide"],
 			"image": {
 				"banner": "",
-				"hero": "/assets/images/img-project-hero-po16@2.jpg",
+				"hero": "/assets/images/img-project-hero-po16.jpg",
 				"mock1": "/assets/images/img-project-mock-po16.png",
 				"mock2": "/assets/images/img-project-mock-po16@2.png",
 				"mosaic1": "/assets/images/img-project-mosaic-po16.jpg",
@@ -2751,31 +2751,31 @@
 							"classType": "work-desktop"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1605@2.jpg",
+							"img1": "/assets/images/img-project-work-po1605.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1606@2.jpg",
+							"img1": "/assets/images/img-project-work-po1606.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1607@2.jpg",
+							"img1": "/assets/images/img-project-work-po1607.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1608@2.jpg",
+							"img1": "/assets/images/img-project-work-po1608.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1609@2.jpg",
+							"img1": "/assets/images/img-project-work-po1609.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
@@ -2788,19 +2788,19 @@
 							"classType": "work-desktop"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1611@2.jpg",
+							"img1": "/assets/images/img-project-work-po1611.jpg",
 							"width": "400",
 							"height": "262",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1612@2.jpg",
+							"img1": "/assets/images/img-project-work-po1612.jpg",
 							"width": "400",
 							"height": "262",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1613@2.jpg",
+							"img1": "/assets/images/img-project-work-po1613.jpg",
 							"width": "400",
 							"height": "262",
 							"classType": "work-phone"
