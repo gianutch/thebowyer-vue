@@ -722,13 +722,15 @@
 							"classType": "work-desktop"
 						},
 						{
-							"img1": "/assets/images/img-project-work-sove07@2.jpg",
+							"img1": "/assets/images/img-project-work-sove07.jpg",
+							"img2": "/assets/images/img-project-work-sove07.jpg",
 							"width": "750",
 							"height": "1624",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-sove08@2.jpg",
+							"img1": "/assets/images/img-project-work-sove08.jpg",
+							"img2": "/assets/images/img-project-work-sove08.jpg",
 							"width": "750",
 							"height": "1624",
 							"classType": "work-phone"
@@ -806,55 +808,64 @@
 					"subtitle": "",
 					"works": [
 						{
-							"img1": "/assets/images/img-project-work-coac06@2.jpg",
+							"img1": "/assets/images/img-project-work-coac06.jpg",
+							"img2": "/assets/images/img-project-work-coac06.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-coac07@2.jpg",
+							"img1": "/assets/images/img-project-work-coac07.jpg",
+							"img2": "/assets/images/img-project-work-coac07.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-coac08@2.jpg",
+							"img1": "/assets/images/img-project-work-coac08.jpg",
+							"img2": "/assets/images/img-project-work-coac08.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-coac09@2.jpg",
+							"img1": "/assets/images/img-project-work-coac09.jpg",
+							"img2": "/assets/images/img-project-work-coac09.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-coac10@2.jpg",
+							"img1": "/assets/images/img-project-work-coac10.jpg",
+							"img2": "/assets/images/img-project-work-coac10.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-coac11@2.jpg",
+							"img1": "/assets/images/img-project-work-coac11.jpg",
+							"img2": "/assets/images/img-project-work-coac11.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-coac12@2.jpg",
+							"img1": "/assets/images/img-project-work-coac12.jpg",
+							"img2": "/assets/images/img-project-work-coac12.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-coac13@2.jpg",
+							"img1": "/assets/images/img-project-work-coac13.jpg",
+							"img2": "/assets/images/img-project-work-coac13.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-coac14@2.jpg",
+							"img1": "/assets/images/img-project-work-coac14.jpg",
+							"img2": "/assets/images/img-project-work-coac14.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
@@ -954,19 +965,22 @@
 							"classType": "work-tablet"
 						},
 						{
-							"img1": "/assets/images/img-project-work-chec04@2.jpg",
+							"img1": "/assets/images/img-project-work-chec04.jpg",
+							"img2": "/assets/images/img-project-work-chec04.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-chec05@2.jpg",
+							"img1": "/assets/images/img-project-work-chec05.jpg",
+							"img2": "/assets/images/img-project-work-chec05.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-chec06@2.jpg",
+							"img1": "/assets/images/img-project-work-chec06.jpg",
+							"img2": "/assets/images/img-project-work-chec06.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
@@ -1044,103 +1058,120 @@
 					"subtitle": "",
 					"works": [
 						{
-							"img1": "/assets/images/img-project-work-toct04@2.jpg",
+							"img1": "/assets/images/img-project-work-toct04.jpg",
+							"img2": "/assets/images/img-project-work-toct04.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct05@2.jpg",
+							"img1": "/assets/images/img-project-work-toct05.jpg",
+							"img2": "/assets/images/img-project-work-toct05.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct06@2.jpg",
+							"img1": "/assets/images/img-project-work-toct06.jpg",
+							"img2": "/assets/images/img-project-work-toct06.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct07@2.jpg",
+							"img1": "/assets/images/img-project-work-toct07.jpg",
+							"img2": "/assets/images/img-project-work-toct07.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct08@2.jpg",
+							"img1": "/assets/images/img-project-work-toct08.jpg",
+							"img2": "/assets/images/img-project-work-toct08.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct09@2.jpg",
+							"img1": "/assets/images/img-project-work-toct09.jpg",
+							"img2": "/assets/images/img-project-work-toct09.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct10@2.jpg",
+							"img1": "/assets/images/img-project-work-toct10.jpg",
+							"img2": "/assets/images/img-project-work-toct10.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct11@2.jpg",
+							"img1": "/assets/images/img-project-work-toct11.jpg",
+							"img2": "/assets/images/img-project-work-toct11.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct12@2.jpg",
+							"img1": "/assets/images/img-project-work-toct12.jpg",
+							"img2": "/assets/images/img-project-work-toct12.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct13@2.jpg",
+							"img1": "/assets/images/img-project-work-toct13.jpg",
+							"img2": "/assets/images/img-project-work-toct13.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct14@2.jpg",
+							"img1": "/assets/images/img-project-work-toct14.jpg",
+							"img2": "/assets/images/img-project-work-toct14.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct15@2.jpg",
+							"img1": "/assets/images/img-project-work-toct15.jpg",
+							"img2": "/assets/images/img-project-work-toct15.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct16@2.jpg",
+							"img1": "/assets/images/img-project-work-toct16.jpg",
+							"img2": "/assets/images/img-project-work-toct16.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct17@2.jpg",
+							"img1": "/assets/images/img-project-work-toct17.jpg",
+							"img2": "/assets/images/img-project-work-toct17.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct18@2.jpg",
+							"img1": "/assets/images/img-project-work-toct18.jpg",
+							"img2": "/assets/images/img-project-work-toct18.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct19@2.jpg",
+							"img1": "/assets/images/img-project-work-toct19.jpg",
+							"img2": "/assets/images/img-project-work-toct19.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct20@2.jpg",
+							"img1": "/assets/images/img-project-work-toct20.jpg",
+							"img2": "/assets/images/img-project-work-toct20.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
@@ -1167,7 +1198,8 @@
 							"classType": "work-tablet"
 						},
 						{
-							"img1": "/assets/images/img-project-work-toct23@2.jpg",
+							"img1": "/assets/images/img-project-work-toct23.jpg",
+							"img2": "/assets/images/img-project-work-toct23.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
@@ -1232,175 +1264,204 @@
 					"subtitle": "Lead digital product designer for the iOS native app. iOS app’s ranking highly improved on the App Store. Business Insider publications.",
 					"works": [
 						{
-							"img1": "/assets/images/img-project-work-deli01@2.jpg",
+							"img1": "/assets/images/img-project-work-deli01.jpg",
+							"img2": "/assets/images/img-project-work-deli01.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli02@2.jpg",
+							"img1": "/assets/images/img-project-work-deli02.jpg",
+							"img2": "/assets/images/img-project-work-deli02.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli03@2.jpg",
+							"img1": "/assets/images/img-project-work-deli03.jpg",
+							"img2": "/assets/images/img-project-work-deli03.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli04@2.jpg",
+							"img1": "/assets/images/img-project-work-deli04.jpg",
+							"img2": "/assets/images/img-project-work-deli04.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli08@2.jpg",
+							"img1": "/assets/images/img-project-work-deli08.jpg",
+							"img2": "/assets/images/img-project-work-deli08.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli09@2.jpg",
+							"img1": "/assets/images/img-project-work-deli09.jpg",
+							"img2": "/assets/images/img-project-work-deli09.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli10@2.jpg",
+							"img1": "/assets/images/img-project-work-deli10.jpg",
+							"img2": "/assets/images/img-project-work-deli10.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli11@2.jpg",
+							"img1": "/assets/images/img-project-work-deli11.jpg",
+							"img2": "/assets/images/img-project-work-deli11.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli12@2.jpg",
+							"img1": "/assets/images/img-project-work-deli12.jpg",
+							"img2": "/assets/images/img-project-work-deli12.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli13@2.jpg",
+							"img1": "/assets/images/img-project-work-deli13.jpg",
+							"img2": "/assets/images/img-project-work-deli13.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli14@2.jpg",
+							"img1": "/assets/images/img-project-work-deli14.jpg",
+							"img2": "/assets/images/img-project-work-deli14.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli15@2.jpg",
+							"img1": "/assets/images/img-project-work-deli15.jpg",
+							"img2": "/assets/images/img-project-work-deli15.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli16@2.jpg",
+							"img1": "/assets/images/img-project-work-deli16.jpg",
+							"img2": "/assets/images/img-project-work-deli16.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli17@2.jpg",
+							"img1": "/assets/images/img-project-work-deli17.jpg",
+							"img2": "/assets/images/img-project-work-deli17.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli18@2.jpg",
+							"img1": "/assets/images/img-project-work-deli18.jpg",
+							"img2": "/assets/images/img-project-work-deli18.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli19@2.jpg",
+							"img1": "/assets/images/img-project-work-deli19.jpg",
+							"img2": "/assets/images/img-project-work-deli19.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli20@2.jpg",
+							"img1": "/assets/images/img-project-work-deli20.jpg",
+							"img2": "/assets/images/img-project-work-deli20.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli21@2.jpg",
+							"img1": "/assets/images/img-project-work-deli21.jpg",
+							"img2": "/assets/images/img-project-work-deli21.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli22@2.jpg",
+							"img1": "/assets/images/img-project-work-deli22.jpg",
+							"img2": "/assets/images/img-project-work-deli22.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli23@2.jpg",
+							"img1": "/assets/images/img-project-work-deli23.jpg",
+							"img2": "/assets/images/img-project-work-deli23.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli24@2.jpg",
+							"img1": "/assets/images/img-project-work-deli24.jpg",
+							"img2": "/assets/images/img-project-work-deli24.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli25@2.jpg",
+							"img1": "/assets/images/img-project-work-deli25.jpg",
+							"img2": "/assets/images/img-project-work-deli25.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli26@2.jpg",
+							"img1": "/assets/images/img-project-work-deli26.jpg",
+							"img2": "/assets/images/img-project-work-deli26.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli27@2.jpg",
+							"img1": "/assets/images/img-project-work-deli27.jpg",
+							"img2": "/assets/images/img-project-work-deli27.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli28@2.jpg",
+							"img1": "/assets/images/img-project-work-deli28.jpg",
+							"img2": "/assets/images/img-project-work-deli28.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli29@2.jpg",
+							"img1": "/assets/images/img-project-work-deli29.jpg",
+							"img2": "/assets/images/img-project-work-deli29.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli30@2.jpg",
+							"img1": "/assets/images/img-project-work-deli30.jpg",
+							"img2": "/assets/images/img-project-work-deli30.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli31@2.jpg",
+							"img1": "/assets/images/img-project-work-deli31.jpg",
+							"img2": "/assets/images/img-project-work-deli31.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli32@2.jpg",
+							"img1": "/assets/images/img-project-work-deli32.jpg",
+							"img2": "/assets/images/img-project-work-deli32.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
@@ -1420,25 +1481,29 @@
 					"subtitle": "",
 					"works": [
 						{
-							"img1": "/assets/images/img-project-work-deli40@2.jpg",
+							"img1": "/assets/images/img-project-work-deli40.jpg",
+							"img2": "/assets/images/img-project-work-deli40.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli41@2.jpg",
+							"img1": "/assets/images/img-project-work-deli41.jpg",
+							"img2": "/assets/images/img-project-work-deli41.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli42@2.jpg",
+							"img1": "/assets/images/img-project-work-deli42.jpg",
+							"img2": "/assets/images/img-project-work-deli42.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli43@2.jpg",
+							"img1": "/assets/images/img-project-work-deli43.jpg",
+							"img2": "/assets/images/img-project-work-deli43.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
@@ -1538,55 +1603,64 @@
 					"subtitle": "",
 					"works": [
 						{
-							"img1": "/assets/images/img-project-work-dine01@2.jpg",
+							"img1": "/assets/images/img-project-work-dine01.jpg",
+							"img2": "/assets/images/img-project-work-dine01.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-dine02@2.jpg",
+							"img1": "/assets/images/img-project-work-dine02.jpg",
+							"img2": "/assets/images/img-project-work-dine02.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-dine03@2.jpg",
+							"img1": "/assets/images/img-project-work-dine03.jpg",
+							"img2": "/assets/images/img-project-work-dine03.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-dine04@2.jpg",
+							"img1": "/assets/images/img-project-work-dine04.jpg",
+							"img2": "/assets/images/img-project-work-dine04.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-dine05@2.jpg",
+							"img1": "/assets/images/img-project-work-dine05.jpg",
+							"img2": "/assets/images/img-project-work-dine05.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-dine06@2.jpg",
+							"img1": "/assets/images/img-project-work-dine06.jpg",
+							"img2": "/assets/images/img-project-work-dine06.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-dine07@2.jpg",
+							"img1": "/assets/images/img-project-work-dine07.jpg",
+							"img2": "/assets/images/img-project-work-dine07.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-dine08@2.jpg",
+							"img1": "/assets/images/img-project-work-dine08.jpg",
+							"img2": "/assets/images/img-project-work-dine08.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-dine09@2.jpg",
+							"img1": "/assets/images/img-project-work-dine09.jpg",
+							"img2": "/assets/images/img-project-work-dine09.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
@@ -1599,19 +1673,22 @@
 					"subtitle": "The template can easily be adapted and customized for other brands.",
 					"works": [
 						{
-							"img1": "/assets/images/img-project-work-dine10@2.jpg",
+							"img1": "/assets/images/img-project-work-dine10.jpg",
+							"img2": "/assets/images/img-project-work-dine10.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-dine11@2.jpg",
+							"img1": "/assets/images/img-project-work-dine11.jpg",
+							"img2": "/assets/images/img-project-work-dine11.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-dine12@2.jpg",
+							"img1": "/assets/images/img-project-work-dine12.jpg",
+							"img2": "/assets/images/img-project-work-dine12.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
@@ -1676,13 +1753,15 @@
 							"classType": "work-desktop"
 						},
 						{
-							"img1": "/assets/images/img-project-work-anne04@2.jpg",
+							"img1": "/assets/images/img-project-work-anne04.jpg",
+							"img2": "/assets/images/img-project-work-anne04.jpg",
 							"width": "750",
 							"height": "1624",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-anne05@2.jpg",
+							"img1": "/assets/images/img-project-work-anne05.jpg",
+							"img2": "/assets/images/img-project-work-anne05.jpg",
 							"width": "750",
 							"height": "1624",
 							"classType": "work-phone"
@@ -1749,19 +1828,22 @@
 							"classType": "work-desktop"
 						},
 						{
-							"img1": "/assets/images/img-project-work-dayo06@2.jpg",
+							"img1": "/assets/images/img-project-work-dayo06.jpg",
+							"img2": "/assets/images/img-project-work-dayo06.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-dayo07@2.jpg",
+							"img1": "/assets/images/img-project-work-dayo07.jpg",
+							"img2": "/assets/images/img-project-work-dayo07.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-dayo08@2.jpg",
+							"img1": "/assets/images/img-project-work-dayo08.jpg",
+							"img2": "/assets/images/img-project-work-dayo08.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
@@ -1775,25 +1857,28 @@
 					"works": [
 						{
 							"img1": "/assets/images/img-project-work-sion01.jpg",
-							"img2": "/assets/images/img-project-work-sion01@2.jpg",
+							"img2": "/assets/images/img-project-work-sion01.jpg",
 							"width": "1200",
 							"height": "5688",
 							"classType": "work-desktop"
 						},
 						{
-							"img1": "/assets/images/img-project-work-sion02@2.jpg",
+							"img1": "/assets/images/img-project-work-sion02.jpg",
+							"img2": "/assets/images/img-project-work-sion02.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-sion03@2.jpg",
+							"img1": "/assets/images/img-project-work-sion03.jpg",
+							"img2": "/assets/images/img-project-work-sion03.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-sion04@2.jpg",
+							"img1": "/assets/images/img-project-work-sion04.jpg",
+							"img2": "/assets/images/img-project-work-sion04.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
@@ -1841,31 +1926,36 @@
 							"classType": "work-desktop"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1605@2.jpg",
+							"img1": "/assets/images/img-project-work-po1605.jpg",
+							"img2": "/assets/images/img-project-work-po1605.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1606@2.jpg",
+							"img1": "/assets/images/img-project-work-po1606.jpg",
+							"img2": "/assets/images/img-project-work-po1606.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1607@2.jpg",
+							"img1": "/assets/images/img-project-work-po1607.jpg",
+							"img2": "/assets/images/img-project-work-po1607.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1608@2.jpg",
+							"img1": "/assets/images/img-project-work-po1608.jpg",
+							"img2": "/assets/images/img-project-work-po1608.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1609@2.jpg",
+							"img1": "/assets/images/img-project-work-po1609.jpg",
+							"img2": "/assets/images/img-project-work-po1609.jpg",
 							"width": "750",
 							"height": "1334",
 							"classType": "work-phone"
@@ -1878,19 +1968,22 @@
 							"classType": "work-desktop"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1611@2.jpg",
+							"img1": "/assets/images/img-project-work-po1611.jpg",
+							"img2": "/assets/images/img-project-work-po1611.jpg",
 							"width": "400",
 							"height": "262",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1612@2.jpg",
+							"img1": "/assets/images/img-project-work-po1612.jpg",
+							"img2": "/assets/images/img-project-work-po1612.jpg",
 							"width": "400",
 							"height": "262",
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-po1613@2.jpg",
+							"img1": "/assets/images/img-project-work-po1613.jpg",
+							"img2": "/assets/images/img-project-work-po1613.jpg",
 							"width": "400",
 							"height": "262",
 							"classType": "work-phone"
