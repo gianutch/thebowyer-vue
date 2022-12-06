@@ -8,7 +8,7 @@
 					class="float-left link text-bold display-laptop display-desktop"
 					v-bind:class="linkStyle"
 					to="/"
-					>The Bowyer</router-link
+					>Le Bowyer</router-link
 				>
 
 				<!-- menu -->

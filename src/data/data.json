@@ -9,9 +9,9 @@
 			"squareGrey": "/assets/images/img-website-squaregrey.png"
 		},
 		"file": {
-			"resumeLight": "/assets/files/thebowyer-resume--light.pdf",
-			"resumeDark": "/assets/files/thebowyer-resume--dark.pdf",
-			"portfolio": "/assets/files/thebowyer-portfolio.pdf"
+			"resumeLight": "/assets/files/lebowyer-resume--light.pdf",
+			"resumeDark": "/assets/files/lebowyer-resume--dark.pdf",
+			"portfolio": "/assets/files/lebowyer-portfolio--150.pdf"
 		},
 		"text": {
 			"title": "Web Design Portfolio",
