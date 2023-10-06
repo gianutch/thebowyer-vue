@@ -12,7 +12,7 @@
 				>, or send me an
 				<a
 					class="link link-external"
-					href="mailto:webinspi@gmail.com"
+					href="mailto:design@lebowyer.com"
 					target="_blank"
 					>email</a
 				>.

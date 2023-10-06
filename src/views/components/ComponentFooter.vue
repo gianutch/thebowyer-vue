@@ -1,7 +1,7 @@
 <template>
 	<footer>
 		<div class="container-full align-center">
-			<h5 class="display-inline-block">2023 Le Bowyer&nbsp;&nbsp;&nbsp;-</h5>
+			<h5 class="display-inline-block">2024 Le Bowyer&nbsp;&nbsp;&nbsp;-</h5>
 			&nbsp;
 			<a
 				class="link link-theme"
