@@ -12,7 +12,7 @@
 				>, or send me an
 				<a
 					class="link link-external"
-					href="mailto:design@lebowyer.com"
+					href="mailto:contact@lebowyer.com"
 					target="_blank"
 					>email</a
 				>.
