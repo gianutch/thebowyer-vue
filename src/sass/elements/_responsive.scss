@@ -1,11 +1,15 @@
 // http://getskeleton.com/
-// columns: 1 - 1/2 - 1/3, 2/3 - 1/4, 3/4 - 1/6, 5/6 - 1/8, 7/8
-// phone (0 - 499) / tablet (500-999) / laptop (1000-1499) / desktop (1500+)
-// max width img = 2000*0.9 = 1800px
-// display-block, display-inline, display-inline-block, display-none, display-phone (inline-block)
-// .container / .container-full
-// .section (32px), .subsection (16px)
-// .one-fourth-phone .column / .fluid .column (auto 1 phone, 1/2 tablet, 1/3 laptop, 1/4 desktop)
+// DISPLAY
+// .display-block, .display-inline, .display-inline-block, .display-none
+// .display-phone (inline-block), .display-tablet (inline-block), .display-laptop (inline-block), .display-desktop (inline-block)
+// LAYOUT
+// .container OR .container-full (max width img = 2000*0.9 = 1800px)
+// .section (64px padding top & bottom), .subsection (32px padding top & bottom)
+// .one-fourth-phone .column, .two-third-tablet.column, .five-sixth-laptop .column, .seven-eighth-desktop .column (1 - 1/2 - 1/3, 2/3 - 1/4, 3/4 - 1/6, 5/6 - 1/8, 7/8) OR .fluid .column (auto: 1 phone, 1/2 tablet, 1/3 laptop, 1/4 desktop)
+// RESPONSIVE
+// phone (0 - 499px, container width: 90%) / tablet (500-999px, container width: 85%) / laptop (1000-1499px, container width: 85%) / desktop (1500+px, container width: 80%)
+// img widht max: 1600px (2000px * 80%)
+// p width max: 800px
 
 /*  ============================================================ */
 pre,
