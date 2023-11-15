@@ -1,94 +1,93 @@
 #styleguide {
-
-    #styleguide-hero {
-        height: 640px;
-        width: 100%;
-        padding-left: 32px;
-        padding-right: 32px;
-        padding-top: 0;
-        padding-bottom: 0;
+	#styleguide-hero {
+		height: 640px;
+		width: 100%;
+		padding-left: 32px;
+		padding-right: 32px;
+		padding-top: 0;
+		padding-bottom: 0;
 		// background-color: #000000;
-        background-image: $color-primary--gradient;
+		background-image: $color-primary--gradient;
 
 		canvas {
-            height: 640px;
-        }
+			height: 640px;
+		}
 
-        canvas.background-black {
-            background-color: rgba(0, 0, 0, 0.24);
-        }
+		canvas.background-black {
+			background-color: rgba(0, 0, 0, 0.24);
+		}
 
-        .hero-title {
-            position: absolute;
-            vertical-align: middle;
-            left: 0;
-            right: 0;
-            margin-top: 192px;
+		.hero-title {
+			position: absolute;
+			vertical-align: middle;
+			left: 0;
+			right: 0;
+			margin-top: 192px;
 
-            button.button-white--ghost {
-                cursor: default;
-            }
-        }
-    }
+			button.button-white--ghost {
+				cursor: default;
+			}
+		}
+	}
 
-    .swatch {
-        margin-right: $b32;
-        margin-bottom: $b32;
-        display: inline-block;
-        vertical-align: top;
-        border-radius: $setting-radius--soft;
+	.swatch {
+		margin-right: $b32;
+		margin-bottom: $b32;
+		display: inline-block;
+		vertical-align: top;
+		border-radius: $setting-radius--soft;
 
-        .swatch-color {
-            background-color: $color-primary;
-            width: $b128;
-            height: $b128;
-            display: block;
-            padding-top: $b48;
-            padding-left: $b8;
-            padding-right: $b8;
-            text-align: center;
-            border-radius: $setting-radius--soft $setting-radius--soft 0 0;
+		.swatch-color {
+			background-color: $color-primary;
+			width: $b128;
+			height: $b128;
+			display: block;
+			padding-top: $b48;
+			padding-left: $b8;
+			padding-right: $b8;
+			text-align: center;
+			border-radius: $setting-radius--soft $setting-radius--soft 0 0;
 
-            h5 {
-                color: white;
-                text-align: center;
-                margin-bottom: 0;
-            }
-        }
+			h5 {
+				color: white;
+				text-align: center;
+				margin-bottom: 0;
+			}
+		}
 
-        .swatch-color.swatch-border {
-            border: $setting-border;
-            background-color: transparent;
-        }
+		.swatch-color.swatch-border {
+			border: $setting-border;
+			background-color: transparent;
+		}
 
-        .swatch-info {
-            width: $b128;
-            display: block;
-            padding: $b8;
-            background-color: $color-base--background;
+		.swatch-info {
+			width: $b128;
+			display: block;
+			padding: $b8;
+			background-color: $color-base--012;
 
-            h6 {
-                color: $color-base--description;
-                text-align: left;
-                margin-bottom: 0;
-            }
-        }
-    }
+			h6 {
+				color: $color-base--064;
+				text-align: left;
+				margin-bottom: 0;
+			}
+		}
+	}
 
-    #styleguide-nav {
-        margin-top: 320px;
-    }
+	#styleguide-nav {
+		margin-top: 320px;
+	}
 
-    #styleguide-nav.nav-sticky {
-        //na.\v.sticky appears with JS
-        position: fixed;
-        top: 120px;
-        margin-top: 0;
-    }
+	#styleguide-nav.nav-sticky {
+		//na.\v.sticky appears with JS
+		position: fixed;
+		top: 120px;
+		margin-top: 0;
+	}
 
-    #contact {
-        background-color: $color-base--background;
-    }
+	#contact {
+		background-color: $color-base--012;
+	}
 }
 
 // /#styleguide

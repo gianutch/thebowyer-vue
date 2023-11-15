@@ -6,7 +6,9 @@ $color-primary--gradient: linear-gradient(
 	135deg,
 	rgb(102, 153, 255),
 	rgb(179, 102, 255)
-); //theme
+);
+
+//theme
 $color-primary--1: #6699ff; //theme
 $color-primary--2: #6680ff; //theme
 $color-primary--3: #6666ff; //theme
@@ -24,21 +26,21 @@ $color-info--hover: #4d8fbf;
 
 //base
 $color-base: #555555; //theme
-$color-base--description: rgba(85, 85, 85, 0.64); //theme
-$color-base--background: rgba(85, 85, 85, 0.12); //theme
+$color-base--064: rgba(85, 85, 85, 0.64); //theme
+$color-base--012: rgba(85, 85, 85, 0.12); //theme
 $color-theme: #ffffff; //theme
-$color-theme--opaque: rgba(255, 255, 255, 0.96); //theme
+$color-theme--096: rgba(255, 255, 255, 0.96); //theme
 
 //border (border:)
-$setting-border: 1px solid $color-base--background; //theme
+$setting-border: 1px solid $color-base--012; //theme
 
 /* CLASSES GENERAL ============================================================ */
 .color-base {
 	color: $color-base;
 }
 
-.color-base--description {
-	color: $color-base--description;
+.color-base--064 {
+	color: $color-base--064;
 }
 
 .color-danger {
@@ -61,8 +63,8 @@ $setting-border: 1px solid $color-base--background; //theme
 }
 
 // can by used with .overlay or on their own
-.background-theme--strong {
-	background-color: $color-theme--opaque;
+.background-theme--096 {
+	background-color: $color-theme--096;
 }
 
 .background-black {

@@ -383,7 +383,7 @@ th {
   color: #555555;
 }
 
-.color-base--description {
+.color-base--064 {
   color: rgba(85, 85, 85, 0.64);
 }
 
@@ -406,7 +406,7 @@ th {
   max-height: 100%;
 }
 
-.background-theme--strong {
+.background-theme--096 {
   background-color: rgba(255, 255, 255, 0.96);
 }
 
@@ -1277,8 +1277,8 @@ code .comment {
 }
 
 .button.button-white--ghost {
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   background-color: transparent;
 }
 .button.button-white--ghost:hover:enabled {

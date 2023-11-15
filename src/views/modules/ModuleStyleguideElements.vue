@@ -410,14 +410,13 @@
 					p. Text,
 					<b>p. Text (bold)</b>
 				</p>
-				<p class="color-base--description">
+				<p class="color-base--064">
 					p. Text,
 					<b>p. Text (bold)</b>
 				</p>
 				<code>
 					<span class="comment">
-						//Source Sans Pro Regular, Bold / color-base,
-						color-base--description
+						//Source Sans Pro Regular, Bold / color-base, color-base--064
 						<br />//font-size: 20px / line-height: 32px
 					</span>
 				</code>
@@ -429,14 +428,13 @@
 					h5. Description,
 					<b>h5. Description (bold)</b>
 				</h5>
-				<h5 class="color-base--description">
+				<h5 class="color-base--064">
 					h5. Description,
 					<b>h5. Description (bold)</b>
 				</h5>
 				<code>
 					<span class="comment">
-						//Source Sans Pro Regular, Bold / color-base,
-						color-base--description
+						//Source Sans Pro Regular, Bold / color-base, color-base--064
 						<br />//font-size: 16px / line-height: 24px
 					</span>
 				</code>
@@ -445,11 +443,10 @@
 			<!-- h6 -->
 			<div class="subsection">
 				<h6>h6. Legal</h6>
-				<h6 class="color-base--description">h6. Legal</h6>
+				<h6 class="color-base--064">h6. Legal</h6>
 				<code>
 					<span class="comment">
-						//Source Sans Pro Regular / color-base,
-						color-base--description
+						//Source Sans Pro Regular / color-base, color-base--064
 						<br />//font-size: 12px / line-height: 16px
 					</span>
 				</code>
@@ -458,7 +455,7 @@
 			<!-- code -->
 			<div class="subsection">
 				<h5 class="text-secondary">code</h5>
-				<h5 class="text-secondary color-base--description">code</h5>
+				<h5 class="text-secondary color-base--064">code</h5>
 				<code>
 					<span class="comment">
 						//Courier Regular / color-base

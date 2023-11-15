@@ -384,13 +384,13 @@
 						"role": "primary text, action"
 					},
 					{
-						"id": "color-base--description",
+						"id": "color-base--064",
 						"hex": "#FFFFFF α(0.64)",
 						"rgba": "rgba(255,255,255,0.64)",
 						"role": "secondary text, no action"
 					},
 					{
-						"id": "color-base--background",
+						"id": "color-base--012",
 						"hex": "#FFFFFF α(0.12)",
 						"rgba": "rgba(255,255,255,0.12)",
 						"role": "component background, strokes"
@@ -402,7 +402,7 @@
 						"role": "general background"
 					},
 					{
-						"id": "color-theme--opaque",
+						"id": "color-theme--096",
 						"hex": "#121212 α(0.96)",
 						"rgba": "rgba(12,12,12,0.96)",
 						"role": "header & alerts background"
@@ -516,13 +516,13 @@
 						"role": "primary text, action"
 					},
 					{
-						"id": "color-base--description",
+						"id": "color-base--064",
 						"hex": "#555555 α(0.64)",
 						"rgba": "rgba(85,85,85,0.64)",
 						"role": "secondary text, no action"
 					},
 					{
-						"id": "color-base--background",
+						"id": "color-base--012",
 						"hex": "#555555 α(0.12)",
 						"rgba": "rgba(85,85,85,0.12)",
 						"role": "component background, strokes"
@@ -534,7 +534,7 @@
 						"role": "general background"
 					},
 					{
-						"id": "color-theme--opaque",
+						"id": "color-theme--096",
 						"hex": "#FFFFFF α(0.96)",
 						"rgba": "rgba(255,255,255,0.96)",
 						"role": "header & alerts background"
@@ -613,7 +613,7 @@
 				"title": "Text",
 				"family": "Source Sans Pro",
 				"weight": "Regular, Bold",
-				"color": "color-base, color-base--description",
+				"color": "color-base, color-base--064",
 				"size": 20,
 				"height": 32
 			},
@@ -622,7 +622,7 @@
 				"title": "Description",
 				"family": "Source Sans Pro",
 				"weight": "Regular, Bold",
-				"color": "color-base, color-base--description",
+				"color": "color-base, color-base--064",
 				"size": 16,
 				"height": 24
 			},
@@ -631,7 +631,7 @@
 				"title": "Legal",
 				"family": "Source Sans Pro",
 				"weight": "Regular, Bold",
-				"color": "color-base, color-base--description",
+				"color": "color-base, color-base--064",
 				"size": 12,
 				"height": 16
 			},
@@ -640,7 +640,7 @@
 				"title": "Code",
 				"family": "Courrier",
 				"weight": "Regular",
-				"color": "color-base, color-base--description",
+				"color": "color-base, color-base--064",
 				"size": 16,
 				"height": 24
 			}
