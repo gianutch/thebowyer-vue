@@ -10,6 +10,7 @@
 					href="https://medium.com/techwasti/atomic-design-for-web-component-bec382a3cf0e"
 					class="link link-external"
 					target="_blank"
+					rel="noopener noreferrer"
 					>Atomic Design</a
 				>
 				is the core principle of this website’s architecture. <br />•
@@ -50,6 +51,7 @@
 					href="https://zellwk.com/blog/why-vertical-rhythms/"
 					class="link link-external"
 					target="_blank"
+					rel="noopener noreferrer"
 					>Vertical Rythme</a
 				>
 				is based on an 8px baseline, genesis of all vertical spacing,
@@ -76,6 +78,7 @@
 					href="https://webflow.com/blog/web-design-101-color-theory"
 					class="link link-external"
 					target="_blank"
+					rel="noopener noreferrer"
 					>Color Theory</a
 				>
 				is based on a

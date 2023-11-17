@@ -7,6 +7,7 @@
 				class="link link-theme"
 				href="https://www.linkedin.com/in/gaelbvr"
 				target="_blank"
+				rel="noopener noreferrer"
 			>
 				<icon-linkedin class="icon icon-theme"></icon-linkedin>
 			</a>
@@ -16,11 +17,17 @@
 				class="link link-theme"
 				href="https://dribbble.com/"
 				target="_blank"
+				rel="noopener noreferrer"
 			>
 				<icon-dribbble class="icon icon-theme"></icon-dribbble>
 			</a>
 			&nbsp;
-			<a class="link link-theme" href="https://github.com/" target="_blank">
+			<a
+				class="link link-theme"
+				href="https://github.com/"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				<icon-github class="icon icon-theme"></icon-github>
 			</a>
 			&nbsp;

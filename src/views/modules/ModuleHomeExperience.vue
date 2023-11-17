@@ -9,6 +9,7 @@
 					class="link link-external"
 					href="https://www.linkedin.com/in/gaelbvr/"
 					target="_blank"
+					rel="noopener noreferrer"
 					>LinkedIn profile</a
 				>
 				or download my
@@ -17,6 +18,7 @@
 					class="link link-external"
 					v-bind:href="data.website.file.resumeDark"
 					target="_blank"
+					rel="noopener noreferrer"
 					>resume in PDF</a
 				>
 				<a
@@ -24,6 +26,7 @@
 					class="link link-external"
 					v-bind:href="data.website.file.resumeLight"
 					target="_blank"
+					rel="noopener noreferrer"
 					>resume in PDF</a
 				>.
 			</p>
@@ -87,6 +90,7 @@
 							class="link link-external text-bold"
 							v-bind:href="experience.url"
 							target="_blank"
+							rel="noopener noreferrer"
 							>{{ experience.company }}</a
 						>
 						<span v-else class="text-bold">{{ experience.company }}</span>

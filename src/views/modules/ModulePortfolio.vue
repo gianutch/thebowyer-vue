@@ -9,6 +9,7 @@
 					v-bind:href="data.website.file.portfolio"
 					class="link link-external"
 					target="_blank"
+					rel="noopener noreferrer"
 					>portfolio in PDF</a
 				>.
 			</p>

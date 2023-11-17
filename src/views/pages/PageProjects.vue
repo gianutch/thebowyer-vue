@@ -21,6 +21,7 @@
 							class="link link-external"
 							v-bind:href="projectObj.url"
 							target="_blank"
+							rel="noopener noreferrer"
 							>{{ projectObj.title }},&nbsp;</a
 						>
 						{{ projectObj.description }}

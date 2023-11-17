@@ -1972,14 +1972,14 @@ nav ul.nav-small li svg.icon.icon-mini {
 }
 
 header {
+  position: fixed;
+  z-index: 1;
   vertical-align: middle;
   box-shadow: none;
   height: 88px;
   max-height: 88px;
   width: 100%;
   max-width: 100%;
-  z-index: 1;
-  position: fixed;
   transition: all 0.3s ease-in-out;
   padding-top: 28px;
   /* RESPONSIVE ============================================================ */

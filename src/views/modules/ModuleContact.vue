@@ -8,12 +8,14 @@
 					class="link link-external"
 					href="https://www.linkedin.com/in/gaelbvr"
 					target="_blank"
+					rel="noopener noreferrer"
 					>LinkedIn</a
 				>, or send me an
 				<a
 					class="link link-external"
 					href="mailto:contact@lebowyer.com"
 					target="_blank"
+					rel="noopener noreferrer"
 					>email</a
 				>.
 				<!-- or using this <router-link to="/home#home-contact" class="link link-primary">contact form</router-link>. -->
