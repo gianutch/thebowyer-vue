@@ -50,8 +50,8 @@ p {
 
 /* LAYOUT ============================================================ */
 .container {
-	width: 90%;
 	position: relative;
+	width: 90%;
 	max-width: 2000px;
 	margin: 0 auto;
 	padding: 0;
@@ -62,7 +62,7 @@ p {
 	width: 100%;
 	max-width: 100%;
 	margin: 0;
-	padding: 0 32px;
+	padding: 0;
 	box-sizing: border-box;
 }
 .container:after,
