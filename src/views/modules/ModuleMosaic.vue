@@ -8,6 +8,8 @@
 						loading="eager"
 						v-bind:src="projectProp.image.mosaic1"
 						v-bind:srcset="projectProp.image.mosaic2 + ' 2x'"
+						v-bind:title="projectProp.title"
+						v-bind:alt="projectProp.description"
 					/>
 					<canvas class="overlay"></canvas>
 					<div class="mosaic-title">
