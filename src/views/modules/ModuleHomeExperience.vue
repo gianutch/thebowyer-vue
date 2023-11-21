@@ -60,6 +60,13 @@
 						height="128"
 					/>
 				</div>
+				<!-- prefetch headshotThug.jpg (for on:mouseover) -->
+				<link
+					rel="prefetch"
+					v-bind:href="data.website.image.headshotThug"
+					as="image"
+				/>
+				<!-- /prefetch -->
 				<br />
 				<br class="display-laptop display-desktop" />
 

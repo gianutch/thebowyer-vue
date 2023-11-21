@@ -48,12 +48,6 @@
 
 		<module-portfolio></module-portfolio>
 
-		<!-- prefetch headshotThug.jpg -->
-		<link
-			rel="prefetch"
-			v-bind:href="data.website.image.headshotThug"
-			as="image"
-		/>
 		<!-- prefetch hero-project -->
 		<link
 			rel="prefetch"
