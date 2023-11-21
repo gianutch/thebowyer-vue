@@ -1295,6 +1295,13 @@
 					"subtitle": "Lead digital product designer for the iOS native app. iOS app’s ranking highly improved on the App Store. Business Insider publications.",
 					"works": [
 						{
+							"img1": "/assets/images/img-project-work-deli00.gif",
+							"img2": "/assets/images/img-project-work-deli00.gif",
+							"width": "750",
+							"height": "1334",
+							"classType": "work-phone"
+						},
+						{
 							"img1": "/assets/images/img-project-work-deli01.jpg",
 							"img2": "/assets/images/img-project-work-deli01.jpg",
 							"width": "750",
@@ -1498,15 +1505,8 @@
 							"classType": "work-phone"
 						},
 						{
-							"img1": "/assets/images/img-project-work-deli33.gif",
-							"img2": "/assets/images/img-project-work-deli33.gif",
-							"width": "750",
-							"height": "1334",
-							"classType": "work-phone"
-						},
-						{
-							"img1": "/assets/images/img-project-work-deli39.jpg",
-							"img2": "/assets/images/img-project-work-deli39@2.jpg",
+							"img1": "/assets/images/img-project-work-deli33.jpg",
+							"img2": "/assets/images/img-project-work-deli33@2.jpg",
 							"width": "1800",
 							"height": "928",
 							"classType": "work-full"
