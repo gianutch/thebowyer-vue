@@ -44,8 +44,8 @@
 									v-bind:srcset="
 										data.styleguide.project.image.mosaic2 + ' 2x'
 									"
-									width="800"
-									height="533"
+									v-bind:title="data.styleguide.project.title"
+									v-bind:alt="data.styleguide.project.description"
 								/>
 								<canvas class="overlay"></canvas>
 								<div class="mosaic-title">

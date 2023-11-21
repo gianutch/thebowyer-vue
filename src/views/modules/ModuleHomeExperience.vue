@@ -54,6 +54,8 @@
 					<img
 						loading="eager"
 						v-bind:src="headshotPath"
+						v-bind:title="data.website.text.about.eng"
+						v-bind:alt="data.website.text.description1.eng"
 						v-on:mouseover="headshotOver"
 						v-on:mouseleave="headshotLeave"
 						width="128"
