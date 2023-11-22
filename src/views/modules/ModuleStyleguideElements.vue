@@ -16,29 +16,38 @@
 				is the core principle of this website’s architecture. <br />•
 				<b>Elements</b> (atoms) are the basic unmodifiable units. Ex:
 				spacing, fonts or colors. <br />• <b>Components</b> (molecules) are
-				made of Elements. Ex: a button is made of a font, a background color
-				and a border radius. <br />• <b>Modules</b> (organisms) are sections
-				of pages based on Elements and Components that can be re-used. Ex:
-				Header, Footer. <br />• <b>The Website</b> (ecosystem) is composed
-				of multiple Pages that are composed of different Modules, Components
-				and Elements.
+				made of Elements. Ex: button (made of a font, a background color and
+				a border radius). <br />• <b>Modules</b> (organisms) are sections of
+				pages based on Elements and Components that can be re-used.<br />•
+				<b>The Website</b> (ecosystem) is composed of multiple Pages that
+				are composed of different Modules, Components and Elements.
 			</p>
 			<!-- <br /> -->
 			<!-- <p>BEM</p> -->
 
 			<code>
 				&lt;div id="
-				<span class="class">view</span>"&gt; &lt;/div&gt; &nbsp;&nbsp;(with
-				<span class="variable">_view.scss</span>) <br />&lt;div id="
-				<span class="class">module</span>"&gt; &lt;/div&gt;
-				&nbsp;&nbsp;(with <span class="variable">_module.scss</span>)
+				<span class="class">component</span>
+				"&gt; &lt;/div&gt; &nbsp;&nbsp;(with
+				<span class="variable">_component.scss</span>)
 				<br />
-				<br />&lt;div id=" <span class="class">view-block</span>" class="
-				<span class="class">section</span>"&gt; &lt;/div&gt;
-				<br />&nbsp;&nbsp; &lt;div class="
-				<span class="class">view-block--modifier</span>" class="
-				<span class="class">subsection</span>"&gt; &lt;/div&gt;
-				<br />&lt;/div&gt;
+				&lt;div id="
+				<span class="class">module</span>
+				"&gt; &lt;/div&gt;&nbsp;&nbsp;(with
+				<span class="variable">_module.scss</span>)
+				<br />
+				&lt;div id="<span class="class">page</span>"&gt;
+				<br />
+				&nbsp;&nbsp; &lt;div id="<span class="class">module</span>"
+				class="<span class="class">section</span>"&gt;
+				<br />
+				&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class="<span class="class"
+					>module--modifier</span
+				>" class="<span class="class">subsection</span>"&gt; &lt;/div&gt;
+				<br />
+				&nbsp;&nbsp; &lt;/div&gt;
+				<br />
+				&lt;/div&gt;
 			</code>
 		</div>
 		<!-- /ATOMIC -->
