@@ -493,20 +493,20 @@
 			<!-- icon-styles -->
 			<div class="subsection">
 				<h3>Icon Styles</h3>
-				<icon-gael class="icon icon-base"></icon-gael>
+				<icon-gael class="icon color-base"></icon-gael>
 				<br />
-				<icon-gael class="icon icon-primary"></icon-gael>
+				<icon-gael class="icon color-primary"></icon-gael>
 				<br />
-				<icon-gael class="icon icon-white"></icon-gael>
+				<icon-gael class="icon color-white"></icon-gael>
 				<br />
 
 				<code>
 					&lt;icon-gael class="
-					<span class="class">icon icon-base</span>"&gt; &lt;/icon-gael&gt;
-					<br />&lt;icon-gael class="
-					<span class="class">icon icon-primary</span>"&gt;
+					<span class="class">icon color-base</span>"&gt;
 					&lt;/icon-gael&gt; <br />&lt;icon-gael class="
-					<span class="class">icon icon-white</span>"&gt;
+					<span class="class">icon color-primary</span>"&gt;
+					&lt;/icon-gael&gt; <br />&lt;icon-gael class="
+					<span class="class">icon color-white</span>"&gt;
 					&lt;/icon-gael&gt;
 				</code>
 			</div>
@@ -514,29 +514,30 @@
 			<!-- icon-sizes -->
 			<div class="subsection">
 				<h3>Icon Sizes</h3>
-				<icon-gael class="icon icon-base icon-mini"></icon-gael>
+				<icon-gael class="icon color-base icon-mini"></icon-gael>
 				<br />
-				<icon-gael class="icon icon-base icon-small"></icon-gael>
+				<icon-gael class="icon color-base icon-small"></icon-gael>
 				<br />
-				<icon-gael class="icon icon-base"></icon-gael>
+				<icon-gael class="icon color-base"></icon-gael>
 				<br />
-				<icon-gael class="icon icon-base icon-big"></icon-gael>
+				<icon-gael class="icon color-base icon-big"></icon-gael>
 				<br />
 
 				<code>
 					&lt;icon-gael class="
-					<span class="class">icon icon-base icon-mini</span>"&gt;
+					<span class="class">icon color-base icon-mini</span>"&gt;
 					&lt;/icon-gael&gt;
 					<span class="comment">//12px</span>
 					<br />&lt;icon-gael class="
-					<span class="class">icon icon-base icon-small</span>"&gt;
+					<span class="class">icon color-base icon-small</span>"&gt;
 					&lt;/icon-gael&gt;
 					<span class="comment">//16px</span>
 					<br />&lt;icon-gael class="
-					<span class="class">icon icon-base</span>"&gt; &lt;/icon-gael&gt;
+					<span class="class">icon color-base</span>"&gt;
+					&lt;/icon-gael&gt;
 					<span class="comment">//20px</span>
 					<br />&lt;icon-gael class="
-					<span class="class">icon icon-base icon-big</span>"&gt;
+					<span class="class">icon color-base icon-big</span>"&gt;
 					&lt;/icon-gael&gt;
 					<span class="comment">//30px</span>
 				</code>

@@ -9,7 +9,7 @@
 				target="_blank"
 				rel="noopener noreferrer"
 			>
-				<icon-linkedin class="icon icon-theme"></icon-linkedin>
+				<icon-linkedin class="icon color-theme"></icon-linkedin>
 			</a>
 
 			&nbsp;
@@ -19,7 +19,7 @@
 				target="_blank"
 				rel="noopener noreferrer"
 			>
-				<icon-dribbble class="icon icon-theme"></icon-dribbble>
+				<icon-dribbble class="icon color-theme"></icon-dribbble>
 			</a>
 			&nbsp;
 			<a
@@ -28,7 +28,7 @@
 				target="_blank"
 				rel="noopener noreferrer"
 			>
-				<icon-github class="icon icon-theme"></icon-github>
+				<icon-github class="icon color-theme"></icon-github>
 			</a>
 			&nbsp;
 			<!-- console.log -->

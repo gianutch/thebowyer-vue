@@ -1801,19 +1801,19 @@ svg.icon:active {
 }
 
 /* STYLES ============================================================ */
-svg.icon.icon-primary path {
+svg.icon.color-primary path {
   fill: #9966ff;
 }
 
-svg.icon.icon-base path {
+svg.icon.color-base path {
   fill: #555555;
 }
 
-svg.icon.icon-theme path {
+svg.icon.color-theme path {
   fill: #ffffff;
 }
 
-svg.icon.icon-white path {
+svg.icon.color-white path {
   fill: white;
 }
 
