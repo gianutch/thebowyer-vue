@@ -183,7 +183,7 @@
 					Button Base Disabled
 				</button>
 				<br />
-				<button class="button button-primay" disabled>
+				<button class="button button-primary" disabled>
 					Button Primary Disabled
 				</button>
 				<br />
@@ -198,6 +198,10 @@
 				<code>
 					&lt;button class="
 					<span class="class">button button-base</span>"
+					<span class="variable">disabled</span>&gt; &lt;/button&gt;
+					<br />
+					&lt;button class="
+					<span class="class">button button-primary</span>"
 					<span class="variable">disabled</span>&gt; &lt;/button&gt;
 					<br />
 					&lt;button class="
