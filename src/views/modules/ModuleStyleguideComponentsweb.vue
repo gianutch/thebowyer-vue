@@ -142,36 +142,36 @@
 				<button class="button button-special button-base button-small">
 					<icon-gael class="icon"></icon-gael>
 				</button>
-				<br />
-				<button
-					id="styleguide-button-special-active"
-					class="button button-special button-base button-active"
-					v-on:click="buttonActiveToggle()"
-				>
-					<icon-gael class="icon"></icon-gael>
-				</button>
 
 				<code>
 					&lt;button class="
 					<span class="class">button button-special button-base</span>"&gt;
-					&lt;/button&gt; <br />&lt;button class="
+					&lt;/button&gt;
+					<br />
+					&lt;button class="
 					<span class="class">button button-special button-primary</span
-					>"&gt; &lt;/button&gt; <br />&lt;button class="
+					>"&gt; &lt;/button&gt;
+					<br />
+					&lt;button class="
 					<span class="class"
 						>button button-special button-base--ghost</span
-					>"&gt; &lt;/button&gt; <br />&lt;button class="
+					>"&gt; &lt;/button&gt;
+					<br />
+					&lt;button class="
 					<span class="class"
 						>button button-special button-white--ghost</span
-					>"&gt; &lt;/button&gt; <br />&lt;a class="
+					>"&gt; &lt;/button&gt;
+					<br />
+					&lt;a class="
 					<span class="class">display-inline-block</span>"&gt;
-					<br />&nbsp;&nbsp; &lt;button class="
+					<br />
+					&nbsp;&nbsp; &lt;button class="
 					<span class="class">button button-special button-base</span>"&gt;
-					&lt;/button&gt; <br />&lt;/a&gt; <br />&lt;button class="
+					&lt;/button&gt; <br />&lt;/a&gt;
+					<br />
+					&lt;button class="
 					<span class="class"
 						>button button-special button-base button-small</span
-					>"&gt; &lt;/button&gt; <br />&lt;button class="
-					<span class="class"
-						>button button-special button-base button-active</span
 					>"&gt; &lt;/button&gt;
 				</code>
 			</div>
