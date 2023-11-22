@@ -36,7 +36,8 @@
 				"&gt; &lt;/div&gt;&nbsp;&nbsp;(with
 				<span class="variable">_module.scss</span>)
 				<br />
-				&lt;div id="<span class="class">page</span>"&gt;
+				&lt;div id="<span class="class">page</span>"&gt; &nbsp;&nbsp;(with
+				<span class="variable">_page.scss</span>)
 				<br />
 				&nbsp;&nbsp; &lt;div id="<span class="class">module</span>"
 				class="<span class="class">section</span>"&gt;
