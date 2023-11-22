@@ -179,7 +179,13 @@
 			<!-- button-states -->
 			<div class="subsection">
 				<h3>Button State</h3>
-				<button class="button button-base" disabled>Button Disabled</button>
+				<button class="button button-base" disabled>
+					Button Base Disabled
+				</button>
+				<br />
+				<button class="button button-primay" disabled>
+					Button Primary Disabled
+				</button>
 				<br />
 				<button
 					id="styleguide-button-base-active"
@@ -191,9 +197,10 @@
 
 				<code>
 					&lt;button class="
-					<span class="class">button button-primary</span>"
+					<span class="class">button button-base</span>"
 					<span class="variable">disabled</span>&gt; &lt;/button&gt;
-					<br />&lt;button class="
+					<br />
+					&lt;button class="
 					<span class="class">button button-base button-active</span>"&gt;
 					&lt;/button&gt;
 				</code>
@@ -334,7 +341,7 @@
 						required
 					/>
 					<label>
-						<span class="color-danger">Label with error message</span>
+						<span class="color-danger">Label with error message*</span>
 					</label>
 					<input
 						class="field field-error"
