@@ -33,24 +33,42 @@
 
 				<code>
 					&lt;button class="
-					<span class="class">button button-primary--gradient</span>"&gt;
-					&lt;/button&gt; <br />&lt;button class="
-					<span class="class">button button-primary</span>"&gt;
-					&lt;/button&gt; <br />&lt;button class="
-					<span class="class">button button-base</span>"&gt;
-					&lt;/button&gt; <br />&lt;button class="
-					<span class="class">button button-base</span>"&gt;
-					<br />&nbsp;&nbsp; &lt;icon-gael class="
-					<span class="class">icon</span>"&gt; &lt;/icon-gael&gt;
-					<br />&lt;/button&gt; <br />&lt;button class="
-					<span class="class">button button-base--ghost</span>"&gt;
-					&lt;/button&gt; <br />&lt;button class="
-					<span class="class">button button-white--ghost</span>"&gt;
-					&lt;/button&gt; <br />&lt;button class="
-					<span class="class">button button-success</span>"&gt;
-					&lt;/button&gt; <br />&lt;button class="
-					<span class="class">button button-danger</span>"&gt;
+					<span class="class">button button-primary--gradient</span>
+					"&gt;&lt;/button&gt;
+					<br />
+					&lt;button class="
+					<span class="class">button button-primary</span>
+					"&gt;&lt;/button&gt;
+					<br />
+					&lt;button class="
+					<span class="class">button button-base</span>
+					"&gt;&lt;/button&gt;
+					<br />
+					&lt;button class="
+					<span class="class">button button-base</span>
+					"&gt;
+					<br />
+					&nbsp;&nbsp; &lt;icon-gael class="
+					<span class="class">icon</span>
+					"&gt; &lt;/icon-gael&gt;
+					<br />
 					&lt;/button&gt;
+					<br />
+					&lt;button class="
+					<span class="class">button button-base--ghost</span>
+					"&gt;&lt;/button&gt;
+					<br />
+					&lt;button class="
+					<span class="class">button button-white--ghost</span>
+					"&gt;&lt;/button&gt;
+					<br />
+					&lt;button class="
+					<span class="class">button button-success</span>
+					"&gt;&lt;/button&gt;
+					<br />
+					&lt;button class="
+					<span class="class">button button-danger</span>
+					"&gt;&lt;/button&gt;
 				</code>
 			</div>
 
@@ -68,12 +86,16 @@
 
 				<code>
 					&lt;button class="
-					<span class="class">button button-base button-block</span>"&gt;
-					&lt;/button&gt; <br />&lt;button class="
-					<span class="class">button button-base button-small</span>"&gt;
-					&lt;/button&gt; <br />&lt;button class="
-					<span class="class">button button-base button-mini</span>"&gt;
-					&lt;/button&gt;
+					<span class="class">button button-base button-block</span>
+					"&gt;&lt;/button&gt;
+					<br />
+					&lt;button class="
+					<span class="class">button button-base button-small</span>
+					"&gt;&lt;/button&gt;
+					<br />
+					&lt;button class="
+					<span class="class">button button-base button-mini</span>
+					"&gt;&lt;/button&gt;
 				</code>
 			</div>
 
@@ -106,14 +128,20 @@
 
 				<code>
 					&lt;button class="
-					<span class="class">button button-base--ghost button-tag</span
-					>"&gt; &lt;/button&gt; <br />&lt;&lt;button class="
+					<span class="class">button button-base--ghost button-tag</span>
+					"&gt; &lt;/button&gt;
+					<br />
+					&lt;&lt;button class="
 					<span class="class"
 						>button button-base--ghost button-small button-tag</span
-					>"&gt; &lt;/button&gt; <br />&lt;button class="
+					>
+					"&gt; &lt;/button&gt;
+					<br />
+					&lt;button class="
 					<span class="class"
 						>button button-base--ghost button-mini button-tag</span
-					>"&gt; &lt;/button&gt;
+					>
+					"&gt; &lt;/button&gt;
 				</code>
 			</div>
 
@@ -145,34 +173,40 @@
 
 				<code>
 					&lt;button class="
-					<span class="class">button button-special button-base</span>"&gt;
-					&lt;/button&gt;
+					<span class="class">button button-special button-base</span>
+					"&gt;&lt;/button&gt;
 					<br />
 					&lt;button class="
-					<span class="class">button button-special button-primary</span
-					>"&gt; &lt;/button&gt;
+					<span class="class">button button-special button-primary</span>
+					"&gt; &lt;/button&gt;
 					<br />
 					&lt;button class="
 					<span class="class"
 						>button button-special button-base--ghost</span
-					>"&gt; &lt;/button&gt;
+					>
+					"&gt; &lt;/button&gt;
 					<br />
 					&lt;button class="
 					<span class="class"
 						>button button-special button-white--ghost</span
-					>"&gt; &lt;/button&gt;
+					>
+					"&gt; &lt;/button&gt;
 					<br />
 					&lt;a class="
-					<span class="class">display-inline-block</span>"&gt;
+					<span class="class">display-inline-block</span>
+					"&gt;
 					<br />
 					&nbsp;&nbsp; &lt;button class="
-					<span class="class">button button-special button-base</span>"&gt;
-					&lt;/button&gt; <br />&lt;/a&gt;
+					<span class="class">button button-special button-base</span>
+					"&gt;&lt;/button&gt;
+					<br />
+					&lt;/a&gt;
 					<br />
 					&lt;button class="
 					<span class="class"
 						>button button-special button-base button-small</span
-					>"&gt; &lt;/button&gt;
+					>
+					"&gt; &lt;/button&gt;
 				</code>
 			</div>
 
@@ -198,15 +232,17 @@
 				<code>
 					&lt;button class="
 					<span class="class">button button-base</span>"
-					<span class="variable">disabled</span>&gt; &lt;/button&gt;
+					<span class="variable">disabled</span>
+					&gt;&lt;/button&gt;
 					<br />
 					&lt;button class="
 					<span class="class">button button-primary</span>"
-					<span class="variable">disabled</span>&gt; &lt;/button&gt;
+					<span class="variable">disabled</span>
+					&gt; &lt;/button&gt;
 					<br />
 					&lt;button class="
-					<span class="class">button button-base button-active</span>"&gt;
-					&lt;/button&gt;
+					<span class="class">button button-base button-active</span>
+					"&gt;&lt;/button&gt;
 				</code>
 			</div>
 
@@ -243,29 +279,46 @@
 				>
 
 				<code>
+					&lt;a class="<span class="class">link link-base</span>
+					"&gt;&lt;/a&gt;
+					<br />
+					&lt;a class="<span class="class">link link-base link-bold</span>
+					"&gt;&lt;/a&gt;
+					<br />
+					&lt;a class="<span class="class">link link-primary</span>
+					"&gt;&lt;/a&gt;
+					<br />
 					&lt;a class="
-					<span class="class">link link-base</span>"&gt; &lt;/a&gt;
-					<br />&lt;a class="
-					<span class="class">link link-base link-bold</span>"&gt;
-					&lt;/a&gt; <br />&lt;a class="
-					<span class="class">link link-primary</span>"&gt; &lt;/a&gt;
-					<br />&lt;a class="
-					<span class="class">link link-primary link-bold</span>"&gt;
-					&lt;/a&gt; <br />&lt;a class="
-					<span class="class">link link-white</span>"&gt; &lt;/a&gt;
-					<br />&lt;a class="
-					<span class="class">link link-white link-bold</span>"&gt;
-					&lt;/a&gt; <br />&lt;a class="
-					<span class="class">link link-external</span>"&gt; &lt;/a&gt;
-					<br />&lt;a class="
-					<span class="class">link link-external link-bold</span>"&gt;
-					&lt;/a&gt; <br />&lt;a class="
-					<span class="class">link link-base link-small</span>"&gt;
-					&lt;/a&gt; <br />&lt;a class="
-					<span class="class">link link-base link-mini</span>"&gt;
-					&lt;/a&gt; <br />&lt;a class="
-					<span class="class">link link-base link-active</span>"&gt;
-					&lt;/a&gt;
+					<span class="class">link link-primary link-bold</span>
+					"&gt;&lt;/a&gt;
+					<br />
+					&lt;a class="
+					<span class="class">link link-white</span>
+					"&gt;&lt;/a&gt;
+					<br />
+					&lt;a class="
+					<span class="class">link link-white link-bold</span>
+					"&gt; &lt;/a&gt;
+					<br />
+					&lt;a class="
+					<span class="class">link link-external</span>
+					"&gt; &lt;/a&gt;
+					<br />
+					&lt;a class="
+					<span class="class">link link-external link-bold</span>
+					"&gt; &lt;/a&gt;
+					<br />
+					&lt;a class="
+					<span class="class">link link-base link-small</span>
+					"&gt; &lt;/a&gt;
+					<br />
+					&lt;a class="
+					<span class="class">link link-base link-mini</span>
+					"&gt; &lt;/a&gt;
+					<br />
+					&lt;a class="
+					<span class="class">link link-base link-active</span>
+					"&gt; &lt;/a&gt;
 				</code>
 			</div>
 		</div>
@@ -513,12 +566,16 @@
 
 				<code>
 					&lt;icon-gael class="
-					<span class="class">icon color-base</span>"&gt;
-					&lt;/icon-gael&gt; <br />&lt;icon-gael class="
-					<span class="class">icon color-primary</span>"&gt;
-					&lt;/icon-gael&gt; <br />&lt;icon-gael class="
-					<span class="class">icon color-white</span>"&gt;
-					&lt;/icon-gael&gt;
+					<span class="class">icon color-base</span>
+					"&gt;&lt;/icon-gael&gt;
+					<br />
+					&lt;icon-gael class="
+					<span class="class">icon color-primary</span>
+					"&gt;&lt;/icon-gael&gt;
+					<br />
+					&lt;icon-gael class="
+					<span class="class">icon color-white</span>
+					"&gt;&lt;/icon-gael&gt;
 				</code>
 			</div>
 
@@ -536,20 +593,23 @@
 
 				<code>
 					&lt;icon-gael class="
-					<span class="class">icon color-base icon-mini</span>"&gt;
-					&lt;/icon-gael&gt;
+					<span class="class">icon color-base icon-mini</span>
+					"&gt;&lt;/icon-gael&gt;
 					<span class="comment">//12px</span>
-					<br />&lt;icon-gael class="
-					<span class="class">icon color-base icon-small</span>"&gt;
-					&lt;/icon-gael&gt;
+					<br />
+					&lt;icon-gael class="
+					<span class="class">icon color-base icon-small</span>
+					"&gt;&lt;/icon-gael&gt;
 					<span class="comment">//16px</span>
-					<br />&lt;icon-gael class="
-					<span class="class">icon color-base</span>"&gt;
-					&lt;/icon-gael&gt;
+					<br />
+					&lt;icon-gael class="
+					<span class="class">icon color-base</span>
+					"&gt;&lt;/icon-gael&gt;
 					<span class="comment">//20px</span>
-					<br />&lt;icon-gael class="
-					<span class="class">icon color-base icon-big</span>"&gt;
-					&lt;/icon-gael&gt;
+					<br />
+					&lt;icon-gael class="
+					<span class="class">icon color-base icon-big</span>
+					"&gt;&lt;/icon-gael&gt;
 					<span class="comment">//30px</span>
 				</code>
 			</div>
