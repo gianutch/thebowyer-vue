@@ -13,6 +13,9 @@ svg.icon {
 		transition: none;
 	}
 }
+embed {
+	pointer-events: none;
+}
 
 /* STYLES ============================================================ */
 svg.icon.color-primary path {

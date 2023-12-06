@@ -1800,6 +1800,10 @@ svg.icon:active {
   transition: none;
 }
 
+embed {
+  pointer-events: none;
+}
+
 /* STYLES ============================================================ */
 svg.icon.color-primary path {
   fill: #9966ff;
