@@ -161,7 +161,7 @@
 					<icon-gael class="icon"></icon-gael>
 				</button>
 				<br />
-				<a class="display-inline-block">
+				<a class="display--inline-block">
 					<button class="button button-special button-base">
 						<icon-gael class="icon"></icon-gael>
 					</button>
@@ -193,7 +193,7 @@
 					"&gt; &lt;/button&gt;
 					<br />
 					&lt;a class="
-					<span class="class">display-inline-block</span>
+					<span class="class">display--inline-block</span>
 					"&gt;
 					<br />
 					&nbsp;&nbsp; &lt;button class="

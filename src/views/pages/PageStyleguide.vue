@@ -35,7 +35,7 @@
 			</div>
 
 			<div
-				class="one-sixth-laptop one-sixth-desktop column display-laptop display-desktop"
+				class="one-sixth-laptop one-sixth-desktop column display-laptop--inline-block display-desktop--inline-block"
 			>
 				<module-styleguide-nav></module-styleguide-nav>
 			</div>

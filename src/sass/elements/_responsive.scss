@@ -1,7 +1,10 @@
 // http://getskeleton.com/
 // DISPLAY
-// .display-block, .display-inline, .display-inline-block, .display-none
-// .display-phone (inline-block), .display-tablet (inline-block), .display-laptop (inline-block), .display-desktop (inline-block)
+// .display--block, .display--inline, .display--inline-block, .display--none
+// .display-phone--block, .display-phone--inline, .display-phone--inline-block,
+// .display-tablet--block, .display-tablet--inline, .display-tablet--inline-block,
+// .display-laptop--block, .display-laptop--inline, .display-laptop--inline-block,
+// .display-desktop--block, .display-desktop--inline, .display-desktop--inline-block
 // LAYOUT
 // .container OR .container-full (max width img = 2000*0.9 = 1800px)
 // .section (64px padding top & bottom), .subsection (32px padding top & bottom)
@@ -25,19 +28,19 @@ p {
 }
 
 /* DISPLAY ============================================================ */
-.display-block {
+.display--block {
 	display: block !important;
 }
 
-.display-inline {
+.display--inline {
 	display: inline !important;
 }
 
-.display-inline-block {
+.display--inline-block {
 	display: inline-block !important;
 }
 
-.display-none {
+.display--none {
 	display: none !important;
 }
 
@@ -132,7 +135,13 @@ p {
 // phone only
 @media (max-width: 499px) {
 	// display
-	.display-phone {
+	.display-phone--block {
+		display: block !important;
+	}
+	.display-phone--inline {
+		display: inline !important;
+	}
+	.display-phone--inline-block {
 		display: inline-block !important;
 	}
 
@@ -150,7 +159,13 @@ p {
 // tablet only
 @media (min-width: 500px) and (max-width: 999px) {
 	// display
-	.display-tablet {
+	.display-tablet--block {
+		display: block !important;
+	}
+	.display-tablet--inline {
+		display: inline !important;
+	}
+	.display-tablet--inline-block {
 		display: inline-block !important;
 	}
 
@@ -216,7 +231,13 @@ p {
 // laptop only
 @media (min-width: 1000px) and (max-width: 1499px) {
 	// display
-	.display-laptop {
+	.display-laptop--block {
+		display: block !important;
+	}
+	.display-laptop--inline {
+		display: inline !important;
+	}
+	.display-laptop--inline-block {
 		display: inline-block !important;
 	}
 
@@ -291,7 +312,13 @@ p {
 // desktop and above
 @media (min-width: 1500px) {
 	// display
-	.display-desktop {
+	.display-desktop--block {
+		display: block !important;
+	}
+	.display-desktop--inline {
+		display: inline !important;
+	}
+	.display-desktop--inline-block {
 		display: inline-block !important;
 	}
 

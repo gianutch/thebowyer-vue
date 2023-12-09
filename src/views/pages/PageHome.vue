@@ -13,7 +13,7 @@
 			<canvas
 				v-if="windowWidth > 999"
 				id="spiders"
-				class="overlay display-tablet display-laptop display-desktop"
+				class="overlay display-tablet--inline-block display-laptop--inline-block display-desktop--inline-block"
 			></canvas>
 			<!-- /spiders -->
 

@@ -5,7 +5,7 @@
 				<!-- logo -->
 				<router-link
 					id="header-logo"
-					class="float-left link text-bold display-laptop display-desktop"
+					class="float-left link text-bold display-laptop--inline-block display-desktop--inline-block"
 					v-bind:class="linkStyle"
 					to="/"
 					>Le Bowyer</router-link
@@ -24,10 +24,13 @@
 						>
 							<!-- menu icon for phone -->
 							<icon-home
-								class="icon icon-big display-phone display-tablet"
+								class="icon icon-big display-phone--inline-block display-tablet--inline-block"
 							></icon-home>
 							<!-- menu text for desktop -->
-							<span class="display-laptop display-desktop">Home</span>
+							<span
+								class="display-laptop--inline-block display-desktop--inline-block"
+								>Home</span
+							>
 						</router-link>
 					</li>
 
@@ -46,13 +49,15 @@
 						>
 							<!-- menu icon for phone -->
 							<icon-projects
-								class="icon icon-big display-phone display-tablet"
+								class="icon icon-big display-phone--inline-block display-tablet--inline-block"
 							></icon-projects>
 							<icon-caret
-								class="icon icon-mini display-phone display-tablet"
+								class="icon icon-mini display-phone--inline-block display-tablet--inline-block"
 							></icon-caret>
 							<!-- menu text for desktop -->
-							<span class="display-laptop display-desktop">
+							<span
+								class="display-laptop--inline-block display-desktop--inline-block"
+							>
 								Projects
 								<icon-caret class="icon icon-mini"></icon-caret>
 							</span>
@@ -89,10 +94,11 @@
 						>
 							<!-- menu icon for phone -->
 							<icon-styleguide
-								class="icon icon-big display-phone display-tablet"
+								class="icon icon-big display-phone--inline-block display-tablet--inline-block"
 							></icon-styleguide>
 							<!-- menu text for desktop -->
-							<span class="display-laptop display-desktop"
+							<span
+								class="display-laptop--inline-block display-desktop--inline-block"
 								>Style Guide</span
 							>
 						</router-link>

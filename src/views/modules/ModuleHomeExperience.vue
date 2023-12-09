@@ -70,7 +70,9 @@
 				/>
 				<!-- /prefetch -->
 				<br />
-				<br class="display-laptop display-desktop" />
+				<br
+					class="display-laptop--inline-block display-desktop--inline-block"
+				/>
 
 				<!-- vfor -->
 				<div
