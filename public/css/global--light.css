@@ -716,10 +716,18 @@ p {
   display: none !important;
 }
 
-.display-phone,
-.display-tablet,
-.display-laptop,
-.display-desktop {
+.display-phone--block,
+.display-phone--inline,
+.display-phone--inline-block,
+.display-tablet--block,
+.display-tablet--inline,
+.display-tablet--inline-block,
+.display-laptop--block,
+.display-laptop--inline,
+.display-laptop--inline-block,
+.display-desktop--block,
+.display-desktop--inline,
+.display-desktop--inline-block {
   display: none !important;
 }
 
