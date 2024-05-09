@@ -2557,9 +2557,9 @@
 						{
 							"img1": "/assets/images/img-project-work-phot24.jpg",
 							"img2": "/assets/images/img-project-work-phot24@2.jpg",
-							"width": "800",
-							"height": "800",
-							"classType": "work-tablet"
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
 						},
 						{
 							"img1": "/assets/images/img-project-work-phot25.jpg",
@@ -2570,7 +2570,7 @@
 						},
 						{
 							"img1": "/assets/images/img-project-work-phot30.jpg",
-							"img2": "/assets/images/img-project-work-phot31@2.jpg",
+							"img2": "/assets/images/img-project-work-phot30@2.jpg",
 							"width": "1200",
 							"height": "900",
 							"classType": "work-desktop"
