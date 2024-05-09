@@ -8,6 +8,9 @@
 			"headshotThug": "/assets/images/img-website-headshot--thug.jpg",
 			"squareGrey": "/assets/images/img-website-squaregrey.png"
 		},
+		"video": {
+			"heroEarthMp4": "/assets/videos/vid-website-hero-earth720.mp4"
+		},
 		"file": {
 			"resumeLight": "/assets/files/lebowyer-resume--light.pdf",
 			"resumeDark": "/assets/files/lebowyer-resume--dark.pdf",
@@ -652,6 +655,60 @@
 		]
 	},
 	"projects": [
+		{
+			"id": "lapresstudio",
+			"title": "L'Après Studio",
+			"url": "https://www.lapres-studio.com/",
+			"description": "Post-production house based in New York.",
+			"tags": ["Website Design", "Front End"],
+			"image": {
+				"banner": "",
+				"hero": "/assets/images/img-project-hero-apre.jpg",
+				"mock1": "/assets/images/img-project-mock-apre.png",
+				"mock2": "/assets/images/img-project-mock-apre@2.png",
+				"mock3": "/assets/images/img-project-mock-apre@2.png",
+				"mock4": "/assets/images/img-project-mock-apre@2.png",
+				"mosaic1": "/assets/images/img-project-mosaic-apre.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-apre@2.jpg"
+			},
+			"parts": [
+				{
+					"id": "a",
+					"title": "Website",
+					"subtitle": "",
+					"works": [
+						{
+							"img1": "/assets/images/img-project-work-apre01.jpg",
+							"img2": "/assets/images/img-project-work-apre01@2.jpg",
+							"width": "1200",
+							"height": "6912",
+							"classType": "work-desktop"
+						}
+					]
+				},
+				{
+					"id": "b",
+					"title": "Website",
+					"subtitle": "Original Designs",
+					"works": [
+						{
+							"img1": "/assets/images/img-project-work-apre02.jpg",
+							"img2": "/assets/images/img-project-work-apre02@2.jpg",
+							"width": "1200",
+							"height": "4724",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-apre03.jpg",
+							"img2": "/assets/images/img-project-work-apre03.jpg",
+							"width": "720",
+							"height": "7678",
+							"classType": "work-phone"
+						}
+					]
+				}
+			]
+		},
 		{
 			"id": "sovereignify",
 			"title": "Sovereignify",
@@ -2402,27 +2459,69 @@
 						{
 							"img1": "/assets/images/img-project-work-phot09.jpg",
 							"img2": "/assets/images/img-project-work-phot09@2.jpg",
-							"width": "800",
-							"height": "800",
-							"classType": "work-tablet"
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
 						},
 						{
 							"img1": "/assets/images/img-project-work-phot10.jpg",
 							"img2": "/assets/images/img-project-work-phot10@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot11.jpg",
+							"img2": "/assets/images/img-project-work-phot11@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot12.jpg",
+							"img2": "/assets/images/img-project-work-phot12@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot14.jpg",
+							"img2": "/assets/images/img-project-work-phot14@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot15.jpg",
+							"img2": "/assets/images/img-project-work-phot15@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot16.jpg",
+							"img2": "/assets/images/img-project-work-phot16@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot17.jpg",
+							"img2": "/assets/images/img-project-work-phot17@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot18.jpg",
+							"img2": "/assets/images/img-project-work-phot18@2.jpg",
 							"width": "800",
 							"height": "800",
 							"classType": "work-tablet"
 						},
 						{
-							"img1": "/assets/images/img-project-work-phot11.jpg",
-							"img2": "/assets/images/img-project-work-phot11@2.jpg",
-							"width": "800",
-							"height": "672",
-							"classType": "work-tablet"
-						},
-						{
-							"img1": "/assets/images/img-project-work-phot12.jpg",
-							"img2": "/assets/images/img-project-work-phot12@2.jpg",
+							"img1": "/assets/images/img-project-work-phot19.jpg",
+							"img2": "/assets/images/img-project-work-phot19@2.jpg",
 							"width": "800",
 							"height": "800",
 							"classType": "work-tablet"
@@ -2465,23 +2564,16 @@
 						{
 							"img1": "/assets/images/img-project-work-phot25.jpg",
 							"img2": "/assets/images/img-project-work-phot25@2.jpg",
-							"width": "1200",
-							"height": "900",
-							"classType": "work-desktop"
-						},
-						{
-							"img1": "/assets/images/img-project-work-phot26.jpg",
-							"img2": "/assets/images/img-project-work-phot26@2.jpg",
-							"width": "1200",
-							"height": "900",
-							"classType": "work-desktop"
-						},
-						{
-							"img1": "/assets/images/img-project-work-phot27.jpg",
-							"img2": "/assets/images/img-project-work-phot27@2.jpg",
 							"width": "800",
 							"height": "800",
 							"classType": "work-tablet"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot30.jpg",
+							"img2": "/assets/images/img-project-work-phot31@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
 						},
 						{
 							"img1": "/assets/images/img-project-work-phot31.jpg",
@@ -2496,6 +2588,48 @@
 							"width": "800",
 							"height": "800",
 							"classType": "work-tablet"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot40.jpg",
+							"img2": "/assets/images/img-project-work-phot40@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot41.jpg",
+							"img2": "/assets/images/img-project-work-phot41@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot42.jpg",
+							"img2": "/assets/images/img-project-work-phot42@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot43.jpg",
+							"img2": "/assets/images/img-project-work-phot43@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot44.jpg",
+							"img2": "/assets/images/img-project-work-phot44@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot45.jpg",
+							"img2": "/assets/images/img-project-work-phot45@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
 						}
 					]
 				},
@@ -2507,16 +2641,16 @@
 						{
 							"img1": "/assets/images/img-project-work-phot51.jpg",
 							"img2": "/assets/images/img-project-work-phot51@2.jpg",
-							"width": "800",
-							"height": "800",
-							"classType": "work-tablet"
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
 						},
 						{
 							"img1": "/assets/images/img-project-work-phot52.jpg",
 							"img2": "/assets/images/img-project-work-phot52@2.jpg",
-							"width": "800",
-							"height": "800",
-							"classType": "work-tablet"
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
 						},
 						{
 							"img1": "/assets/images/img-project-work-phot53.jpg",
@@ -2561,8 +2695,43 @@
 							"classType": "work-desktop"
 						},
 						{
-							"img1": "/assets/images/img-project-work-phot59.jpg",
-							"img2": "/assets/images/img-project-work-phot59@2.jpg",
+							"img1": "/assets/images/img-project-work-phot60.jpg",
+							"img2": "/assets/images/img-project-work-phot60@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot61.jpg",
+							"img2": "/assets/images/img-project-work-phot61@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot62.jpg",
+							"img2": "/assets/images/img-project-work-phot62@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot63.jpg",
+							"img2": "/assets/images/img-project-work-phot63@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot64.jpg",
+							"img2": "/assets/images/img-project-work-phot64@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot65.jpg",
+							"img2": "/assets/images/img-project-work-phot65@2.jpg",
 							"width": "1200",
 							"height": "900",
 							"classType": "work-desktop"
@@ -2577,9 +2746,37 @@
 						{
 							"img1": "/assets/images/img-project-work-phot71.jpg",
 							"img2": "/assets/images/img-project-work-phot71@2.jpg",
-							"width": "800",
-							"height": "800",
-							"classType": "work-tablet"
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot72.jpg",
+							"img2": "/assets/images/img-project-work-phot72@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot73.jpg",
+							"img2": "/assets/images/img-project-work-phot73@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot74.jpg",
+							"img2": "/assets/images/img-project-work-phot74@2.jpg",
+							"width": "1200",
+							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot80.jpg",
+							"img2": "/assets/images/img-project-work-phot80@2.jpg",
+							"width": "900",
+							"height": "1200",
+							"classType": "work-desktop"
 						}
 					]
 				},
@@ -2593,6 +2790,13 @@
 							"img2": "/assets/images/img-project-work-phot91@2.jpg",
 							"width": "1200",
 							"height": "900",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-phot92.jpg",
+							"img2": "/assets/images/img-project-work-phot92@2.jpg",
+							"width": "900",
+							"height": "1200",
 							"classType": "work-desktop"
 						}
 					]

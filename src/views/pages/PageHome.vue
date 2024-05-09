@@ -7,6 +7,28 @@
 				backgroundImage: 'url(' + heroPath + ')',
 			}"
 		>
+			<!-- EXAMPLE FOR TIME
+			<video>
+				<source src="splash.mp4#t=10.00,20.00" type="video/mp4" />
+			</video> 
+			END OF EXAMPLE FOR TIME -->
+			<!-- <div style="display: flex; justify-content: center;">
+				<video
+					loading="auto"
+					autoplay="autoplay"
+					loop="loop"
+					muted="muted"
+					playsinline=""
+					style=" position: absolute; height: 100vh;"
+				>
+					<source
+						v-bind:src="
+							data.styleguide.project.video.heroEarthMp4 + '#t=9.00'
+						"
+						type="video/mp4"
+					/>
+				</video>
+			</div> -->
 			<canvas class="overlay background-black"></canvas>
 
 			<!-- spiders -->
