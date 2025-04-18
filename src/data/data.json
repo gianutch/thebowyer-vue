@@ -37,10 +37,10 @@
 				"chi": "具有丰富的数字营销，前端开发和管理方面的经验。"
 			},
 			"description3": {
-				"eng": "Open-source enthusiast, decentralization pusher.",
-				"fra": "Open-source enthusiast, decentralization pusher.",
-				"esp": "Open-source enthusiast, decentralization pusher.",
-				"chi": "区块链专家，开源及去中心化运动的倡导者。"
+				"eng": "Open-source enthusiast.",
+				"fra": "Open-source enthusiast.",
+				"esp": "Open-source enthusiast.",
+				"chi": "区块链专家。"
 			}
 		}
 	},
@@ -703,95 +703,6 @@
 							"img2": "/assets/images/img-project-work-apre03.jpg",
 							"width": "720",
 							"height": "7678",
-							"classType": "work-phone"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": "sovereignify",
-			"title": "Sovereignify",
-			"url": "",
-			"description": "Decentralized exchange for cryptocurrencies.",
-			"tags": ["Web App Design", "iOS Design", "Logo Design"],
-			"image": {
-				"banner": "",
-				"hero": "/assets/images/img-project-hero-sove.jpg",
-				"mock1": "/assets/images/img-project-mock-sove.png",
-				"mock2": "/assets/images/img-project-mock-sove@2.png",
-				"mock3": "/assets/images/img-project-mock-sove@2.png",
-				"mock4": "/assets/images/img-project-mock-sove@2.png",
-				"mosaic1": "/assets/images/img-project-mosaic-sove.jpg",
-				"mosaic2": "/assets/images/img-project-mosaic-sove@2.jpg"
-			},
-			"parts": [
-				{
-					"id": "a",
-					"title": "Logo",
-					"subtitle": "",
-					"works": [
-						{
-							"img1": "/assets/images/img-project-work-sove01.jpg",
-							"img2": "/assets/images/img-project-work-sove01@2.jpg",
-							"width": "800",
-							"height": "800",
-							"classType": "work-tablet"
-						}
-					]
-				},
-				{
-					"id": "b",
-					"title": "Web App",
-					"subtitle": "",
-					"works": [
-						{
-							"img1": "/assets/images/img-project-work-sove02.jpg",
-							"img2": "/assets/images/img-project-work-sove02@2.jpg",
-							"width": "1600",
-							"height": "1200",
-							"classType": "work-desktop"
-						},
-						{
-							"img1": "/assets/images/img-project-work-sove03.jpg",
-							"img2": "/assets/images/img-project-work-sove03@2.jpg",
-							"width": "1600",
-							"height": "1200",
-							"classType": "work-desktop"
-						},
-						{
-							"img1": "/assets/images/img-project-work-sove04.jpg",
-							"img2": "/assets/images/img-project-work-sove04@2.jpg",
-							"width": "1600",
-							"height": "1200",
-							"classType": "work-desktop"
-						},
-						{
-							"img1": "/assets/images/img-project-work-sove05.jpg",
-							"img2": "/assets/images/img-project-work-sove05@2.jpg",
-							"width": "1600",
-							"height": "1200",
-							"classType": "work-desktop"
-						},
-						{
-							"img1": "/assets/images/img-project-work-sove06.jpg",
-							"img2": "/assets/images/img-project-work-sove06@2.jpg",
-							"width": "1600",
-							"height": "1200",
-							"classType": "work-desktop"
-						},
-						{
-							"img1": "/assets/images/img-project-work-sove07.jpg",
-							"img2": "/assets/images/img-project-work-sove07.jpg",
-							"width": "750",
-							"height": "1624",
-							"classType": "work-phone"
-						},
-						{
-							"img1": "/assets/images/img-project-work-sove08.jpg",
-							"img2": "/assets/images/img-project-work-sove08.jpg",
-							"width": "750",
-							"height": "1624",
 							"classType": "work-phone"
 						}
 					]
@@ -3081,6 +2992,95 @@
 							"width": "1200",
 							"height": "6739",
 							"classType": "work-desktop"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "sovereignify",
+			"title": "Sovereignify",
+			"url": "",
+			"description": "Decentralized exchange for cryptocurrencies.",
+			"tags": ["Web App Design", "iOS Design", "Logo Design"],
+			"image": {
+				"banner": "",
+				"hero": "/assets/images/img-project-hero-sove.jpg",
+				"mock1": "/assets/images/img-project-mock-sove.png",
+				"mock2": "/assets/images/img-project-mock-sove@2.png",
+				"mock3": "/assets/images/img-project-mock-sove@2.png",
+				"mock4": "/assets/images/img-project-mock-sove@2.png",
+				"mosaic1": "/assets/images/img-project-mosaic-sove.jpg",
+				"mosaic2": "/assets/images/img-project-mosaic-sove@2.jpg"
+			},
+			"parts": [
+				{
+					"id": "a",
+					"title": "Logo",
+					"subtitle": "",
+					"works": [
+						{
+							"img1": "/assets/images/img-project-work-sove01.jpg",
+							"img2": "/assets/images/img-project-work-sove01@2.jpg",
+							"width": "800",
+							"height": "800",
+							"classType": "work-tablet"
+						}
+					]
+				},
+				{
+					"id": "b",
+					"title": "Web App",
+					"subtitle": "",
+					"works": [
+						{
+							"img1": "/assets/images/img-project-work-sove02.jpg",
+							"img2": "/assets/images/img-project-work-sove02@2.jpg",
+							"width": "1600",
+							"height": "1200",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sove03.jpg",
+							"img2": "/assets/images/img-project-work-sove03@2.jpg",
+							"width": "1600",
+							"height": "1200",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sove04.jpg",
+							"img2": "/assets/images/img-project-work-sove04@2.jpg",
+							"width": "1600",
+							"height": "1200",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sove05.jpg",
+							"img2": "/assets/images/img-project-work-sove05@2.jpg",
+							"width": "1600",
+							"height": "1200",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sove06.jpg",
+							"img2": "/assets/images/img-project-work-sove06@2.jpg",
+							"width": "1600",
+							"height": "1200",
+							"classType": "work-desktop"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sove07.jpg",
+							"img2": "/assets/images/img-project-work-sove07.jpg",
+							"width": "750",
+							"height": "1624",
+							"classType": "work-phone"
+						},
+						{
+							"img1": "/assets/images/img-project-work-sove08.jpg",
+							"img2": "/assets/images/img-project-work-sove08.jpg",
+							"width": "750",
+							"height": "1624",
+							"classType": "work-phone"
 						}
 					]
 				}
